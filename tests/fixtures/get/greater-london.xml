@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geoname>
+    <toponymName>Greater London</toponymName>
+    <name>Greater London</name>
+    <lat>51.5</lat>
+    <lng>-0.16667</lng>
+    <geonameId>2648110</geonameId>
+    <countryCode>GB</countryCode>
+    <countryName>United Kingdom</countryName>
+    <fcl>A</fcl>
+    <fcode>ADM2</fcode>
+    <fclName>country, state, region,...</fclName>
+    <fcodeName>second-order administrative division</fcodeName>
+    <population>7504800</population>
+    <asciiName>Greater London</asciiName>
+    <alternateNames>Grand Londres,Greater London,Londra</alternateNames>
+    <elevation/>
+    <srtm3>17</srtm3>
+    <astergdem>23</astergdem>
+    <continentCode>EU</continentCode>
+    <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+    <adminName1>England</adminName1>
+    <adminCode2>GLA</adminCode2>
+    <adminName2>Greater London</adminName2>
+    <alternateName lang="fr">Grand Londres</alternateName>
+    <alternateName isPreferredName="true" isShortName="true" lang="en">Greater London</alternateName>
+    <alternateName>Greater London</alternateName>
+    <alternateName lang="link">http://en.wikipedia.org/wiki/Greater_London</alternateName>
+    <alternateName isPreferredName="true" isShortName="true" lang="it">Londra</alternateName>
+    <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+    <bbox>
+        <west>-0.51038</west>
+        <north>51.69187</north>
+        <east>0.33402</east>
+        <south>51.28676</south>
+        <accuracyLevel>0</accuracyLevel>
+    </bbox>
+</geoname>

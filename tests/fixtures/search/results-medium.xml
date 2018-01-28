@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames style="MEDIUM">
+    <totalResultsCount>64250</totalResultsCount>
+    <geoname>
+        <toponymName>Northern Europe</toponymName>
+        <name>Northern Europe</name>
+        <lat>61.68987</lat>
+        <lng>2.90039</lng>
+        <geonameId>7729883</geonameId>
+        <countryCode/>
+        <countryName/>
+        <fcl>L</fcl>
+        <fcode>RGN</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>United Kingdom of Great Britain and Northern Ireland</toponymName>
+        <name>United Kingdom</name>
+        <lat>54.75844</lat>
+        <lng>-2.69531</lng>
+        <geonameId>2635167</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>PCLI</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>England</toponymName>
+        <name>England</name>
+        <lat>52.16045</lat>
+        <lng>-0.70312</lng>
+        <geonameId>6269131</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM1</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>South East</toponymName>
+        <name>South East</name>
+        <lat>51.4</lat>
+        <lng>-0.5</lng>
+        <geonameId>2637438</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>L</fcl>
+        <fcode>RGN</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>London</toponymName>
+        <name>London</name>
+        <lat>51.49227</lat>
+        <lng>-0.30864</lng>
+        <geonameId>11591955</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>L</fcl>
+        <fcode>RGN</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Home Counties</toponymName>
+        <name>Home Counties</name>
+        <lat>51.22473</lat>
+        <lng>-0.06969</lng>
+        <geonameId>7290143</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>L</fcl>
+        <fcode>AREA</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>London</toponymName>
+        <name>London</name>
+        <lat>51.50853</lat>
+        <lng>-0.12574</lng>
+        <geonameId>2643743</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLC</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Greater London</toponymName>
+        <name>Greater London</name>
+        <lat>51.5</lat>
+        <lng>-0.16667</lng>
+        <geonameId>2648110</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>North West</toponymName>
+        <name>North West</name>
+        <lat>53.6</lat>
+        <lng>-2.5</lng>
+        <geonameId>2641227</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>L</fcl>
+        <fcode>RGN</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>East of England</toponymName>
+        <name>East of England</name>
+        <lat>52.24067</lat>
+        <lng>0.50415</lng>
+        <geonameId>11591954</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>L</fcl>
+        <fcode>RGN</fcode>
+    </geoname>
+</geonames>

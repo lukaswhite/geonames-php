@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <code>
+        <postalcode>M3</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48095</lat>
+        <lng>-2.23743</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>2648108</adminCode2>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3/>
+        <adminName3/>
+        <distance>0.00048</distance>
+    </code>
+    <code>
+        <postalcode>M61</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48095</lat>
+        <lng>-2.23743</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>2648108</adminCode2>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3/>
+        <adminName3/>
+        <distance>0.00048</distance>
+    </code>
+    <code>
+        <postalcode>M99</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48095</lat>
+        <lng>-2.23743</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>2648108</adminCode2>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3/>
+        <adminName3/>
+        <distance>0.00048</distance>
+    </code>
+    <code>
+        <postalcode>M15</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48095</lat>
+        <lng>-2.23743</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>2648108</adminCode2>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3/>
+        <adminName3/>
+        <distance>0.00048</distance>
+    </code>
+    <code>
+        <postalcode>M4</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48095</lat>
+        <lng>-2.23743</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>2648108</adminCode2>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3/>
+        <adminName3/>
+        <distance>0.00048</distance>
+    </code>
+</geonames>

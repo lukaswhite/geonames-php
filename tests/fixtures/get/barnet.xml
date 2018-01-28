@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geoname>
+    <toponymName>Barnet</toponymName>
+    <name>Barnet</name>
+    <lat>51.65</lat>
+    <lng>-0.2</lng>
+    <geonameId>2656295</geonameId>
+    <countryCode>GB</countryCode>
+    <countryName>United Kingdom</countryName>
+    <fcl>P</fcl>
+    <fcode>PPL</fcode>
+    <fclName>city, village,...</fclName>
+    <fcodeName>populated place</fcodeName>
+    <population>30000</population>
+    <asciiName>Barnet</asciiName>
+    <alternateNames>Barnet,Barnet keruelet,Barnet kerület,Barneto,Buirg Londan Barnet,Chipping Barnet,High Barnet,La Barnette,London Borough of Barnet,Londonska opshtina Barnet,Municipio de Barnet,ba ni te qu,barneta,barnٹ  lndn,Барнет,Лондонска општина Барнет,Բարնեթ,בארנט,לאנדאנער בארא פון בארנעט,بارنٹ، لندن,बार्नेट,バーネット・ロンドン特別区,巴尼特區</alternateNames>
+    <elevation/>
+    <srtm3>117</srtm3>
+    <astergdem>162</astergdem>
+    <continentCode>EU</continentCode>
+    <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+    <adminName1>England</adminName1>
+    <adminCode2>GLA</adminCode2>
+    <adminName2>Greater London</adminName2>
+    <adminCode3>A2</adminCode3>
+    <adminName3>Barnet</adminName3>
+    <alternateName isPreferredName="true" lang="en">Barnet</alternateName>
+    <alternateName lang="hu">Barnet kerület</alternateName>
+    <alternateName isHistoric="true" lang="en">Barneto</alternateName>
+    <alternateName lang="ga">Buirg Londan Barnet</alternateName>
+    <alternateName lang="en">Chipping Barnet</alternateName>
+    <alternateName lang="post">EN4</alternateName>
+    <alternateName lang="post">EN5</alternateName>
+    <alternateName lang="en">High Barnet</alternateName>
+    <alternateName lang="pl">High Barnet</alternateName>
+    <alternateName lang="link">http://en.wikipedia.org/wiki/Barnet</alternateName>
+    <alternateName isHistoric="true" lang="en">La Barnette</alternateName>
+    <alternateName lang="de">London Borough of Barnet</alternateName>
+    <alternateName lang="sv">London Borough of Barnet</alternateName>
+    <alternateName lang="es">Municipio de Barnet</alternateName>
+    <alternateName lang="ur">بارنٹ، لندن</alternateName>
+    <alternateName lang="he">בארנט</alternateName>
+    <alternateName lang="yi">לאנדאנער בארא פון בארנעט</alternateName>
+    <alternateName lang="ru">Барнет</alternateName>
+    <alternateName lang="uk">Барнет</alternateName>
+    <alternateName lang="sr">Лондонска општина Барнет</alternateName>
+    <alternateName lang="hy">Բարնեթ</alternateName>
+    <alternateName lang="hi">बार्नेट</alternateName>
+    <alternateName lang="zh">巴尼特區</alternateName>
+    <alternateName lang="ja">バーネット・ロンドン特別区</alternateName>
+    <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+    <bbox>
+        <west>-0.23626</west>
+        <north>51.67248</north>
+        <east>-0.16374</east>
+        <south>51.62752</south>
+        <accuracyLevel>0</accuracyLevel>
+    </bbox>
+</geoname>

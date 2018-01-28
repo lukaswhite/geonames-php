@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <country>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <isoNumeric>826</isoNumeric>
+        <isoAlpha3>GBR</isoAlpha3>
+        <fipsCode>UK</fipsCode>
+        <continent>EU</continent>
+        <continentName>Europe</continentName>
+        <capital>London</capital>
+        <areaInSqKm>244820.0</areaInSqKm>
+        <population>62348447</population>
+        <currencyCode>GBP</currencyCode>
+        <languages>en-GB,cy-GB,gd</languages>
+        <geonameId>2635167</geonameId>
+        <west>-8.61772077108559</west>
+        <north>59.3607741849963</north>
+        <east>1.7689121033873</east>
+        <south>49.9028622252397</south>
+        <postalCodeFormat>@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA</postalCodeFormat>
+    </country>
+</geonames>

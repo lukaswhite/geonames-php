@@ -1,0 +1,25 @@
+{
+    "name": "lukaswhite/geonames-php",
+    "description": "A package for working with the Geonames web service.",
+    "keywords": ["Geonames","Postal codes","mapping","geo","geography","places"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas White",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Lukaswhite\\Geonames\\": "src/Lukaswhite/Geonames"
+        }
+    }
+}

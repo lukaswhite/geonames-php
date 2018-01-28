@@ -1,0 +1,6 @@
+vendor
+WIP_README.md
+composer.lock
+report/
+.idea/
+test.php
