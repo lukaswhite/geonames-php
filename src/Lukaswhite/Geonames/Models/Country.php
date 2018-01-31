@@ -4,6 +4,13 @@ use Lukaswhite\Geonames\Traits\Geo\HasBoundingBox;
 use Lukaswhite\Geonames\Traits\Geo\HasCoordinates;
 use Lukaswhite\Geonames\Traits\Models\HasGeonamesId;
 
+/**
+ * Class Country
+ *
+ * Represents, as the name implies, a country.
+ *
+ * @package Lukaswhite\Geonames\Models
+ */
 class Country
 {
     use HasGeonamesId,
@@ -40,6 +47,10 @@ class Country
 
     /**
      * The FIPS code
+     *
+     * The Federal Information Processing Standard Publication 6-4 (FIPS 6-4) was a five-digit
+     * Federal Information Processing Standards code which uniquely identified counties and county
+     * equivalents in the United States, certain U.S. possessions, and certain freely associated states.
      *
      * @var string
      */

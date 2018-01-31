@@ -33,6 +33,17 @@ trait CanSpecifyVerbosity
     }
 
     /**
+     * Set the verbosity of the returned document; essentially just an alias for style()
+     *
+     * @param string $value
+     * @return $this
+     */
+    public function verbosity( $value )
+    {
+        return $this->style( $value );
+    }
+
+    /**
      * Set to short style (verbosity); basically syntactic sugar for style( 'SHORT' )
      *
      * @return $this

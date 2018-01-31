@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <countrySubdivision>
+        <countryCode>AT</countryCode>
+        <countryName>Austria</countryName>
+        <adminCode1>07</adminCode1>
+        <adminName1>Tyrol</adminName1>
+        <code level="1" type="ISO3166-2">7</code>
+        <distance>0.0</distance>
+    </countrySubdivision>
+    <countrySubdivision>
+        <countryCode>AT</countryCode>
+        <countryName>Austria</countryName>
+        <adminCode1>08</adminCode1>
+        <adminName1>Vorarlberg</adminName1>
+        <code level="1" type="ISO3166-2">8</code>
+        <distance>3.7302222361</distance>
+    </countrySubdivision>
+    <countrySubdivision>
+        <countryCode>CH</countryCode>
+        <countryName>Switzerland</countryName>
+        <distance>11.273608957781</distance>
+    </countrySubdivision>
+    <countrySubdivision>
+        <countryCode>CH</countryCode>
+        <countryName>Switzerland</countryName>
+        <adminCode1>GR</adminCode1>
+        <adminName1>Grisons</adminName1>
+        <code level="1" type="ISO3166-2">GR</code>
+        <distance>11.381718203863</distance>
+    </countrySubdivision>
+    <countrySubdivision>
+        <countryCode>DE</countryCode>
+        <countryName>Germany</countryName>
+        <adminCode1>02</adminCode1>
+        <adminName1>Bavaria</adminName1>
+        <code level="1" type="ISO3166-2">BY</code>
+        <distance>26.745918168475</distance>
+    </countrySubdivision>
+    <countrySubdivision>
+        <countryCode>IT</countryCode>
+        <countryName>Italy</countryName>
+        <adminCode1>17</adminCode1>
+        <adminName1>Trentino-Alto Adige</adminName1>
+        <code level="1" type="ISO3166-2">32</code>
+        <distance>28.292449014752002</distance>
+    </countrySubdivision>
+</geonames>

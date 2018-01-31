@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <geoname>
+        <toponymName>Sale</toponymName>
+        <name>Sale</name>
+        <lat>53.42519</lat>
+        <lng>-2.32443</lng>
+        <geonameId>2638678</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPL</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>populated place</fcodeName>
+        <population>55689</population>
+        <asciiName>Sale</asciiName>
+        <alternateNames>Sale i Stor-Manchester,Sejl,sai er,seil,syl  mnchstr bzrg,Сейл,Сејл,سیل، منچستر بزرگ,塞爾,세일</alternateNames>
+        <elevation/>
+        <srtm3>30</srtm3>
+        <astergdem>45</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>O6</adminCode2>
+        <adminName2>Trafford</adminName2>
+        <adminCode3>00BU001</adminCode3>
+        <adminName3>Carrington</adminName3>
+        <alternateName lang="bg">Сейл</alternateName>
+        <alternateName lang="fa">سیل، منچستر بزرگ</alternateName>
+        <alternateName lang="ko">세일</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Sale%2C_Greater_Manchester</alternateName>
+        <alternateName lang="nn">Sale i Stor-Manchester</alternateName>
+        <alternateName lang="ru">Сейл</alternateName>
+        <alternateName lang="sr">Сејл</alternateName>
+        <alternateName lang="zh">塞爾</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>5.03799</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Longsight</toponymName>
+        <name>Longsight</name>
+        <lat>53.45801</lat>
+        <lng>-2.20104</lng>
+        <geonameId>6691766</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLX</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>section of populated place</fcodeName>
+        <population>16007</population>
+        <asciiName>Longsight</asciiName>
+        <alternateNames/>
+        <elevation/>
+        <srtm3>54</srtm3>
+        <astergdem>44</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>I2</adminCode2>
+        <adminName2>Manchester</adminName2>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Longsight</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>5.63478</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Stretford</toponymName>
+        <name>Stretford</name>
+        <lat>53.45</lat>
+        <lng>-2.31667</lng>
+        <geonameId>2636663</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>41953</population>
+        <asciiName>Stretford</asciiName>
+        <alternateNames>Stretford,strtfwrd,strtpwrd,Стретфорд,סטרטפורד,سترتفورد</alternateNames>
+        <elevation/>
+        <srtm3>27</srtm3>
+        <astergdem>17</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>O6</adminCode2>
+        <adminName2>Trafford</adminName2>
+        <alternateName lang="ar">سترتفورد</alternateName>
+        <alternateName lang="he">סטרטפורד</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Stretford</alternateName>
+        <alternateName lang="ru">Стретфорд</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>5.77863</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Cheadle Hulme</toponymName>
+        <name>Cheadle Hulme</name>
+        <lat>53.3761</lat>
+        <lng>-2.1897</lng>
+        <geonameId>2653290</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPL</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>populated place</fcodeName>
+        <population>28952</population>
+        <asciiName>Cheadle Hulme</asciiName>
+        <alternateNames/>
+        <elevation/>
+        <srtm3>68</srtm3>
+        <astergdem>66</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>N2</adminCode2>
+        <adminName2>Stockport</adminName2>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Cheadle_Hulme</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>6.03959</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Stockport</toponymName>
+        <name>Stockport</name>
+        <lat>53.40979</lat>
+        <lng>-2.15761</lng>
+        <geonameId>2636882</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>139052</population>
+        <asciiName>Stockport</asciiName>
+        <alternateNames>Gorad Stokpart,Stockport,Stokport,Stokportas,XVA,seutogpoteu,si tuo ke bo te,st xk phxrt,stwkbwrt,sutokkupoto,Горад Стокпарт,Стокпорт,Ստոկպորտ,استاک‌پورت,ستوكبورت,สต็อกพอร์ต,ストックポート,斯托克波特,스톡포트</alternateNames>
+        <elevation/>
+        <srtm3>59</srtm3>
+        <astergdem>56</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>N2</adminCode2>
+        <adminName2>Stockport</adminName2>
+        <alternateName lang="ar">ستوكبورت</alternateName>
+        <alternateName lang="be">Горад Стокпарт</alternateName>
+        <alternateName lang="bg">Стокпорт</alternateName>
+        <alternateName lang="de">Stockport</alternateName>
+        <alternateName lang="en">Stockport</alternateName>
+        <alternateName lang="eo">Stockport</alternateName>
+        <alternateName lang="fa">استاک‌پورت</alternateName>
+        <alternateName lang="fi">Stockport</alternateName>
+        <alternateName lang="fr">Stockport</alternateName>
+        <alternateName lang="hy">Ստոկպորտ</alternateName>
+        <alternateName lang="iata">XVA</alternateName>
+        <alternateName lang="ja">ストックポート</alternateName>
+        <alternateName lang="ko">스톡포트</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Stockport</alternateName>
+        <alternateName lang="lt">Stokportas</alternateName>
+        <alternateName lang="nl">Stockport</alternateName>
+        <alternateName lang="ro">Stockport</alternateName>
+        <alternateName lang="ru">Стокпорт</alternateName>
+        <alternateName lang="sr">Стокпорт</alternateName>
+        <alternateName lang="sv">Stockport</alternateName>
+        <alternateName lang="th">สต็อกพอร์ต</alternateName>
+        <alternateName lang="zh">斯托克波特</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>6.19087</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Hale</toponymName>
+        <name>Hale</name>
+        <lat>53.37831</lat>
+        <lng>-2.33271</lng>
+        <geonameId>6640028</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPL</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>populated place</fcodeName>
+        <population>15315</population>
+        <asciiName>Hale</asciiName>
+        <alternateNames/>
+        <elevation/>
+        <srtm3>47</srtm3>
+        <astergdem>49</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>I2</adminCode2>
+        <adminName2>Manchester</adminName2>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Hale%2C_Greater_Manchester</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>6.96365</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Manchester</toponymName>
+        <name>Manchester</name>
+        <lat>53.48095</lat>
+        <lng>-2.23743</lng>
+        <geonameId>2643123</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>395515</population>
+        <asciiName>Manchester</asciiName>
+        <alternateNames>Gorad Manchehstehr,MAN,Mameceaster,Manceinion,Mancesteris,Mancestra,Manchain,Manchester,Manchestur,Manchetre,Manchuin,Manchéstér,Manchêtre,Mancunium,Mantsester,Mančesteris,Mančestra,Mánchester,maencheseuteo,maincestara,mamcestara,man che si te,mancestar,manchesuta,manshstr,mnchstr,mnchystyr,mnz'str,myanacestara,myancestar,Μάντσεστερ,Горад Манчэстэр,Манчестер,Манчестър,מאנטשעסטער,מנצ'סטר,مانشستر,مانچسٹر,منچئستئر,منچستر,मँचेस्टर,मैन्चेस्टर,ম্যানচেস্টার,மான்செஸ்டர்,మాంచెస్టర్,ಮ್ಯಾಂಚೆಸ್ಟರ್,മാഞ്ചസ്റ്റർ,แมนเชสเตอร์,მანჩესტერი,ማንችስተር,マンチェスター,曼彻斯特,맨체스터</alternateNames>
+        <elevation/>
+        <srtm3>51</srtm3>
+        <astergdem>45</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>I2</adminCode2>
+        <adminName2>Manchester</adminName2>
+        <alternateName lang="am">ማንችስተር</alternateName>
+        <alternateName lang="ang">Mameceaster</alternateName>
+        <alternateName lang="ar">مانشستر</alternateName>
+        <alternateName lang="arz">مانشستر</alternateName>
+        <alternateName lang="az">منچئستئر</alternateName>
+        <alternateName lang="be">Горад Манчэстэр</alternateName>
+        <alternateName lang="bg">Манчестър</alternateName>
+        <alternateName lang="bn">ম্যানচেস্টার</alternateName>
+        <alternateName lang="br">Manchester</alternateName>
+        <alternateName lang="cs">Manchester</alternateName>
+        <alternateName lang="cy">Manceinion</alternateName>
+        <alternateName lang="da">Manchester</alternateName>
+        <alternateName lang="de">Manchester</alternateName>
+        <alternateName lang="el">Μάντσεστερ</alternateName>
+        <alternateName lang="en">Manchester</alternateName>
+        <alternateName lang="eo">Manchester</alternateName>
+        <alternateName lang="es">Mánchester</alternateName>
+        <alternateName lang="eu">Manchester</alternateName>
+        <alternateName lang="fa">منچستر</alternateName>
+        <alternateName lang="fi">Manchester</alternateName>
+        <alternateName lang="fr">Manchester</alternateName>
+        <alternateName lang="ga">Manchain</alternateName>
+        <alternateName lang="gd">Manchester</alternateName>
+        <alternateName lang="gl">Manchester</alternateName>
+        <alternateName lang="gv">Manchuin</alternateName>
+        <alternateName lang="he">מנצ'סטר</alternateName>
+        <alternateName lang="hi">मैन्चेस्टर</alternateName>
+        <alternateName lang="hr">Manchester</alternateName>
+        <alternateName lang="hu">Manchester</alternateName>
+        <alternateName lang="iata">MAN</alternateName>
+        <alternateName lang="id">Manchester</alternateName>
+        <alternateName lang="is">Manchester</alternateName>
+        <alternateName lang="it">Manchester</alternateName>
+        <alternateName lang="ja">マンチェスター</alternateName>
+        <alternateName lang="ka">მანჩესტერი</alternateName>
+        <alternateName lang="kk">Манчестер</alternateName>
+        <alternateName lang="kn">ಮ್ಯಾಂಚೆಸ್ಟರ್</alternateName>
+        <alternateName lang="ko">맨체스터</alternateName>
+        <alternateName lang="la">Mancunium</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Mamucium</alternateName>
+        <alternateName lang="lt">Mančesteris</alternateName>
+        <alternateName lang="lv">Mančestra</alternateName>
+        <alternateName lang="mk">Манчестер</alternateName>
+        <alternateName lang="ml">മാഞ്ചസ്റ്റർ</alternateName>
+        <alternateName lang="mr">मँचेस्टर</alternateName>
+        <alternateName lang="nl">Manchester</alternateName>
+        <alternateName lang="nn">Manchester</alternateName>
+        <alternateName lang="no">Manchester</alternateName>
+        <alternateName lang="nrm">Manchêtre</alternateName>
+        <alternateName lang="os">Манчестер</alternateName>
+        <alternateName lang="pl">Manchester</alternateName>
+        <alternateName lang="pnb">مانچسٹر</alternateName>
+        <alternateName lang="pt">Manchester</alternateName>
+        <alternateName lang="ro">Manchester</alternateName>
+        <alternateName lang="ru">Манчестер</alternateName>
+        <alternateName lang="scn">Manchester</alternateName>
+        <alternateName lang="sl">Manchester</alternateName>
+        <alternateName lang="sr">Манчестер</alternateName>
+        <alternateName lang="sv">Manchester</alternateName>
+        <alternateName lang="ta">மான்செஸ்டர்</alternateName>
+        <alternateName lang="te">మాంచెస్టర్</alternateName>
+        <alternateName lang="th">แมนเชสเตอร์</alternateName>
+        <alternateName lang="tr">Manchester</alternateName>
+        <alternateName lang="ug">Manchéstér</alternateName>
+        <alternateName lang="uk">Манчестер</alternateName>
+        <alternateName lang="vi">Manchester</alternateName>
+        <alternateName lang="yi">מאנטשעסטער</alternateName>
+        <alternateName lang="zh-CN">曼彻斯特</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>7.20218</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Altrincham</toponymName>
+        <name>Altrincham</name>
+        <lat>53.38752</lat>
+        <lng>-2.34848</lng>
+        <geonameId>2657402</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPL</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>populated place</fcodeName>
+        <population>41548</population>
+        <asciiName>Altrincham</asciiName>
+        <alternateNames>Altrincham,altrynkham,ao er te ling e mu,آلترینکهام,奥尔特灵厄姆</alternateNames>
+        <elevation/>
+        <srtm3>42</srtm3>
+        <astergdem>43</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>O6</adminCode2>
+        <adminName2>Trafford</adminName2>
+        <alternateName lang="fa">آلترینکهام</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Altrincham</alternateName>
+        <alternateName lang="zh">奥尔特灵厄姆</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>7.30946</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Urmston</toponymName>
+        <name>Urmston</name>
+        <lat>53.44852</lat>
+        <lng>-2.35419</lng>
+        <geonameId>2635062</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPL</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>populated place</fcodeName>
+        <population>41198</population>
+        <asciiName>Urmston</asciiName>
+        <alternateNames>Urmston</alternateNames>
+        <elevation/>
+        <srtm3>26</srtm3>
+        <astergdem>31</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>O6</adminCode2>
+        <adminName2>Trafford</adminName2>
+        <adminCode3>00BU001</adminCode3>
+        <adminName3>Carrington</adminName3>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Urmston</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>7.77939</distance>
+    </geoname>
+    <geoname>
+        <toponymName>Salford</toponymName>
+        <name>Salford</name>
+        <lat>53.48771</lat>
+        <lng>-2.29042</lng>
+        <geonameId>2638671</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>72750</population>
+        <asciiName>Salford</asciiName>
+        <alternateNames>Gorad Solfard,Salford,Salfordas,Solford,salfwrd,sarufodo,solpeodeu,suo er fu de,Горад Солфард,Солфорд,سالفورد,サルフォード,索爾福德,솔퍼드</alternateNames>
+        <elevation/>
+        <srtm3>44</srtm3>
+        <astergdem>37</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>L5</adminCode2>
+        <adminName2>Salford</adminName2>
+        <alternateName lang="ar">سالفورد</alternateName>
+        <alternateName lang="arz">سالفورد</alternateName>
+        <alternateName lang="be">Горад Солфард</alternateName>
+        <alternateName lang="bg">Солфорд</alternateName>
+        <alternateName lang="ce">Солфорд</alternateName>
+        <alternateName lang="de">Salford</alternateName>
+        <alternateName lang="en">Salford</alternateName>
+        <alternateName lang="eo">Salford</alternateName>
+        <alternateName lang="fi">Salford</alternateName>
+        <alternateName lang="fr">Salford</alternateName>
+        <alternateName lang="ja">サルフォード</alternateName>
+        <alternateName lang="kk">Солфорд</alternateName>
+        <alternateName lang="ko">솔퍼드</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Salford%2C_Greater_Manchester</alternateName>
+        <alternateName lang="lt">Salfordas</alternateName>
+        <alternateName lang="nl">Salford</alternateName>
+        <alternateName lang="no">Salford</alternateName>
+        <alternateName lang="pl">Salford</alternateName>
+        <alternateName lang="ro">Salford</alternateName>
+        <alternateName lang="ru">Солфорд</alternateName>
+        <alternateName lang="sr">Солфорд</alternateName>
+        <alternateName lang="sv">Salford</alternateName>
+        <alternateName lang="tr">Salford</alternateName>
+        <alternateName lang="uk">Солфорд</alternateName>
+        <alternateName lang="zh">索爾福德</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <distance>8.34962</distance>
+    </geoname>
+</geonames>

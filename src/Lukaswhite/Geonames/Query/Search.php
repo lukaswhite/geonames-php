@@ -164,7 +164,7 @@ class Search implements QueriesService
      */
     public function expects( )
     {
-        return 'geonames';
+        return 'features';
     }
 
     /**

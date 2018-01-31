@@ -2,12 +2,11 @@
 
 use Lukaswhite\Geonames\Contracts\QueriesService;
 use Lukaswhite\Geonames\Models\Feature;
-use Lukaswhite\Geonames\Traits\Queries\FiltersByFeature;
-use Lukaswhite\Geonames\Traits\Queries\HasPagination;
-use Lukaswhite\Geonames\Traits\Queries\CanSpecifyVerbosity;
 
 /**
  * Class Get
+ *
+ * This simply returns Geonames feature information, by ID.
  *
  * @package Lukaswhite\Geonames\Query
  */
@@ -24,9 +23,11 @@ class Get implements QueriesService
     /**
      * Get constructor.
      */
-    public function __construct( )
+    public function __construct( $place = null )
     {
-
+        if ( $place ) {
+            $this->setPlace( $place );
+        }
     }
 
     /**
@@ -46,11 +47,11 @@ class Get implements QueriesService
      */
     public function expects( )
     {
-        return 'geoname';
+        return 'feature';
     }
 
     /**
-     * Set the place. All hierarchy queries start with a single place.
+     * Set the place.
      *
      * You can provide:
      *
@@ -58,6 +59,7 @@ class Get implements QueriesService
      *  - a numeric Geonames ID
      *
      * @param integer|Feature $place
+     * @return $this
      * @throws \InvalidArgumentException
      */
     public function setPlace( $place )
@@ -71,6 +73,8 @@ class Get implements QueriesService
                 'Requires Geonames ID, or an instance of the Feature class'
             );
         }
+
+        return $this;
     }
 
     /**

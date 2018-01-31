@@ -21,13 +21,12 @@ class GetQueryTest extends PHPUnit_Framework_TestCase{
     public function testDeclaresWhatItExpects( )
     {
         $search = new Get( );
-        $this->assertEquals( 'geoname', $search->expects( ) );
+        $this->assertEquals( 'feature', $search->expects( ) );
     }
 
     public function testSettingPlace( )
     {
-        $search = new Get( );
-        $search->setPlace( 12345 );
+        $search = new Get( 12345 );
         $this->assertAttributeEquals( 12345, 'geonamesId', $search );
         $this->assertArrayHasKey( 'geonameId', $search->build( ) );
         $this->assertEquals( 12345, $search->build( )[ 'geonameId' ] );
@@ -35,8 +34,7 @@ class GetQueryTest extends PHPUnit_Framework_TestCase{
 
         $place = new \Lukaswhite\Geonames\Models\Feature( );
         $place->setId( 12345 );
-        $search = new Get( );
-        $search->setPlace( $place );
+        $search = new Get( $place );
         $this->assertAttributeEquals( 12345, 'geonamesId', $search );
     }
 

@@ -1,20 +1,40 @@
 <?php namespace Lukaswhite\Geonames\Models;
 
 use Lukaswhite\Geonames\Traits\Models\HasAdminCodes;
+use Lukaswhite\Geonames\Models\Timezone;
 use Lukaswhite\Geonames\Contracts\HasAdminCodes as HasAdminCodesContract;
+use Lukaswhite\Geonames\Contracts\HasAdminCodeNames as HasAdminCodeNamesContract;
 use Lukaswhite\Geonames\Contracts\HasCoordinates as HasCoordinatesContract;
 use Lukaswhite\Geonames\Traits\Geo\HasCoordinates;
+use Lukaswhite\Geonames\Traits\Models\HasDistance;
 use Lukaswhite\Geonames\Traits\Models\HasGeonamesId;
 use Lukaswhite\Geonames\Traits\Models\HasName;
 use Lukaswhite\Geonames\Traits\Geo\HasBoundingBox;
 
-class Feature implements HasAdminCodesContract, HasCoordinatesContract
+/**
+ * Class Feature
+ *
+ * A feature in Geonames is a geographical feature and can be all sorts of things:
+ *
+ *  - a country or political entity
+ *  - a county or state
+ *  - a city, town or village
+ *  - a river
+ *  - a mountain
+ *  - a railway station
+ *
+ * This class encapsulates all of the information contained within the Geonames database.
+ *
+ * @package Lukaswhite\Geonames\Models
+ */
+class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasCoordinatesContract
 {
     use HasGeonamesId,
         HasCoordinates,
         HasBoundingBox,
         HasAdminCodes,
-        HasName;
+        HasName,
+        HasDistance;
 
     /**
      * The toponym name; i.e. the main name of the toponym as displayed on the google maps interface page
@@ -75,6 +95,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
 
     /**
      * The Aster Global Digital Elevation Model V1 elevation
+     *
      * @var integer
      */
     private $astergdem;
@@ -94,10 +115,6 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     private $continentCode;
 
     /**
-     * Admin Code 1
-     */
-
-    /**
      * The alternate names
      *
      * @var array
@@ -107,7 +124,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     /**
      * The timezeone
      *
-     * @vars string
+     * @vars Timezone
      */
     private $timezone;
 
@@ -138,7 +155,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getAsciiName()
     {
@@ -146,7 +163,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     }
 
     /**
-     * @param mixed $asciiName
+     * @param string $asciiName
      * @return $this
      */
     public function setAsciiName( $asciiName )
@@ -223,7 +240,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     }
 
     /**
-     * @return mixed
+     * @return int
      */
     public function getPopulation()
     {
@@ -231,7 +248,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     }
 
     /**
-     * @param mixed $population
+     * @param int $population
      * @@return $this
      */
     public function setPopulation( $population )
@@ -389,7 +406,7 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     }
 
     /**
-     * @return mixed
+     * @return Timezone
      */
     public function getTimezone()
     {
@@ -397,15 +414,13 @@ class Feature implements HasAdminCodesContract, HasCoordinatesContract
     }
 
     /**
-     * @param mixed $timezone
+     * @param Timezone $timezone
      * @return $this
      */
-    public function setTimezone( $timezone )
+    public function setTimezone( Timezone $timezone )
     {
         $this->timezone = $timezone;
         return $this;
     }
-
-
 
 }

@@ -1,5 +1,12 @@
 <?php namespace Lukaswhite\Geonames\Mappers;
 
+use Lukaswhite\Geonames\Contracts\HasAdminCodeNames;
+use Lukaswhite\Geonames\Models\BoundingBox;
+use Lukaswhite\Geonames\Models\CountrySubdivision;
+use Lukaswhite\Geonames\Models\Neighbourhood;
+use Lukaswhite\Geonames\Models\Ocean;
+use Lukaswhite\Geonames\Models\PointOfInterest;
+use Lukaswhite\Geonames\Models\Timezone;
 use Lukaswhite\Geonames\Results\Resultset;
 use Lukaswhite\Geonames\Models\Coordinate;
 use Lukaswhite\Geonames\Models\Address;
@@ -13,27 +20,26 @@ use Lukaswhite\Geonames\Models\PostalCode;
 /**
  * Class Xml
  *
- * This class is responsible for mapping XML responses from the Geonames API to models.
+ * This class is responsible for mapping XML responses from the Geonames API to models, result sets etc.
  *
  * @package Lukaswhite\Geonames\Mappers
  */
 class Xml
 {
-
     /**
-     * Map a collection of Geoname places, in XML format, to a resultset
+     * Map a collection of Geoname features, in XML format, to a resultset
      *
      * @param \SimpleXmlElement $xml
      * @return Resultset
      */
-    public static function geonames( $xml )
+    public function mapFeatures( $xml )
     {
         $results = [ ];
 
         $total = intval( $xml->totalResultsCount );
 
         foreach( $xml->geoname as $el ) {
-            $results[ ] = self::geoname( $el );
+            $results[ ] = $this->mapFeature( $el );
         }
 
         $resultset = new Resultset( $results, $total );
@@ -46,7 +52,7 @@ class Xml
      * @param \SimpleXMLElement $el
      * @return Feature
      */
-    public static function geoname( \SimpleXMLElement $el )
+    public function mapFeature( \SimpleXMLElement $el )
     {
         $geoname = new Feature( );
 
@@ -55,11 +61,11 @@ class Xml
         }
 
         if ( $el->toponymName ) {
-            $geoname->setToponymName( $el->toponymName );
+            $geoname->setToponymName( ( string ) $el->toponymName );
         }
 
         if ( $el->asciiName ) {
-            $geoname->setAsciiName( $el->asciiName );
+            $geoname->setAsciiName( ( string ) $el->asciiName );
         }
 
         if ( $el->name ) {
@@ -67,23 +73,23 @@ class Xml
         }
 
         if ( $el->continentCode ) {
-            $geoname->setContinentCode( $el->continentCode );
+            $geoname->setContinentCode( ( string ) $el->continentCode );
         }
 
         if ( $el->countryCode ) {
-            $country = new Country( $el->countryCode );
+            $country = new Country( ( string ) $el->countryCode );
             if ( $el->countryName ) {
-                $country->setName( $el->countryName );
+                $country->setName( ( string ) $el->countryName );
             }
             $geoname->setCountry( $country );
         }
 
         if ( $el->fcl ) {
-            $geoname->setFcl( $el->fcl );
+            $geoname->setFcl( ( string ) $el->fcl );
         }
 
         if ( $el->fcode ) {
-            $geoname->setFcode( $el->fcode );
+            $geoname->setFcode( ( string ) $el->fcode );
         }
 
         if ( $el->population ) {
@@ -100,6 +106,10 @@ class Xml
 
         if ( $el->astergdem ) {
             $geoname->setAstergdem( intval( $el->astergdem ) );
+        }
+
+        if ( $el->distance ) {
+            $geoname->setDistance( floatval( $el->distance ) );
         }
 
         if ( $el->bbox ) {
@@ -135,16 +145,198 @@ class Xml
         }
 
         if ( $el->timezone ) {
-            $geoname->setTimezone( ( string ) $el->timezone );
+            $timezone = new Timezone( );
+            $timezone->setName( ( string ) $el->timezone );
+            $timezone->setDstOffset( floatval( $el->timezone->attributes( )->dstOffset ) );
+            $timezone->setGmtOffset( floatval( $el->timezone->attributes( )->gmtOffset ) );
+            $geoname->setTimezone( $timezone );
         }
 
         // Now map the admin codes
-        self::adminCodes( $el, $geoname );
+        $this->mapAdminCodes( $el, $geoname );
+
+        // Now map the admin code names
+        $this->mapAdminCodeNames( $el, $geoname );
 
         // Now map the coordinates
-        self::coordinates( $el, $geoname );
+        $this->mapCoordinates( $el, $geoname );
 
         return $geoname;
+    }
+
+    /**
+     * Map a collection of countries, in XML format, to a resultset
+     *
+     * @param \SimpleXmlElement $xml
+     * @return Resultset
+     */
+    public function mapCountries( $xml )
+    {
+        $results = [ ];
+        foreach( $xml->country as $el ) {
+            $results[ ] = $this->mapCountry( $el );
+        }
+
+        $resultset = new Resultset( $results );
+        return $resultset;
+    }
+
+    /**
+     * Map a SimpleXml element to a country
+     *
+     * @param \SimpleXmlElement $el
+     * @return Country
+     */
+    public function mapCountry( \SimpleXMLElement $el )
+    {
+        $code = ( string ) $el->countryCode;
+
+        $country = new Country( $code );
+
+        if ( $el->geonameId ) {
+            $country->setId( intval( $el->geonameId ) );
+        }
+
+        if ( $el->countryName ) {
+            $country->setName( ( string ) $el->countryName );
+        }
+
+        if ( $el->isoNumeric ) {
+            $country->setIsoNumeric( intval( $el->isoNumeric ) );
+        }
+
+        if ( $el->isoAlpha3 ) {
+            $country->setIsoAlpha3( ( string ) $el->isoAlpha3 );
+        }
+
+        if ( $el->fipsCode ) {
+            $country->setFipsCode( ( string ) $el->fipsCode );
+        }
+
+        if ( $el->continent ) {
+            $country->setContinent( ( string ) $el->continent );
+        }
+
+        if ( $el->continentName ) {
+            $country->setContinentName( $el->continentName );
+        }
+
+        if ( $el->capital ) {
+            $country->setCapital( ( string ) $el->capital );
+        }
+
+        if ( $el->areaInSqKm ) {
+            $country->setAreaInSqKm( floatval( $el->areaInSqKm ) );
+        }
+
+        if ( $el->population ) {
+            $country->setPopulation( intval( $el->population ) );
+        }
+
+        if ( $el->currencyCode ) {
+            $country->setCurrencyCode( ( string ) $el->currencyCode );
+        }
+
+        if ( $el->languages ) {
+            $country->setLanguages( ( string ) $el->languages );
+        }
+
+        if ( $el->postalCodeFormat ) {
+            $country->setPostalCodeFormat( ( string ) $el->postalCodeFormat );
+        }
+
+        if (
+            ( $el->west ) &&
+            ( $el->north ) &&
+            ( $el->east ) &&
+            ( $el->south ) )
+            {
+            $boundingBox = new BoundingBox( [
+                'west'      =>  floatval( $el->west ),
+                'north'     =>  floatval( $el->north ),
+                'east'      =>  floatval( $el->east ),
+                'south'     =>  floatval( $el->south ),
+            ] );
+            $country->setBoundingBox( $boundingBox );
+        }
+
+        return $country;
+
+    }
+
+    /**
+     * Map a SimpleXml element to an ocean
+     *
+     * @param \SimpleXmlElement $el
+     * @return Ocean
+     */
+    public function mapOcean( \SimpleXMLElement $el )
+    {
+        $name = ( string ) $el->ocean->name;
+        return new Ocean( $name );
+    }
+
+    /**
+     * Map a SimpleXml element to a collection of country subdivisions
+     *
+     * @param \SimpleXmlElement $xml
+     * @return Resultset
+     */
+    public function mapCountrySubdivisions( $xml )
+    {
+        $results = [ ];
+
+        foreach( $xml->countrySubdivision as $el ) {
+            $results[ ] = $this->mapCountrySubdivision( $el );
+        }
+
+        return new Resultset( $results );
+
+    }
+
+    /**
+     * @param \SimpleXMLElement $el
+     * @return CountrySubdivision
+     */
+    public function mapCountrySubdivision( \SimpleXMLElement $el )
+    {
+        $countrySubdivision = new CountrySubdivision( );
+
+        if ( $el->countryCode ) {
+            /**
+            $country = new Country( $el->countryCode );
+            if ( $el->countryName ) {
+                $country->setName( $el->countryName );
+            }
+            $geoname->setCountry( $country );
+             **/
+        }
+
+        if ( $el->countryCode ) {
+            $countrySubdivision->setCountryCode( ( string ) $el->countryCode );
+        }
+
+        if ( $el->countryName ) {
+            $countrySubdivision->setCountryName( ( string ) $el->countryName );
+        }
+
+        if ( $el->code ) {
+            $countrySubdivision->getCode( )->setName( ( string ) $el->code );
+            $countrySubdivision->getCode( )->setLevel( intval( $el->code->attributes( )->level ) );
+            $countrySubdivision->getCode( )->setType( $el->code->attributes( )->type );
+        }
+
+        if ( $el->distance ) {
+            $countrySubdivision->setDistance( floatval( $el->distance ) );
+        }
+
+        // Now map the admin codes
+        $this->mapAdminCodes( $el, $countrySubdivision );
+
+        // Now map the admin code names
+        $this->mapAdminCodeNames( $el, $countrySubdivision );
+
+        return $countrySubdivision;
     }
 
     /**
@@ -153,15 +345,21 @@ class Xml
      * @param \SimpleXmlElement $xml
      * @return Resultset
      */
-    public static function codes( $xml )
+    public function mapPostalCodes( $xml )
     {
         $results = [ ];
 
         foreach( $xml->code as $el ) {
-            $results[ ] = self::code( $el );
+            $results[ ] = $this->mapPostalCode( $el );
         }
 
-        $resultset = new Resultset( $results );
+        // A set of codes may or may not have a total results count
+        if ( $xml->totalResultsCount ) {
+            $resultset = new Resultset( $results, intval( $xml->totalResultsCount ) );
+        } else {
+            $resultset = new Resultset( $results );
+        }
+
         return $resultset;
     }
 
@@ -171,11 +369,11 @@ class Xml
      * @param \SimpleXmlElement $el
      * @return PostalCode
      */
-    public static function code( \SimpleXMLElement $el )
+    public function mapPostalCode( \SimpleXMLElement $el )
     {
         $code = new PostalCode( );
 
-        self::codeData( $el, $code );
+        $this->mapPostalCodeData( $el, $code );
 
         return $code;
     }
@@ -186,11 +384,11 @@ class Xml
      * @param \SimpleXmlElement $el
      * @return PostalCode
      */
-    public static function codeData( \SimpleXMLElement $el, $model )
+    public function mapPostalCodeData( \SimpleXMLElement $el, PostalCode $model )
     {
         // Map the actual postal code
         if ( $el->postalcode ) {
-            $model->setPostalCode( $el->postalcode );
+            $model->setPostalCode( ( string ) $el->postalcode );
         }
 
         // Map the distance, if present
@@ -200,19 +398,22 @@ class Xml
 
         // Map the name, if present
         if ( $el->name ) {
-            $model->setName( $el->name );
+            $model->setName( ( string ) $el->name );
         }
 
         // Map the country code, if present
         if ( $el->countryCode ) {
-            $model->setCountryCode( $el->countryCode );
+            $model->setCountryCode( ( string ) $el->countryCode );
         }
 
         // Now map the admin codes
-        self::adminCodes( $el, $model );
+        $this->mapAdminCodes( $el, $model );
+
+        // Now map the admin code names
+        $this->mapAdminCodeNames( $el, $model );
 
         // Now map the coordinates
-        self::coordinates( $el, $model );
+        $this->mapCoordinates( $el, $model );
 
     }
 
@@ -222,29 +423,171 @@ class Xml
      * @param \SimpleXmlElement $el
      * @return Address
      */
-    public static function address( \SimpleXMLElement $el )
+    public function mapAddress( \SimpleXMLElement $el )
     {
         $address = new Address( );
 
-        self::codeData( $el, $address );
+        $this->mapPostalCodeData( $el, $address );
 
         if ( $el->street ) {
-            $address->setStreet( $el->street );
+            $address->setStreet( ( string ) $el->street );
         }
 
         if ( $el->streetNumber ) {
-            $address->setStreetNumber( $el->streetNumber );
+            $address->setStreetNumber( ( string ) $el->streetNumber );
         }
 
         if ( $el->placename ) {
-            $address->setPlaceName( $el->placename );
+            $address->setPlaceName( ( string ) $el->placename );
         }
 
         if ( $el->mtfcc ) {
-            $address->setMtfcc( $el->mtfcc );
+            $address->setMtfcc( ( string ) $el->mtfcc );
         }
 
         return $address;
+    }
+
+    /**
+     * Map a SimpleXml element to a timezone
+     *
+     * @param \SimpleXmlElement $el
+     * @return Timezone
+     */
+    public function mapTimezone( \SimpleXMLElement $el )
+    {
+        $timezone = new Timezone( );
+
+        if ( $el->timezoneId ) {
+            $timezone->setName( ( string ) $el->timezoneId );
+        }
+
+        if ( $el->countryCode ) {
+            $country = new Country( ( string ) $el->countryCode );
+            if ( $el->countryName ) {
+                $country->setName( ( string ) $el->countryName );
+            }
+            $timezone->setCountry( $country );
+        }
+
+        $this->mapCoordinates( $el, $timezone );
+
+        if ( $el->dstOffset ) {
+            $timezone->setDstOffset( floatval( $el->dstOffset ) );
+        }
+
+        if ( $el->gmtOffset ) {
+            $timezone->setGmtOffset( floatval( $el->gmtOffset ) );
+        }
+
+        if ( $el->rawOffset ) {
+            $timezone->setRawOffset( floatval( $el->rawOffset ) );
+        }
+
+        if ( $el->time ) {
+            $timezone->setTime( ( string ) $el->time );
+        }
+
+        if ( $el->sunrise ) {
+            $timezone->setSunrise( ( string ) $el->sunrise );
+        }
+
+        if ( $el->sunset ) {
+            $timezone->setSunset( ( string ) $el->sunset );
+        }
+
+        return $timezone;
+    }
+
+    /**
+     * Map a neighbourhood from a SimpleXml element to a model
+     *
+     * @param \SimpleXMLElement $el
+     * @return Neighbourhood
+     */
+    public function mapNeighbourhood( $el )
+    {
+        $neighbourhood = new Neighbourhood( );
+
+        if ( $el->countryCode ) {
+            /**
+            $country = new Country( ( string ) $el->countryCode );
+            if ( $el->countryName ) {
+                $country->setName( ( string ) $el->countryName );
+            }
+            $geoname->setCountry( $country );
+             **/
+        }
+
+        if ( $el->name ) {
+            $neighbourhood->setName( ( string ) $el->name );
+        }
+
+        if ( $el->countryCode ) {
+            $neighbourhood->setCountryCode( ( string ) $el->countryCode );
+        }
+
+        if ( $el->countryName ) {
+            $neighbourhood->setCountryName( ( string ) $el->countryName );
+        }
+
+        if ( $el->city ) {
+            $neighbourhood->setCity( ( string ) $el->city );
+        }
+
+        $this->mapAdminCodes( $el, $neighbourhood );
+        $this->mapAdminCodeNames( $el, $neighbourhood );
+
+        return $neighbourhood;
+    }
+
+    /**
+     * Map points of interest to a resultt set
+     *
+     * @param \SimpleXMLElement $xml
+     * @return Resultset
+     */
+    public function mapPointsOfInterest( \SimpleXMLElement $xml )
+    {
+        $results = [ ];
+
+        foreach( $xml->poi as $el ) {
+            $results[ ] = $this->mapPointOfInterest( $el );
+        }
+
+        $resultset = new Resultset( $results );
+        return $resultset;
+    }
+
+    /**
+     * Map an XML element to a Point Of Interest model
+     *
+     * @param \SimpleXMLElement $el
+     * @return PointOfInterest
+     */
+    public function mapPointOfInterest( \SimpleXMLElement $el )
+    {
+        $poi = new PointOfInterest( );
+
+        if ( $el->name ) {
+            $poi->setName( ( string ) $el->name );
+        }
+
+        if ( $el->typeClass ) {
+            $poi->setTypeClass( ( string ) $el->typeClass );
+        }
+
+        if ( $el->typeName ) {
+            $poi->setTypeName( ( string ) $el->typeName );
+        }
+
+        if ( $el->distance ) {
+            $poi->setDistance( ( float ) $el->distance );
+        }
+
+        $this->mapCoordinates( $el, $poi );
+
+        return $poi;
     }
 
     /**
@@ -253,30 +596,39 @@ class Xml
      * @param \SimpleXMLElement $el
      * @param $model
      */
-    private static function adminCodes( \SimpleXMLElement $el, HasAdminCodes $model )
+    private function mapAdminCodes( \SimpleXMLElement $el, HasAdminCodes $model )
     {
         if ( $el->adminCode1 ) {
-            $model->setAdminCode1( $el->adminCode1 );
+            $model->setAdminCode1( ( string ) $el->adminCode1 );
         }
 
         if ( $el->adminCode2 ) {
-            $model->setAdminCode2( $el->adminCode2 );
+            $model->setAdminCode2( ( string ) $el->adminCode2 );
         }
 
         if ( $el->adminCode3 ) {
-            $model->setAdminCode3( $el->adminCode3 );
+            $model->setAdminCode3( ( string ) $el->adminCode3 );
         }
+    }
 
+    /**
+     * Map admin code names from a SimpleXml element to a model
+     *
+     * @param \SimpleXMLElement $el
+     * @param $model
+     */
+    private function mapAdminCodeNames( \SimpleXMLElement $el, HasAdminCodeNames $model )
+    {
         if ( $el->adminName1 ) {
-            $model->setAdminName1( $el->adminName1 );
+            $model->setAdminName1( ( string ) $el->adminName1 );
         }
 
         if ( $el->adminName2 ) {
-            $model->setAdminName2( $el->adminName2 );
+            $model->setAdminName2( ( string ) $el->adminName2 );
         }
 
         if ( $el->adminName3 ) {
-            $model->setAdminName3( $el->adminName3 );
+            $model->setAdminName3( ( string ) $el->adminName3 );
         }
     }
 
@@ -286,7 +638,7 @@ class Xml
      * @param \SimpleXMLElement $el
      * @param $model
      */
-    private static function coordinates( \SimpleXMLElement $el, HasCoordinates $model )
+    private function mapCoordinates( \SimpleXMLElement $el, HasCoordinates $model )
     {
         if ( $el->lat && $el->lng ) {
             $model->setCoordinates( new Coordinate( [

@@ -32,6 +32,28 @@ class ClientTest extends PHPUnit_Framework_TestCase{
         $this->assertAttributeEquals( 'user123', 'username', $client );
     }
 
+    public function testSetBaseUriGetsSetAutomatically( )
+    {
+        $client = new Client( );
+
+        $this->assertAttributeEquals( 'http://api.geonames.org', 'baseUri', $client );
+        $this->assertEquals( 'http://api.geonames.org', $client->getBaseUri( ) );
+        $this->assertEquals( 'http', $client->getConfig( 'base_uri' )->getScheme( ) );
+        $this->assertEquals( 'api.geonames.org', $client->getConfig( 'base_uri' )->getHost( ) );
+    }
+
+    public function testSetBaseUriInConfig( )
+    {
+        $client = new Client( [
+            'base_uri'  =>  'https://example.com',
+        ] );
+
+        $this->assertAttributeEquals( 'https://example.com', 'baseUri', $client );
+        $this->assertEquals( 'https://example.com', $client->getBaseUri( ) );
+        $this->assertEquals( 'https', $client->getConfig( 'base_uri' )->getScheme( ) );
+        $this->assertEquals( 'example.com', $client->getConfig( 'base_uri' )->getHost( ) );
+    }
+
     /**
      * @expectedException \Lukaswhite\Geonames\Exceptions\InvalidXmlException
      */

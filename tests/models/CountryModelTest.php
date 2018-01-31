@@ -23,7 +23,7 @@ class CountryModelTest extends PHPUnit_Framework_TestCase{
             ->setPostalCodeFormat( '@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA' )
             ->setBoundingBox(
                 new \Lukaswhite\Geonames\Models\BoundingBox( [
-                    'west' => 8.61772077108559,
+                    'west' => -8.61772077108559,
                     'north' => 59.3607741849963,
                     'east' => 1.7689121033873,
                     'south' => 49.9028622252397,
@@ -44,33 +44,11 @@ class CountryModelTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 'GBP', $country->getCurrencyCode( ) );
         $this->assertEquals( [ 'en-GB', 'cy-GB', 'gd' ], $country->getLanguages( ) );
         $this->assertEquals( '@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA', $country->getPostalCodeFormat( ) );
-        $this->assertEquals( 8.61772077108559, $country->getBoundingBox( )->getWest( ) );
+        $this->assertEquals( -8.61772077108559, $country->getBoundingBox( )->getWest( ) );
         $this->assertEquals( 59.3607741849963, $country->getBoundingBox( )->getNorth( ) );
         $this->assertEquals( 1.7689121033873, $country->getBoundingBox( )->getEast( ) );
         $this->assertEquals( 49.9028622252397, $country->getBoundingBox( )->getSouth( ) );
 
-
-
-        /**
-        <countryCode>GB</countryCode>
-        <countryName>United Kingdom</countryName>
-        <isoNumeric>826</isoNumeric>
-        <isoAlpha3>GBR</isoAlpha3>
-        <fipsCode>UK</fipsCode>
-        <continent>EU</continent>
-        <continentName>Europe</continentName>
-        <capital>London</capital>
-        <areaInSqKm>244820.0</areaInSqKm>
-        <population>62348447</population>
-        <currencyCode>GBP</currencyCode>
-        <languages>en-GB,cy-GB,gd</languages>
-        <geonameId>2635167</geonameId>
-        <west>-8.61772077108559</west>
-        <north>59.3607741849963</north>
-        <east>1.7689121033873</east>
-        <south>49.9028622252397</south>
-        <postalCodeFormat>@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA</postalCodeFormat>
-         **/
     }
 
     public function testLanguages( )

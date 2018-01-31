@@ -21,5 +21,12 @@ interface QueriesService
      */
     public function build( );
 
+    /**
+     * This is used to declare what sort of data this query expects to receive.
+     *
+     * E.g. features, codes, countries
+     *
+     * @return string
+     */
     public function expects( );
 }

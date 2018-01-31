@@ -42,12 +42,14 @@ class Client extends BaseClient
      */
     public function __construct( array $config = [ ] )
     {
-        // Inject the base URI in whilst creating a instance
-        parent::__construct(
-            $config + [
-                'base_uri'  =>  $this->baseUri
-            ]
-        );
+        // If the base URI has not been specified, add it now
+        if ( ! isset( $config[ 'base_uri' ] ) ) {
+            $config[ 'base_uri' ]  = $this->baseUri;
+        } else {
+            $this->baseUri = $config[ 'base_uri' ];
+        }
+
+        parent::__construct( $config );
 
         // If the username has been provided in config, set it now.
         if ( isset( $config[ 'username' ] ) ) {
@@ -68,6 +70,16 @@ class Client extends BaseClient
     {
         $this->username = $username;
         return $this;
+    }
+
+    /**
+     * Get the base URI
+     *
+     * @return string
+     */
+    public function getBaseUri( )
+    {
+        return $this->baseUri;
     }
 
     /**
@@ -115,57 +127,9 @@ class Client extends BaseClient
 
         //var_dump( ( string ) $response->getBody( ) );
 
-        $xml = simplexml_load_string( ( string ) $response->getBody( ) );
+        //$xml = simplexml_load_string( ( string ) $response->getBody( ) );
 
         return ( string ) $response->getBody( );
     }
-
-    /**
-     * Look up a place / feature by its ID
-     *
-     * (Note: this corresponds to the get endpoint)
-     *
-     * @link http://www.geonames.org/export/web-services.html#get
-     *
-     * @param $id
-     * @return Models\Feature
-     */
-    public function lookup( $id )
-    {
-        $response = $this->makeGetRequest(
-            'get',
-            [
-                'geonameId' =>  $id,
-            ]
-        );
-
-        $geoname = Xml::geoname( $this->parseXmlResponse( $response ) );
-
-        return $geoname;
-    }
-
-    /**
-     * Excute a search
-     *
-     * @param Search $search
-     * @return Results\Resultset
-     */
-    public function search( Search $search )
-    {
-        $xml = $this->makeGetRequest(
-            'search',
-            $search->build( )
-        );
-
-        var_dump( $search->build( ) );
-
-        //var_dump( $xml );
-
-        $results = Xml::geonames( $xml );
-
-        return $results;
-    }
-
-
 
 }

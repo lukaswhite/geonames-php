@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <totalResultsCount>70787</totalResultsCount>
+    <code>
+        <postalcode>M3 1AR</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48805</lat>
+        <lng>-2.24416</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1AZ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48393</lat>
+        <lng>-2.24508</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1BD</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48408</lat>
+        <lng>-2.24362</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1BE</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48816</lat>
+        <lng>-2.24405</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1DQ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49071</lat>
+        <lng>-2.24642</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1DX</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48811</lat>
+        <lng>-2.24619</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1DY</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48811</lat>
+        <lng>-2.24619</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1DZ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49098</lat>
+        <lng>-2.25041</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1EB</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49109</lat>
+        <lng>-2.24883</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1EJ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49484</lat>
+        <lng>-2.24588</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1ES</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49021</lat>
+        <lng>-2.24301</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1ET</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.4903</lat>
+        <lng>-2.24355</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1EU</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49015</lat>
+        <lng>-2.24387</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1EX</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49215</lat>
+        <lng>-2.24373</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1EY</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49074</lat>
+        <lng>-2.24402</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1EZ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49154</lat>
+        <lng>-2.24326</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1FB</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.4907</lat>
+        <lng>-2.24815</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1FE</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49203</lat>
+        <lng>-2.24995</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1FF</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49171</lat>
+        <lng>-2.24879</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1FS</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49046</lat>
+        <lng>-2.2432</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1FU</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49245</lat>
+        <lng>-2.24248</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HE</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49182</lat>
+        <lng>-2.24199</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HF</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.4919</lat>
+        <lng>-2.24116</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HJ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49128</lat>
+        <lng>-2.24262</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HN</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49218</lat>
+        <lng>-2.24229</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HU</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49252</lat>
+        <lng>-2.24216</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HX</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.4929</lat>
+        <lng>-2.24252</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1HZ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49269</lat>
+        <lng>-2.24072</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JA</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49307</lat>
+        <lng>-2.24061</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JB</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49309</lat>
+        <lng>-2.24204</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JD</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49339</lat>
+        <lng>-2.24146</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JF</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49334</lat>
+        <lng>-2.24301</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JH</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49345</lat>
+        <lng>-2.24253</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JJ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49161</lat>
+        <lng>-2.24226</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JL</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49189</lat>
+        <lng>-2.24671</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1JS</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49604</lat>
+        <lng>-2.24325</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LD</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48937</lat>
+        <lng>-2.2433</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LE</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48956</lat>
+        <lng>-2.2435</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LF</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49068</lat>
+        <lng>-2.24503</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LG</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49227</lat>
+        <lng>-2.24489</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LN</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49106</lat>
+        <lng>-2.24655</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LS</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49106</lat>
+        <lng>-2.24655</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LT</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49077</lat>
+        <lng>-2.24728</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LW</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49145</lat>
+        <lng>-2.24532</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1LY</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49049</lat>
+        <lng>-2.24516</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1NG</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.4874</lat>
+        <lng>-2.24604</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1NH</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.49019</lat>
+        <lng>-2.24944</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1NJ</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48763</lat>
+        <lng>-2.24656</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1NL</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.48786</lat>
+        <lng>-2.24715</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+    <code>
+        <postalcode>M3 1NN</postalcode>
+        <name>Manchester</name>
+        <countryCode>GB</countryCode>
+        <lat>53.488</lat>
+        <lng>-2.24684</lng>
+        <adminCode1>ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2/>
+        <adminName2>Greater Manchester</adminName2>
+        <adminCode3>E08000003</adminCode3>
+        <adminName3>Manchester District (B)</adminName3>
+    </code>
+</geonames>

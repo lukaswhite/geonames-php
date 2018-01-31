@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <timezone tzversion="tzdata2017c">
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <lat>53.41667</lat>
+        <lng>-2.25</lng>
+        <timezoneId>Europe/London</timezoneId>
+        <dstOffset>1.0</dstOffset>
+        <gmtOffset>0.0</gmtOffset>
+        <rawOffset>0.0</rawOffset>
+        <time>2018-01-29 09:00</time>
+        <sunrise>2018-01-29 07:59</sunrise>
+        <sunset>2018-01-29 16:45</sunset>
+        <date date="2018-09-01">
+            <sunrise>2018-09-01 06:17</sunrise>
+            <sunset>2018-09-01 19:59</sunset>
+        </date>
+    </timezone>
+</geonames>

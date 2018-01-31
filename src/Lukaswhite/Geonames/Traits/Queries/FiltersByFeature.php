@@ -26,32 +26,24 @@ trait FiltersByFeature
     /**
      * Filter the query by feature code(s)
      *
-     * @param array|string
+     * @param array $codes
      * @return $this
      */
-    public function filterByFeatureCode( $code )
+    public function filterByFeatureCode( ...$codes )
     {
-        if ( is_array( $code ) ) {
-            $this->featureCodes = $code;
-        } else {
-            $this->featureCodes = [ $code ];
-        }
+        $this->featureCodes = $codes;
         return $this;
     }
 
     /**
      * Filter the query by feature class(es)
      *
-     * @param array|string
+     * @param array $classes
      * @return $this
      */
-    public function filterByFeatureClass( $class )
+    public function filterByFeatureClass( ...$classes )
     {
-        if ( is_array( $class ) ) {
-            $this->featureClasses = $class;
-        } else {
-            $this->featureClasses = [ $class ];
-        }
+        $this->featureClasses = $classes;
         return $this;
     }
 

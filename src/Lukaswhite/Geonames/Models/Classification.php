@@ -3,9 +3,11 @@
 /**
  * Class Classification
  *
- * This class helps to distinguish different types of entities in the Geonames database
+ * This class helps to distinguish different types of entities in the Geonames database.
  *
  * E.g. countries, regions, towns, villages, railway stations, mountains, streams....
+ *
+ * It encapsulates both the Feature Class and the Feature Code.
  *
  * http://www.geonames.org/export/codes.html
  *

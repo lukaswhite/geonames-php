@@ -8,7 +8,7 @@
 class QueryHelper
 {
     /**
-     * Convert an array into a query string.
+     * Convert an array of parameters into a query string.
      *
      * Some values can be arrays, but they need to repeated like this:
      *

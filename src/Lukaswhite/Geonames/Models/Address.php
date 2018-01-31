@@ -128,6 +128,7 @@ class Address extends PostalCode
      * Convert this address into a string representation
      *
      * @return string
+     * @todo Extend this; city etc
      */
     public function __toString()
     {

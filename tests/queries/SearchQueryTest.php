@@ -4,7 +4,7 @@ use Lukaswhite\Geonames\Query\Search;
 use Lukaswhite\Geonames\Models\Continent;
 use Lukaswhite\Geonames\Models\Geoname;
 
-class SearchTest extends PHPUnit_Framework_TestCase{
+class SearchQueryTest extends PHPUnit_Framework_TestCase{
 	
 
     public function testIsThereAnySyntaxError( )
@@ -29,7 +29,7 @@ class SearchTest extends PHPUnit_Framework_TestCase{
     public function testDeclaresWhatItExpects( )
     {
         $search = new Search( );
-        $this->assertEquals( 'geonames', $search->expects( ) );
+        $this->assertEquals( 'features', $search->expects( ) );
     }
 
     public function testOrdering( )
@@ -411,7 +411,7 @@ class SearchTest extends PHPUnit_Framework_TestCase{
 
         $search = new Search( );
         $this->assertArrayNotHasKey( 'featureClass', $search->build( ) );
-        $search->filterByFeatureClass( [ 'A', 'P' ] );
+        $search->filterByFeatureClass( 'A', 'P' );
         $this->assertArrayHasKey( 'featureClass', $search->build() );
         $this->assertInternalType( 'array', $search->build()[ 'featureClass' ] );
         $this->assertEquals( [ 'A', 'P' ], $search->build()[ 'featureClass' ] );
@@ -430,7 +430,7 @@ class SearchTest extends PHPUnit_Framework_TestCase{
 
         $search = new Search( );
         $this->assertArrayNotHasKey( 'featureClass', $search->build( ) );
-        $search->filterByFeatureCode( [ 'PPL', 'PPLA2' ] );
+        $search->filterByFeatureCode( 'PPL', 'PPLA2' );
         $this->assertArrayHasKey( 'featureCode', $search->build() );
         $this->assertInternalType( 'array', $search->build()[ 'featureCode' ] );
         $this->assertEquals( [ 'PPL', 'PPLA2' ], $search->build()[ 'featureCode' ] );
@@ -504,6 +504,11 @@ class SearchTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 'LONG', $search->build()[ 'style' ] );
         $search->full( );
         $this->assertEquals( 'FULL', $search->build()[ 'style' ] );
+        unset( $search );
+
+        $search = new Search( );
+        $search->verbosity( 'LONG' );
+        $this->assertEquals( 'LONG', $search->build()[ 'style' ] );
         unset( $search );
     }
 
@@ -608,8 +613,8 @@ class SearchTest extends PHPUnit_Framework_TestCase{
     {
         $search = new Search( );
 
-        $search->filterByFeatureClass( [ 'A', 'P' ] )
-            ->filterByFeatureCode( [ 'ADM1', 'ADM2' ] )
+        $search->filterByFeatureClass( 'A', 'P' )
+            ->filterByFeatureCode( 'ADM1', 'ADM2' )
             ->inCountry( 'GB' )
             ->limit( 500 );
 

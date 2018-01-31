@@ -20,7 +20,6 @@ use Lukaswhite\Geonames\Traits\Queries\CanSpecifyVerbosity;
  */
 class PostalCodeSearch implements QueriesService
 {
-
     use HasBoundingBox,
         CanHaveOperator,
         HasPagination,
