@@ -80,7 +80,7 @@ class Coordinate
     public function __toString( )
     {
         return sprintf(
-            '%s, %s', // Note that using %f can add additional decimal places
+            '%s° N, %s° W', // Note that using %f can add additional decimal places
             $this->latitude,
             $this->longitude
         );
