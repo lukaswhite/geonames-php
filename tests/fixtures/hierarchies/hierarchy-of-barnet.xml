@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <geoname>
+        <toponymName>Earth</toponymName>
+        <name>Earth</name>
+        <lat>0</lat>
+        <lng>0</lng>
+        <geonameId>6295630</geonameId>
+        <countryCode/>
+        <countryName/>
+        <fcl>L</fcl>
+        <fcode>AREA</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Europe</toponymName>
+        <name>Europe</name>
+        <lat>48.69096</lat>
+        <lng>9.14062</lng>
+        <geonameId>6255148</geonameId>
+        <countryCode/>
+        <countryName/>
+        <fcl>L</fcl>
+        <fcode>CONT</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>United Kingdom of Great Britain and Northern Ireland</toponymName>
+        <name>United Kingdom</name>
+        <lat>54.75844</lat>
+        <lng>-2.69531</lng>
+        <geonameId>2635167</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>PCLI</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>England</toponymName>
+        <name>England</name>
+        <lat>52.16045</lat>
+        <lng>-0.70312</lng>
+        <geonameId>6269131</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM1</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Greater London</toponymName>
+        <name>Greater London</name>
+        <lat>51.5</lat>
+        <lng>-0.16667</lng>
+        <geonameId>2648110</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Barnet</toponymName>
+        <name>Barnet</name>
+        <lat>51.65736</lat>
+        <lng>-0.21423</lng>
+        <geonameId>3333121</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM3</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Barnet</toponymName>
+        <name>Barnet</name>
+        <lat>51.65</lat>
+        <lng>-0.2</lng>
+        <geonameId>2656295</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPL</fcode>
+    </geoname>
+</geonames>

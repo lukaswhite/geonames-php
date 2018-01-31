@@ -423,4 +423,41 @@ class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasCo
         return $this;
     }
 
+    /**
+     * Create an array representation of this feature.
+     *
+     * @return array
+     */
+    public function toArray( )
+    {
+        $arr = [ ];
+
+        if ( $this->id ) {
+            $arr[ 'id' ] = $this->id;
+        }
+
+        foreach( [
+            'name',
+            'toponymName',
+            'asciiName',
+            'fcl',
+            'fcode',
+        ] as $property ) {
+            if ( isset( $this->$property ) && strlen( $this->$property ) ) {
+                $arr[ $property ] = $this->$property;
+            }
+        }
+
+        if ( $this->country ) {
+            $arr[ 'country' ] = $this->country->toArray( );
+        }
+
+        if ( $this->coordinates ) {
+            $arr[ 'latitude' ] = $this->coordinates->getLatitude( );
+            $arr[ 'longitude' ] = $this->coordinates->getLongitude( );
+        }
+
+        return $arr;
+    }
+
 }

@@ -17,13 +17,11 @@ class ServiceTest extends PHPUnit_Framework_TestCase{
         unset( $var );
     }
 
-    public function testSetUsernameInConfig( )
+    public function testSetUsernameInConstructor( )
     {
-        $client = new Client( [
-            'username'  =>  'user123',
-        ] );
+        $service = new Geonames( 'user123' );
 
-        $this->assertAttributeEquals( 'user123', 'username', $client );
+        $this->assertAttributeEquals( 'user123', 'username', $service );
     }
 
     public function testSetUsername( )

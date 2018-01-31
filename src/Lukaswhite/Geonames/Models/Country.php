@@ -357,4 +357,21 @@ class Country
         return $this->name;
     }
 
+    /**
+     * Create an array representation of this country
+     *
+     * @return array
+     */
+    public function toArray( )
+    {
+        $arr = [ ];
+        if ( $this->code && strlen( $this->code ) ) {
+            $arr[ 'code' ] = $this->code;
+        }
+        if ( $this->name && strlen( $this->name ) ) {
+            $arr[ 'name' ] = $this->name;
+        }
+        return $arr;
+    }
+
 }

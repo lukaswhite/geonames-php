@@ -115,6 +115,8 @@ class Geonames
             ( new QueryHelper( ) )->buildQueryString( $parameters )
         );
 
+        var_dump( $fullUrl );
+
         // If a logger has been set, log the URL being called
         if ( $this->logger ) {
             $this->logger->info( $fullUrl );
@@ -140,7 +142,7 @@ class Geonames
 
         // If the query expects a string, then just return that now
         if ( $query->expects( ) == 'string' ) {
-            return $response;
+            return trim( $response );
         }
 
         // Parse the response

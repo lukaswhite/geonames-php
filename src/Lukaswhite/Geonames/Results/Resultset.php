@@ -76,6 +76,16 @@ class Resultset implements \IteratorAggregate, \ArrayAccess, \Countable
     }
 
     /**
+     * Create an array representation of this resultset; basically an alias of getResults( )
+     *
+     * @return array
+     */
+    public function toArray( )
+    {
+        return $this->results;
+    }
+
+    /**
      * Get the first result
      *
      * @return mixed

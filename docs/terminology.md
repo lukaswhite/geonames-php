@@ -1,5 +1,7 @@
 # Terminology
 
+In order to make effective use of Geonames data, there are some terms it's important to understand.
+
 ## Features
 
 In Geonames a feature is basically any geographical feature that's been given a name. That's incredibly wide ranging; a feture might be:
@@ -44,3 +46,24 @@ Here are some examples:
     
     
 > You'll find a [complete list here](http://www.geonames.org/export/codes.html)
+
+## Style
+
+Style is used to specify how much information to return; i.e. verbosity. It's used, for example, when performing a search.
+
+There are four styles:
+
+* `SHORT`
+* `MEDIUM`
+* `LONG`
+* `FULL`
+
+For example, when searching features:
+
+* `SHORT` will return the Geoname ID, name, toponym name, latitude / longitude, country code, feature class and feature code.
+* `MEDIUM` will return all of the information as returned using the `SHORT` style plus the country name.
+* `LONG` will return all of the information as returned using the `MEDIUM` style plus the name of the feature class, the name of the feature code, and the population.
+* `FULL` will return all of the information as returned using the `MEDIUM` style plus the ASCII name, the alternate names, the elevation (including the srtm3 and astergdem) models, the admin codes and their names, the timezone, the bounding box and the relevance score. 
+
+
+For more information, visit [this page](/styles).

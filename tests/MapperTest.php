@@ -76,6 +76,7 @@ class MapperTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 60.84581, $uk->getBoundingBox( )->getNorth( ) );
         $this->assertEquals( 33.9175, $uk->getBoundingBox( )->getEast( ) );
         $this->assertEquals( -34.69046, $uk->getBoundingBox( )->getSouth( ) );
+        $this->assertEquals( 10, $uk->getBoundingBox( )->getAccuracyLevel( ) );
 
         $this->assertInstanceOf( \Lukaswhite\Geonames\Models\Timezone::class, $uk->getTimezone( ) );
         $this->assertEquals( 'Europe/London', $uk->getTimezone( )->getName( ) );

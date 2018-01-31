@@ -19,22 +19,32 @@ class FeatureModelTest extends PHPUnit_Framework_TestCase{
         $this->assertInstanceOf( Feature::class, $place->setId( 12345 ) );
         $this->assertAttributeEquals( 12345, 'id', $place );
         $this->assertEquals( 12345, $place->getId( ) );
+        $this->assertArrayHasKey( 'id', $place->toArray( ) );
+        $this->assertEquals( 12345, $place->toArray( )[ 'id' ] );
 
         $this->assertInstanceOf( Feature::class, $place->setName( 'Manchester' ) );
         $this->assertAttributeEquals( 'Manchester', 'name', $place );
         $this->assertEquals( 'Manchester', $place->getName( ) );
+        $this->assertArrayHasKey( 'name', $place->toArray( ) );
+        $this->assertEquals( 'Manchester', $place->toArray( )[ 'name' ] );
 
         $this->assertInstanceOf( Feature::class, $place->setToponymName( 'Greater Manchester' ) );
         $this->assertAttributeEquals( 'Greater Manchester', 'toponymName', $place );
         $this->assertEquals( 'Greater Manchester', $place->getToponymName( ) );
+        $this->assertArrayHasKey( 'toponymName', $place->toArray( ) );
+        $this->assertEquals( 'Greater Manchester', $place->toArray( )[ 'toponymName' ] );
 
         $this->assertInstanceOf( Feature::class, $place->setFcl( 'P' ) );
         $this->assertAttributeEquals( 'P', 'fcl', $place );
         $this->assertEquals( 'P', $place->getFcl( ) );
+        $this->assertArrayHasKey( 'fcl', $place->toArray( ) );
+        $this->assertEquals( 'P', $place->toArray( )[ 'fcl' ] );
 
         $this->assertInstanceOf( Feature::class, $place->setFcode( 'PPL' ) );
         $this->assertAttributeEquals( 'PPL', 'fcode', $place );
         $this->assertEquals( 'PPL', $place->getFcode( ) );
+        $this->assertArrayHasKey( 'fcode', $place->toArray( ) );
+        $this->assertEquals( 'PPL', $place->toArray( )[ 'fcode' ] );
 
         $this->assertInstanceOf( Feature::class, $place->setPopulation( 100000 ) );
         $this->assertAttributeEquals( 100000, 'population', $place );
@@ -87,6 +97,12 @@ class FeatureModelTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 'Great Britain', $place->getCountry( )->getName( ) );
         $this->assertEquals( 'Great Britain', $place->getCountry( )->__toString( ) );
         $this->assertEquals( 'Great Britain', ( string ) $place->getCountry( ) );
+        $this->assertArrayHasKey( 'country', $place->toArray( ) );
+        $this->assertEquals( [
+            'code' => 'GB',
+            'name' => 'Great Britain'
+        ], $place->toArray( )[ 'country' ] );
+
         unset( $place );
 
         $country = new Country( 'GB' );
@@ -152,7 +168,12 @@ class FeatureModelTest extends PHPUnit_Framework_TestCase{
 
     public function testCoordinates( )
     {
-
+        $place = new Feature( );
+        $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( [ 53.41667, -2.25 ] );
+        $this->assertInstanceOf( Feature::class, $place->setCoordinates( $coordinates ) );
+        $this->assertArrayHasKey( 'latitude', $place->toArray( ) );
+        $this->assertEquals( 53.41667, $place->toArray( )[ 'latitude' ] );
+        $this->assertEquals( -2.25, $place->toArray( )[ 'longitude' ] );
     }
 
 }

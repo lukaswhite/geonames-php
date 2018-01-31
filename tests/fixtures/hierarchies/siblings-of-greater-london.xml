@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames>
+    <totalResultsCount>119</totalResultsCount>
+    <geoname>
+        <toponymName>Barnsley</toponymName>
+        <name>Barnsley</name>
+        <lat>53.53333</lat>
+        <lng>-1.5</lng>
+        <geonameId>3333122</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Bath and North East Somerset</toponymName>
+        <name>Bath and North East Somerset</name>
+        <lat>51.33333</lat>
+        <lng>-2.5</lng>
+        <geonameId>3333123</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Bedford</toponymName>
+        <name>Bedford</name>
+        <lat>52.18831</lat>
+        <lng>-0.45316</lng>
+        <geonameId>7290534</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City and Borough of Birmingham</toponymName>
+        <name>Birmingham</name>
+        <lat>52.48048</lat>
+        <lng>-1.89823</lng>
+        <geonameId>3333125</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Blackburn with Darwen</toponymName>
+        <name>Blackburn with Darwen</name>
+        <lat>53.66667</lat>
+        <lng>-2.46667</lng>
+        <geonameId>3333126</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Blackpool</toponymName>
+        <name>Blackpool</name>
+        <lat>53.83333</lat>
+        <lng>-3.03333</lng>
+        <geonameId>3333127</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Bolton</toponymName>
+        <name>Bolton</name>
+        <lat>53.58333</lat>
+        <lng>-2.5</lng>
+        <geonameId>3333128</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Bury</toponymName>
+        <name>Borough of Bury</name>
+        <lat>53.58333</lat>
+        <lng>-2.33333</lng>
+        <geonameId>3333136</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Bournemouth</toponymName>
+        <name>Bournemouth</name>
+        <lat>50.71918</lat>
+        <lng>-1.87806</lng>
+        <geonameId>3333129</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Bracknell Forest</toponymName>
+        <name>Bracknell Forest</name>
+        <lat>51.41667</lat>
+        <lng>-0.75</lng>
+        <geonameId>3333130</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Bradford</toponymName>
+        <name>Bradford</name>
+        <lat>53.83333</lat>
+        <lng>-1.83333</lng>
+        <geonameId>3333131</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Brighton and Hove</toponymName>
+        <name>Brighton and Hove</name>
+        <lat>50.83333</lat>
+        <lng>-0.13333</lng>
+        <geonameId>3333133</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Bristol</toponymName>
+        <name>Bristol</name>
+        <lat>51.45</lat>
+        <lng>-2.6</lng>
+        <geonameId>3333134</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Buckinghamshire</toponymName>
+        <name>Buckinghamshire</name>
+        <lat>51.75</lat>
+        <lng>-0.75</lng>
+        <geonameId>2654408</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Calderdale</toponymName>
+        <name>Calderdale</name>
+        <lat>53.7</lat>
+        <lng>-2</lng>
+        <geonameId>3333137</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Cambridgeshire</toponymName>
+        <name>Cambridgeshire</name>
+        <lat>52.33333</lat>
+        <lng>0.08333</lng>
+        <geonameId>2653940</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Central Bedfordshire</toponymName>
+        <name>Central Bedfordshire</name>
+        <lat>51.99755</lat>
+        <lng>-0.42148</lng>
+        <geonameId>7290535</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Cheshire West and Chester</toponymName>
+        <name>Cheshire</name>
+        <lat>53.16352</lat>
+        <lng>-2.73595</lng>
+        <geonameId>7290537</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Cheshire East</toponymName>
+        <name>Cheshire East</name>
+        <lat>53.16702</lat>
+        <lng>-2.36245</lng>
+        <geonameId>7290536</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Cornwall</toponymName>
+        <name>Cornwall</name>
+        <lat>50.41667</lat>
+        <lng>-4.75</lng>
+        <geonameId>2652355</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Coventry</toponymName>
+        <name>Coventry</name>
+        <lat>52.41667</lat>
+        <lng>-1.5</lng>
+        <geonameId>3333139</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Cumbria</toponymName>
+        <name>Cumbria</name>
+        <lat>54.58333</lat>
+        <lng>-2.83333</lng>
+        <geonameId>2651712</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Darlington</toponymName>
+        <name>Darlington</name>
+        <lat>54.53333</lat>
+        <lng>-1.53333</lng>
+        <geonameId>3333141</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Derby</toponymName>
+        <name>Derby</name>
+        <lat>52.9207</lat>
+        <lng>-1.47217</lng>
+        <geonameId>3333142</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Derbyshire</toponymName>
+        <name>Derbyshire</name>
+        <lat>53.16667</lat>
+        <lng>-1.58333</lng>
+        <geonameId>2651346</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Devon</toponymName>
+        <name>Devon</name>
+        <lat>50.75</lat>
+        <lng>-3.75</lng>
+        <geonameId>2651292</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Doncaster</toponymName>
+        <name>Doncaster</name>
+        <lat>53.5</lat>
+        <lng>-1.08333</lng>
+        <geonameId>3333143</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Dorset</toponymName>
+        <name>Dorset</name>
+        <lat>50.75</lat>
+        <lng>-2.33333</lng>
+        <geonameId>2651079</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Dudley</toponymName>
+        <name>Dudley</name>
+        <lat>52.5</lat>
+        <lng>-2.11667</lng>
+        <geonameId>3333144</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>County Durham</toponymName>
+        <name>Durham</name>
+        <lat>54.7768</lat>
+        <lng>-1.57575</lng>
+        <geonameId>2650629</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>East Sussex</toponymName>
+        <name>East Sussex</name>
+        <lat>50.91667</lat>
+        <lng>0.33333</lng>
+        <geonameId>2650328</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>East Riding of Yorkshire</toponymName>
+        <name>East Yorkshire</name>
+        <lat>53.91667</lat>
+        <lng>-0.5</lng>
+        <geonameId>2650345</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Essex</toponymName>
+        <name>Essex</name>
+        <lat>51.83333</lat>
+        <lng>0.58333</lng>
+        <geonameId>2649889</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Gateshead</toponymName>
+        <name>Gateshead</name>
+        <lat>54.93333</lat>
+        <lng>-1.66667</lng>
+        <geonameId>2648772</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Gloucestershire</toponymName>
+        <name>Gloucestershire</name>
+        <lat>51.83333</lat>
+        <lng>-2.16667</lng>
+        <geonameId>2648402</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Halton</toponymName>
+        <name>Halton</name>
+        <lat>53.33333</lat>
+        <lng>-2.75</lng>
+        <geonameId>2647601</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Hampshire</toponymName>
+        <name>Hampshire</name>
+        <lat>51</lat>
+        <lng>-1.25</lng>
+        <geonameId>2647554</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Hartlepool</toponymName>
+        <name>Hartlepool</name>
+        <lat>54.66667</lat>
+        <lng>-1.25</lng>
+        <geonameId>3333152</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Herefordshire</toponymName>
+        <name>Herefordshire</name>
+        <lat>52.08333</lat>
+        <lng>-2.75</lng>
+        <geonameId>2647071</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Hertfordshire</toponymName>
+        <name>Hertfordshire</name>
+        <lat>51.83333</lat>
+        <lng>-0.25</lng>
+        <geonameId>2647043</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Isle of Wight</toponymName>
+        <name>Isle of Wight</name>
+        <lat>50.66667</lat>
+        <lng>-1.33333</lng>
+        <geonameId>2646007</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Isles of Scilly</toponymName>
+        <name>Isles of Scilly</name>
+        <lat>49.92117</lat>
+        <lng>-6.29431</lng>
+        <geonameId>2638384</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Kent</toponymName>
+        <name>Kent</name>
+        <lat>51.16667</lat>
+        <lng>0.66667</lng>
+        <geonameId>3333158</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City of Kingston upon Hull</toponymName>
+        <name>Kingston upon Hull</name>
+        <lat>53.75</lat>
+        <lng>-0.33333</lng>
+        <geonameId>3333159</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Kirklees</toponymName>
+        <name>Kirklees</name>
+        <lat>53.58333</lat>
+        <lng>-1.75</lng>
+        <geonameId>3333161</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Knowsley</toponymName>
+        <name>Knowsley</name>
+        <lat>53.41667</lat>
+        <lng>-2.83333</lng>
+        <geonameId>3333162</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Lancashire</toponymName>
+        <name>Lancashire</name>
+        <lat>53.83333</lat>
+        <lng>-2.5</lng>
+        <geonameId>2644974</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City and Borough of Leeds</toponymName>
+        <name>Leeds</name>
+        <lat>53.79644</lat>
+        <lng>-1.5477</lng>
+        <geonameId>3333164</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City of Leicester</toponymName>
+        <name>Leicester</name>
+        <lat>52.63333</lat>
+        <lng>-1.13333</lng>
+        <geonameId>3333165</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Leicestershire</toponymName>
+        <name>Leicestershire</name>
+        <lat>52.66667</lat>
+        <lng>-1</lng>
+        <geonameId>2644667</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Lincolnshire</toponymName>
+        <name>Lincolnshire</name>
+        <lat>53.16667</lat>
+        <lng>-0.25</lng>
+        <geonameId>2644486</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Liverpool</toponymName>
+        <name>Liverpool</name>
+        <lat>53.41667</lat>
+        <lng>-2.91667</lng>
+        <geonameId>3333167</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Luton</toponymName>
+        <name>Luton</name>
+        <lat>51.8911</lat>
+        <lng>-0.42793</lng>
+        <geonameId>3333168</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Manchester</toponymName>
+        <name>Manchester</name>
+        <lat>53.41667</lat>
+        <lng>-2.25</lng>
+        <geonameId>3333169</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Medway</toponymName>
+        <name>Medway</name>
+        <lat>51.41667</lat>
+        <lng>0.5</lng>
+        <geonameId>3333170</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Middlesbrough</toponymName>
+        <name>Middlesbrough</name>
+        <lat>54.53333</lat>
+        <lng>-1.2</lng>
+        <geonameId>3333172</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Milton Keynes</toponymName>
+        <name>Milton Keynes</name>
+        <lat>52.08333</lat>
+        <lng>-0.75</lng>
+        <geonameId>3333173</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Newcastle upon Tyne</toponymName>
+        <name>Newcastle upon Tyne</name>
+        <lat>55</lat>
+        <lng>-1.66667</lng>
+        <geonameId>3333174</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Norfolk</toponymName>
+        <name>Norfolk</name>
+        <lat>52.66667</lat>
+        <lng>1</lng>
+        <geonameId>2641455</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>North East Lincolnshire</toponymName>
+        <name>North East Lincolnshire</name>
+        <lat>53.53333</lat>
+        <lng>-0.08333</lng>
+        <geonameId>3333175</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>North Lincolnshire</toponymName>
+        <name>North Lincolnshire</name>
+        <lat>53.58333</lat>
+        <lng>-0.5</lng>
+        <geonameId>3333176</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>North Somerset</toponymName>
+        <name>North Somerset</name>
+        <lat>51.33333</lat>
+        <lng>-2.83333</lng>
+        <geonameId>3333177</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of North Tyneside</toponymName>
+        <name>North Tyneside</name>
+        <lat>55.03333</lat>
+        <lng>-1.5</lng>
+        <geonameId>2641238</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>North Yorkshire</toponymName>
+        <name>North Yorkshire</name>
+        <lat>54.16667</lat>
+        <lng>-1.5</lng>
+        <geonameId>2641209</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Northamptonshire</toponymName>
+        <name>Northamptonshire</name>
+        <lat>52.25</lat>
+        <lng>-0.83333</lng>
+        <geonameId>2641429</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Northumberland</toponymName>
+        <name>Northumberland</name>
+        <lat>55.25</lat>
+        <lng>-2</lng>
+        <geonameId>2641235</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Nottingham</toponymName>
+        <name>Nottingham</name>
+        <lat>52.96667</lat>
+        <lng>-1.15</lng>
+        <geonameId>3333178</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Nottinghamshire</toponymName>
+        <name>Nottinghamshire</name>
+        <lat>53.16667</lat>
+        <lng>-1</lng>
+        <geonameId>2641169</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Oldham</toponymName>
+        <name>Oldham</name>
+        <lat>53.55</lat>
+        <lng>-2.08333</lng>
+        <geonameId>3333179</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Oxfordshire</toponymName>
+        <name>Oxfordshire</name>
+        <lat>51.83333</lat>
+        <lng>-1.25</lng>
+        <geonameId>2640726</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Peterborough</toponymName>
+        <name>Peterborough</name>
+        <lat>52.58333</lat>
+        <lng>-0.25</lng>
+        <geonameId>3333180</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Plymouth</toponymName>
+        <name>Plymouth</name>
+        <lat>50.38333</lat>
+        <lng>-4.13333</lng>
+        <geonameId>3333181</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Poole</toponymName>
+        <name>Poole</name>
+        <lat>50.73333</lat>
+        <lng>-1.96667</lng>
+        <geonameId>3333182</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Portsmouth</toponymName>
+        <name>Portsmouth</name>
+        <lat>50.8</lat>
+        <lng>-1.06667</lng>
+        <geonameId>3333183</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Reading</toponymName>
+        <name>Reading</name>
+        <lat>51.45</lat>
+        <lng>-0.96667</lng>
+        <geonameId>3333184</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Redcar and Cleveland</toponymName>
+        <name>Redcar and Cleveland</name>
+        <lat>54.55</lat>
+        <lng>-1</lng>
+        <geonameId>3333186</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Rochdale</toponymName>
+        <name>Rochdale</name>
+        <lat>53.58333</lat>
+        <lng>-2.16667</lng>
+        <geonameId>3333188</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Rotherham</toponymName>
+        <name>Rotherham</name>
+        <lat>53.41667</lat>
+        <lng>-1.25</lng>
+        <geonameId>3333189</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>District of Rutland</toponymName>
+        <name>Rutland</name>
+        <lat>52.66667</lat>
+        <lng>-0.66667</lng>
+        <geonameId>2638918</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City and Borough of Salford</toponymName>
+        <name>Salford</name>
+        <lat>53.5</lat>
+        <lng>-2.33333</lng>
+        <geonameId>3333190</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Sandwell</toponymName>
+        <name>Sandwell</name>
+        <lat>52.5</lat>
+        <lng>-2</lng>
+        <geonameId>3333191</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Sefton</toponymName>
+        <name>Sefton</name>
+        <lat>53.5</lat>
+        <lng>-3</lng>
+        <geonameId>3333192</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Sheffield</toponymName>
+        <name>Sheffield</name>
+        <lat>53.41667</lat>
+        <lng>-1.5</lng>
+        <geonameId>3333193</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Shropshire</toponymName>
+        <name>Shropshire</name>
+        <lat>52.66667</lat>
+        <lng>-2.75</lng>
+        <geonameId>2638655</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Slough</toponymName>
+        <name>Slough</name>
+        <lat>51.5</lat>
+        <lng>-0.56667</lng>
+        <geonameId>3333194</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Solihull</toponymName>
+        <name>Solihull</name>
+        <lat>52.41667</lat>
+        <lng>-1.75</lng>
+        <geonameId>3333195</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Somerset</toponymName>
+        <name>Somerset</name>
+        <lat>51.08333</lat>
+        <lng>-3</lng>
+        <geonameId>2637532</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>South Gloucestershire</toponymName>
+        <name>South Gloucestershire</name>
+        <lat>51.5</lat>
+        <lng>-2.41667</lng>
+        <geonameId>3333198</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>South Tyneside</toponymName>
+        <name>South Tyneside</name>
+        <lat>54.95</lat>
+        <lng>-1.41667</lng>
+        <geonameId>3333199</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Southampton</toponymName>
+        <name>Southampton</name>
+        <lat>50.91667</lat>
+        <lng>-1.38333</lng>
+        <geonameId>3333196</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Southend-on-Sea</toponymName>
+        <name>Southend-on-Sea</name>
+        <lat>51.53333</lat>
+        <lng>0.7</lng>
+        <geonameId>3333197</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>St. Helens</toponymName>
+        <name>St. Helens</name>
+        <lat>53.41667</lat>
+        <lng>-2.75</lng>
+        <geonameId>3333201</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Staffordshire</toponymName>
+        <name>Staffordshire</name>
+        <lat>52.83333</lat>
+        <lng>-2</lng>
+        <geonameId>2637141</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Stockport</toponymName>
+        <name>Stockport</name>
+        <lat>53.41667</lat>
+        <lng>-2.16667</lng>
+        <geonameId>3333202</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Stockton-on-Tees</toponymName>
+        <name>Stockton-on-Tees</name>
+        <lat>54.55</lat>
+        <lng>-1.33333</lng>
+        <geonameId>3333203</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Stoke-on-Trent</toponymName>
+        <name>Stoke-on-Trent</name>
+        <lat>53</lat>
+        <lng>-2.16667</lng>
+        <geonameId>3333204</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Suffolk</toponymName>
+        <name>Suffolk</name>
+        <lat>52.16667</lat>
+        <lng>1</lng>
+        <geonameId>2636561</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Sunderland</toponymName>
+        <name>Sunderland</name>
+        <lat>54.88333</lat>
+        <lng>-1.41667</lng>
+        <geonameId>3333205</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Surrey</toponymName>
+        <name>Surrey</name>
+        <lat>51.25</lat>
+        <lng>-0.33333</lng>
+        <geonameId>2636512</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Swindon</toponymName>
+        <name>Swindon</name>
+        <lat>51.58333</lat>
+        <lng>-1.75</lng>
+        <geonameId>3333207</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Tameside</toponymName>
+        <name>Tameside</name>
+        <lat>53.5</lat>
+        <lng>-2.08333</lng>
+        <geonameId>3333208</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Telford and Wrekin</toponymName>
+        <name>Telford and Wrekin</name>
+        <lat>52.75</lat>
+        <lng>-2.5</lng>
+        <geonameId>3333209</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Thurrock</toponymName>
+        <name>Thurrock</name>
+        <lat>51.5</lat>
+        <lng>0.41667</lng>
+        <geonameId>2635885</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Torbay</toponymName>
+        <name>Torbay</name>
+        <lat>50.4516</lat>
+        <lng>-3.55785</lng>
+        <geonameId>3333210</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Trafford</toponymName>
+        <name>Trafford</name>
+        <lat>53.41667</lat>
+        <lng>-2.33333</lng>
+        <geonameId>3333211</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City and Borough of Wakefield</toponymName>
+        <name>Wakefield</name>
+        <lat>53.68085</lat>
+        <lng>-1.49895</lng>
+        <geonameId>3333212</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Walsall</toponymName>
+        <name>Walsall</name>
+        <lat>52.58333</lat>
+        <lng>-2</lng>
+        <geonameId>3333213</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Warrington</toponymName>
+        <name>Warrington</name>
+        <lat>53.41667</lat>
+        <lng>-2.58333</lng>
+        <geonameId>3333216</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Warwickshire</toponymName>
+        <name>Warwickshire</name>
+        <lat>52.33333</lat>
+        <lng>-1.58333</lng>
+        <geonameId>2634723</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>West Berkshire</toponymName>
+        <name>West Berkshire</name>
+        <lat>51.41667</lat>
+        <lng>-1.25</lng>
+        <geonameId>3333217</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>West Sussex</toponymName>
+        <name>West Sussex</name>
+        <lat>51</lat>
+        <lng>-0.41667</lng>
+        <geonameId>2634258</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Borough of Wigan</toponymName>
+        <name>Wigan</name>
+        <lat>53.5</lat>
+        <lng>-2.58333</lng>
+        <geonameId>3333219</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Wiltshire</toponymName>
+        <name>Wiltshire</name>
+        <lat>51.25</lat>
+        <lng>-1.91667</lng>
+        <geonameId>2633868</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Royal Borough of Windsor and Maidenhead</toponymName>
+        <name>Windsor and Maidenhead</name>
+        <lat>51.46667</lat>
+        <lng>-0.66667</lng>
+        <geonameId>2633840</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Metropolitan Borough of Wirral</toponymName>
+        <name>Wirral</name>
+        <lat>53.33333</lat>
+        <lng>-3.08333</lng>
+        <geonameId>3333220</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Wokingham</toponymName>
+        <name>Wokingham</name>
+        <lat>51.41667</lat>
+        <lng>-0.91667</lng>
+        <geonameId>3333221</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Wolverhampton</toponymName>
+        <name>Wolverhampton</name>
+        <lat>52.58333</lat>
+        <lng>-2.11667</lng>
+        <geonameId>3333222</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>Worcestershire</toponymName>
+        <name>Worcestershire</name>
+        <lat>52.16667</lat>
+        <lng>-2.16667</lng>
+        <geonameId>2633560</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+    <geoname>
+        <toponymName>City of York</toponymName>
+        <name>York</name>
+        <lat>53.96396</lat>
+        <lng>-1.09142</lng>
+        <geonameId>2633351</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>A</fcl>
+        <fcode>ADM2</fcode>
+    </geoname>
+</geonames>

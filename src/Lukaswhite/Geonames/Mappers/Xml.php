@@ -113,12 +113,16 @@ class Xml
         }
 
         if ( $el->bbox ) {
-            $geoname->setBoundingBox( [
+            $boundingBox = new BoundingBox( [
                 'west'  => floatval( $el->bbox->west ),
                 'north' => floatval( $el->bbox->north ),
                 'east'  => floatval( $el->bbox->east ),
                 'south' => floatval( $el->bbox->south ),
             ] );
+            if ( $el->bbox->accuracyLevel ) {
+                $boundingBox->setAccuracyLevel( intval( $el->bbox->accuracyLevel ) );
+            }
+            $geoname->setBoundingBox( $boundingBox );
         }
 
         if ( $el->alternateName ) {

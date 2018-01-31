@@ -2,7 +2,7 @@
 
 ## Installation
 
-> Because the package isn't quite ready for release, it's not yet available on Packagist, so the information below isn't strictly correct.
+!> Because the package isn't quite ready for release, it's not yet available on Packagist, so the information below isn't strictly correct.
 
 The package should be installed using [Composer](https://getcomposer.org/):
 
@@ -12,7 +12,7 @@ composer require lukaswhite/geonames
 
 ## Signing up for an Account
 
-You'll need a Geonames account in order to use the web serice &mdash; you can [sign up here](http://www.geonames.org/login) to get your username.
+!> You'll need a Geonames account in order to use the web serice &mdash; you can [sign up here](http://www.geonames.org/login) to get your username.
 
 ## Using the Web Service Client
 
@@ -60,11 +60,16 @@ Now use the class' numerous methods to build your query:
 
 ```php
 // Search for France
-$results = $search
+$query
     ->name( 'France' )
     ->filterByFeatureCode( 'PCLI' )
     ->limit( 5 );
+```
     
+To run the search:
+    
+```php    
+$results = $service->run( $query );    
 print $results->count( );
     
 foreach( $results as $feature ) {

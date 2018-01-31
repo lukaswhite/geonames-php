@@ -18,6 +18,7 @@ class ResultsetTest extends PHPUnit_Framework_TestCase{
 
         $this->assertInternalType( 'array', $results->getResults( ) );
         $this->assertEquals( [ 'one', 'two', 'three' ], $results->getResults( ) );
+        $this->assertEquals( [ 'one', 'two', 'three' ], $results->toArray( ) );
     }
 
     public function testFirstAndLast( )

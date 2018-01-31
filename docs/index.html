@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="/_styles/styles.css">
 </head>
 <body>
   <div id="app"></div>
@@ -14,11 +15,30 @@
     window.$docsify = {
       name: 'Geonames PHP',
       repo: 'https://github.com/lukaswhite/geonames-php',
-      loadSidebar: true
+      loadSidebar: true,
+      loadNavbar: true,
+      auto2top: true,
+      subMaxLevel: 0,
+        plugins: [
+          function (hook) {
+            var footer = [
+              '<hr/>',
+              '<footer>',
+              '<span>Geonames PHP is written by <a href="https://github.com/lukaswhite">lukaswhite</a>. Documentation published using <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
+              '</footer>'
+            ].join('')
+
+            hook.afterEach(function (html) {
+              return html + footer
+            })
+          }
+        ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-xml.min.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>

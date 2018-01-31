@@ -38,6 +38,13 @@ class BoundingBox
     private $west;
 
     /**
+     * The accuracy level
+     *
+     * @var int
+     */
+    private $accuracyLevel;
+
+    /**
      * Constructor
      *
      * @param array $points
@@ -122,6 +129,24 @@ class BoundingBox
     public function setWest( float $west ): BoundingBox
     {
         $this->west = $west;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAccuracyLevel()
+    {
+        return $this->accuracyLevel;
+    }
+
+    /**
+     * @param mixed $accuracyLevel
+     * @return BoundingBox
+     */
+    public function setAccuracyLevel( $accuracyLevel )
+    {
+        $this->accuracyLevel = $accuracyLevel;
         return $this;
     }
 
