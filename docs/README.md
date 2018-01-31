@@ -1,4 +1,4 @@
-<img src="/_media/logo.svg" width="300">
+<img src="/geonames-php/_media/logo.svg" width="300">
 
 A PHP package for working with [Geonames](http://www.geonames.org/).
 
