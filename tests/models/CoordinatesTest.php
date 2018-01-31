@@ -24,7 +24,7 @@ class CoordinatesTest extends PHPUnit_Framework_TestCase{
     public function testCreatingStringRepresentation( )
     {
         $coordinates = new Coordinate( [ 52.19634, 1.95727 ] );
-        $this->assertEquals( '52.19634, 1.95727',  ( string ) $coordinates );
+        $this->assertEquals( '52.19634° N, 1.95727° W',  ( string ) $coordinates );
     }
 
     public function testSetterAndGetter( )
