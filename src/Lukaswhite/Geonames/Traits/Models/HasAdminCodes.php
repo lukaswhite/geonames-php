@@ -55,7 +55,7 @@ trait HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminCode1(): string
+    public function getAdminCode1(): ?string
     {
         return $this->adminCode1;
     }
@@ -73,7 +73,7 @@ trait HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminCode2(): string
+    public function getAdminCode2(): ?string
     {
         return $this->adminCode2;
     }
@@ -91,7 +91,7 @@ trait HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminCode3(): string
+    public function getAdminCode3(): ?string
     {
         return $this->adminCode3;
     }
@@ -127,7 +127,7 @@ trait HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminName2(): string
+    public function getAdminName2(): ?string
     {
         return $this->adminName2;
     }
@@ -145,7 +145,7 @@ trait HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminName3(): string
+    public function getAdminName3(): ?string
     {
         return $this->adminName3;
     }
