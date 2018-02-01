@@ -43,6 +43,20 @@ class Classification
     private $code;
 
     /**
+     * The name of the feature class
+     *
+     * @var string
+     */
+    private $className;
+
+    /**
+     * The name of the feature code
+     *
+     * @var string
+     */
+    private $codeName;
+
+    /**
      * Feature constructor.
      * @param string $class
      * @param string $code
@@ -89,5 +103,39 @@ class Classification
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getClassName()
+    {
+        return $this->className;
+    }
 
+    /**
+     * @param mixed $className
+     * @return Classification
+     */
+    public function setClassName( $className )
+    {
+        $this->className = $className;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getCodeName(): string
+    {
+        return $this->codeName;
+    }
+
+    /**
+     * @param string $codeName
+     * @return Classification
+     */
+    public function setCodeName( string $codeName ): Classification
+    {
+        $this->codeName = $codeName;
+        return $this;
+    }
 }

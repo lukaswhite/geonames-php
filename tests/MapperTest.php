@@ -116,12 +116,49 @@ class MapperTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 'GLA', $london->getAdminCode2( ) );
         $this->assertEquals( 2, $london->getAdminCodeLevel( ) );
 
+        $this->assertInstanceOf(
+            \Lukaswhite\Geonames\Models\AdministrativeArea::class,
+            $london->getAdministrativeArea( 1 )
+        );
+        $this->assertEquals( 1, $london->getAdministrativeArea( 1 )->getLevel( ) );
+        $this->assertEquals( 'ENG', $london->getAdministrativeArea( 1 )->getCode( ) );
+        $this->assertEquals( 2, $london->getAdministrativeArea( 2 )->getLevel( ) );
+        $this->assertEquals( 'GLA', $london->getAdministrativeArea( 2 )->getCode( ) );
+
+
         $barnet = $results->getResults( )[ 90 ];
         $this->assertEquals( 'Barnet', $barnet->getName( ) );
         $this->assertEquals( 'ENG', $barnet->getAdminCode1( ) );
         $this->assertEquals( 'GLA', $barnet->getAdminCode2( ) );
         $this->assertEquals( 'A2', $barnet->getAdminCode3( ) );
         $this->assertEquals( 3, $barnet->getAdminCodeLevel( ) );
+
+        $this->assertEquals( 1, $barnet->getAdministrativeArea( 1 )->getLevel( ) );
+        $this->assertEquals( 'ENG', $barnet->getAdministrativeArea( 1 )->getCode( ) );
+        $this->assertEquals( 'England', $barnet->getAdministrativeArea( 1 )->getName( ) );
+        $this->assertEquals( 2, $barnet->getAdministrativeArea( 2 )->getLevel( ) );
+        $this->assertEquals( 'GLA', $barnet->getAdministrativeArea( 2 )->getCode( ) );
+        $this->assertEquals( 'Greater London', $barnet->getAdministrativeArea( 2 )->getName( ) );
+        $this->assertEquals( 3, $barnet->getAdministrativeArea( 3 )->getLevel( ) );
+        $this->assertEquals( 'A2', $barnet->getAdministrativeArea( 3 )->getCode( ) );
+        $this->assertEquals( 'Barnet', $barnet->getAdministrativeArea( 3 )->getName( ) );
+
+    }
+
+    public function testMappingScore( )
+    {
+        $str = $this->getFixture(
+            'search',
+            'uk-cities-5000.xml'
+        );
+
+        $mapper = new \Lukaswhite\Geonames\Mappers\Xml();
+        $results = $mapper->mapFeatures( simplexml_load_string( $str ) );
+
+        $this->assertInstanceOf( \Lukaswhite\Geonames\Results\Resultset::class, $results );
+
+        $london = $results->first( );
+        $this->assertEquals( 283.94940185546875, $london->getScore( ) );
 
     }
 

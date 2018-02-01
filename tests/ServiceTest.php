@@ -235,6 +235,30 @@ class ServiceTest extends PHPUnit_Framework_TestCase{
 
     }
 
+    public function testContainsHierarchyQuery( )
+    {
+        $client = $this->getClientThatReturns( '/fixtures/hierarchies/populated-places-in-borough-barnet.xml' );
+        $service = new Geonames( 'user123', $client );
+
+        $query = new \Lukaswhite\Geonames\Query\Hierarchy\Contains( 3333121 );
+        $query->filterByFeatureCode( 'PPL' );
+
+        $results = $service->run( $query );
+        $this->assertEquals( 16, $results->count( ) );
+
+        $arkley = $results->first( );
+        $this->assertInstanceOf( \Lukaswhite\Geonames\Models\Feature::class, $arkley );
+        $this->assertEquals( 9072593, $arkley->getId( ) );
+        $this->assertEquals( 'Arkley', $arkley->getName( ) );
+        $this->assertEquals( 'Arkley', $arkley->getToponymName( ) );
+        $this->assertEquals( 51.64668, $arkley->getCoordinates( )->getLatitude( ) );
+        $this->assertEquals( -0.23526, $arkley->getCoordinates( )->getLongitude( ) );
+        $this->assertEquals( 'GB', $arkley->getCountry( )->getCode( ) );
+        $this->assertEquals( 'United Kingdom', $arkley->getCountry( )->getName( ) );
+        $this->assertEquals( 'P', $arkley->getClassification( )->getClass( ) );
+        $this->assertEquals( 'PPL', $arkley->getClassification( )->getCode( ) );
+    }
+
     public function testLogger( )
     {
         $client = $this->getClientThatReturns( '/fixtures/get/barnet.xml' );
@@ -315,24 +339,6 @@ class ServiceTest extends PHPUnit_Framework_TestCase{
         $query = new Get( );
         $query->setPlace( 2656295 );
         $service->run( ( new Get( ) )->setPlace( 2656295 ) );
-    }
-
-    public function ___testLookup( )
-    {
-        $mock = new MockHandler( [
-            new Response( 200, [ ], file_get_contents( __DIR__ . '/fixtures/get/barnet.xml' ) ),
-        ] );
-
-        $handler = HandlerStack::create( $mock );
-
-        $client = new Client( [
-            'username'  =>  'user123',
-            'handler'   =>  $handler,
-        ] );
-
-        $place = $client->lookup( 2656295 );
-        $this->assertInstanceOf( \Lukaswhite\Geonames\Models\Feature::class, $place );
-        $this->assertEquals( 'Barnet', $place->getName( ) );
     }
 
     /**

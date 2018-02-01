@@ -22,6 +22,8 @@ class Get implements QueriesService
 
     /**
      * Get constructor.
+     *
+     * @param integer|Feature $place
      */
     public function __construct( $place = null )
     {

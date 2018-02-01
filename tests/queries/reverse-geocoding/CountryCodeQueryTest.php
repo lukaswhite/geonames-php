@@ -13,14 +13,14 @@ class CountryCodeQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new CountryCode( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'countryCode', $search->getUri( ) );
+        $query = new CountryCode( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'countryCode', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new CountryCode( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'string', $search->expects( ) );
+        $query = new CountryCode( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'string', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,13 +29,13 @@ class CountryCodeQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new CountryCode( $coordinates );
+        $query = new CountryCode( $coordinates );
 
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 53.41667, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -2.25, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 53.41667, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -2.25, $query->build( )[ 'lng' ] );
 
     }
 
@@ -45,11 +45,11 @@ class CountryCodeQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new CountryCode( $coordinates );
-        $search->withinRadius( 25 );
+        $query = new CountryCode( $coordinates );
+        $query->withinRadius( 25 );
 
-        $this->assertArrayHasKey( 'radius', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'radius' ] );
+        $this->assertArrayHasKey( 'radius', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'radius' ] );
 
     }
 

@@ -13,14 +13,14 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new FindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'findNearby', $search->getUri( ) );
+        $query = new FindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'findNearby', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new FindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'features', $search->expects( ) );
+        $query = new FindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'features', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,13 +29,13 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
+        $query = new FindNearby( $coordinates );
 
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 53.41667, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -2.25, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 53.41667, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -2.25, $query->build( )[ 'lng' ] );
 
     }
 
@@ -45,11 +45,11 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
-        $search->withinRadius( 25 );
+        $query = new FindNearby( $coordinates );
+        $query->withinRadius( 25 );
 
-        $this->assertArrayHasKey( 'radius', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'radius' ] );
+        $this->assertArrayHasKey( 'radius', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'radius' ] );
 
     }
 
@@ -59,12 +59,12 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
+        $query = new FindNearby( $coordinates );
 
-        $search->withinRadius( 25 )->full( );
+        $query->withinRadius( 25 )->full( );
 
-        $this->assertArrayHasKey( 'style', $search->build( ) );
-        $this->assertEquals( 'FULL', $search->build( )[ 'style' ] );
+        $this->assertArrayHasKey( 'style', $query->build( ) );
+        $this->assertEquals( 'FULL', $query->build( )[ 'style' ] );
 
     }
 
@@ -75,32 +75,32 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
+        $query = new FindNearby( $coordinates );
 
-        $search->withinRadius( 25 )
+        $query->withinRadius( 25 )
             ->full( )
             ->limit( 25 );
 
-        $this->assertArrayHasKey( 'maxRows', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'maxRows' ] );
+        $this->assertArrayHasKey( 'maxRows', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'maxRows' ] );
     }
 
     public function testLocalCountryIncludedInQuery( )
     {
-        $search = new FindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $query = new FindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
 
         $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( );
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
+        $query = new FindNearby( $coordinates );
 
-        $search->withinRadius( 25 )->full( )
+        $query->withinRadius( 25 )->full( )
             ->limit( 25 )
             ->justLocalCountry( );
 
-        $this->assertArrayHasKey( 'localCountry', $search->build( ) );
-        $this->assertEquals( true, $search->build( )[ 'localCountry' ] );
+        $this->assertArrayHasKey( 'localCountry', $query->build( ) );
+        $this->assertEquals( true, $query->build( )[ 'localCountry' ] );
     }
 
     public function testLimitingByFeatureClass( )
@@ -109,21 +109,21 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
-        $this->assertArrayNotHasKey( 'featureClass', $search->build( ) );
-        $this->assertInstanceOf( FindNearby::class, $search->filterByFeatureClass( 'A' ) );
-        $this->assertArrayHasKey( 'featureClass', $search->build() );
-        $this->assertInternalType( 'array', $search->build()[ 'featureClass' ] );
-        $this->assertEquals( [ 'A' ], $search->build()[ 'featureClass' ] );
-        unset( $search );
+        $query = new FindNearby( $coordinates );
+        $this->assertArrayNotHasKey( 'featureClass', $query->build( ) );
+        $this->assertInstanceOf( FindNearby::class, $query->filterByFeatureClass( 'A' ) );
+        $this->assertArrayHasKey( 'featureClass', $query->build() );
+        $this->assertInternalType( 'array', $query->build()[ 'featureClass' ] );
+        $this->assertEquals( [ 'A' ], $query->build()[ 'featureClass' ] );
+        unset( $query );
 
-        $search = new FindNearby( $coordinates );
-        $this->assertArrayNotHasKey( 'featureClass', $search->build( ) );
-        $search->filterByFeatureClass( 'A', 'P' );
-        $this->assertArrayHasKey( 'featureClass', $search->build() );
-        $this->assertInternalType( 'array', $search->build()[ 'featureClass' ] );
-        $this->assertEquals( [ 'A', 'P' ], $search->build()[ 'featureClass' ] );
-        unset( $search );
+        $query = new FindNearby( $coordinates );
+        $this->assertArrayNotHasKey( 'featureClass', $query->build( ) );
+        $query->filterByFeatureClass( 'A', 'P' );
+        $this->assertArrayHasKey( 'featureClass', $query->build() );
+        $this->assertInternalType( 'array', $query->build()[ 'featureClass' ] );
+        $this->assertEquals( [ 'A', 'P' ], $query->build()[ 'featureClass' ] );
+        unset( $query );
     }
 
     public function testLimitingByFeatureCode( )
@@ -132,22 +132,22 @@ class FindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearby( $coordinates );
+        $query = new FindNearby( $coordinates );
 
-        $this->assertArrayNotHasKey( 'featureCode', $search->build( ) );
-        $this->assertInstanceOf( FindNearby::class, $search->filterByFeatureCode( 'PPL' ) );
-        $this->assertArrayHasKey( 'featureCode', $search->build() );
-        $this->assertInternalType( 'array', $search->build()[ 'featureCode' ] );
-        $this->assertEquals( [ 'PPL' ], $search->build()[ 'featureCode' ] );
-        unset( $search );
+        $this->assertArrayNotHasKey( 'featureCode', $query->build( ) );
+        $this->assertInstanceOf( FindNearby::class, $query->filterByFeatureCode( 'PPL' ) );
+        $this->assertArrayHasKey( 'featureCode', $query->build() );
+        $this->assertInternalType( 'array', $query->build()[ 'featureCode' ] );
+        $this->assertEquals( [ 'PPL' ], $query->build()[ 'featureCode' ] );
+        unset( $query );
 
-        $search = new FindNearby( $coordinates );
-        $this->assertArrayNotHasKey( 'featureClass', $search->build( ) );
-        $search->filterByFeatureCode( 'PPL', 'PPLA2' );
-        $this->assertArrayHasKey( 'featureCode', $search->build() );
-        $this->assertInternalType( 'array', $search->build()[ 'featureCode' ] );
-        $this->assertEquals( [ 'PPL', 'PPLA2' ], $search->build()[ 'featureCode' ] );
-        unset( $search );
+        $query = new FindNearby( $coordinates );
+        $this->assertArrayNotHasKey( 'featureClass', $query->build( ) );
+        $query->filterByFeatureCode( 'PPL', 'PPLA2' );
+        $this->assertArrayHasKey( 'featureCode', $query->build() );
+        $this->assertInternalType( 'array', $query->build()[ 'featureCode' ] );
+        $this->assertEquals( [ 'PPL', 'PPLA2' ], $query->build()[ 'featureCode' ] );
+        unset( $query );
     }
 
 }

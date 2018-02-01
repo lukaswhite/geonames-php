@@ -2,7 +2,9 @@
 
 use Lukaswhite\Geonames\Contracts\HasAdminCodes as HasAdminCodesContract;
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames as HasAdminCodeNamesContract;
+use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas as HasAdministrativeAreasContract;
 use Lukaswhite\Geonames\Traits\Models\HasAdminCodes;
+use Lukaswhite\Geonames\Traits\Models\HasAdministrativeAreas;
 use Lukaswhite\Geonames\Traits\Models\HasCountryCode;
 use Lukaswhite\Geonames\Traits\Models\HasCountryName;
 use Lukaswhite\Geonames\Traits\Models\HasDistance;
@@ -14,11 +16,12 @@ use Lukaswhite\Geonames\Traits\Models\HasDistance;
  *
  * @package Lukaswhite\Geonames\Models
  */
-class CountrySubdivision implements HasAdminCodesContract, HasAdminCodeNamesContract
+class CountrySubdivision implements HasAdminCodesContract, HasAdminCodeNamesContract, HasAdministrativeAreasContract
 {
     use HasCountryCode,
         HasCountryName,
         HasAdminCodes,
+        HasAdministrativeAreas,
         HasDistance;
 
     /**

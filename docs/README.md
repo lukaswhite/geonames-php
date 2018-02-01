@@ -7,10 +7,10 @@ It's currently primarily designed for working with the [Geonames web services](h
 ## Features
 
 * Search the Geonames database
-* Get information about a feaure
+* Get information about a feature; for example information about a city or town
 * Perform reverse geocoding; find the nearest city, the country a point is in, and more
 * Examine hierarchies; for example get the counties, cities or states within a country
-* Obtain country information
+* Obtain information about the countries of the World
   
   
   <ul class="buttons">    

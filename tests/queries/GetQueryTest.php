@@ -14,28 +14,28 @@ class GetQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new Get( );
-        $this->assertEquals( 'get', $search->getUri( ) );
+        $query = new Get( );
+        $this->assertEquals( 'get', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new Get( );
-        $this->assertEquals( 'feature', $search->expects( ) );
+        $query = new Get( );
+        $this->assertEquals( 'feature', $query->expects( ) );
     }
 
     public function testSettingPlace( )
     {
-        $search = new Get( 12345 );
-        $this->assertAttributeEquals( 12345, 'geonamesId', $search );
-        $this->assertArrayHasKey( 'geonameId', $search->build( ) );
-        $this->assertEquals( 12345, $search->build( )[ 'geonameId' ] );
-        unset( $search );
+        $query = new Get( 12345 );
+        $this->assertAttributeEquals( 12345, 'geonamesId', $query );
+        $this->assertArrayHasKey( 'geonameId', $query->build( ) );
+        $this->assertEquals( 12345, $query->build( )[ 'geonameId' ] );
+        unset( $query );
 
         $place = new \Lukaswhite\Geonames\Models\Feature( );
         $place->setId( 12345 );
-        $search = new Get( $place );
-        $this->assertAttributeEquals( 12345, 'geonamesId', $search );
+        $query = new Get( $place );
+        $this->assertAttributeEquals( 12345, 'geonamesId', $query );
     }
 
     /**
@@ -43,8 +43,8 @@ class GetQueryTest extends PHPUnit_Framework_TestCase{
      */
     public function testThrowsExceptionIfPlaceInvalid( )
     {
-        $search = new Get( );
-        $search->setPlace( false );
+        $query = new Get( );
+        $query->setPlace( false );
     }
 
 }

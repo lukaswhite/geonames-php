@@ -1,5 +1,7 @@
 <?php namespace Lukaswhite\Geonames\Traits\Models;
 
+use Lukaswhite\Geonames\Models\AdministrativeArea;
+
 /**
  * Trait HasAdminCodes
  *
@@ -48,6 +50,7 @@ trait HasAdminCodes
      * @var string
      */
     private $adminName3;
+
 
     /**
      * @return string
@@ -163,6 +166,7 @@ trait HasAdminCodes
      * set then it returns 3, and if none are set it returns 0.
      *
      * @return integer
+     * @todo There are situations where 1 & 3 are set; what happens then?
      */
     public function getAdminCodeLevel( )
     {

@@ -13,14 +13,14 @@ class ExtendedFindNearbyQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new ExtendedFindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'extendedFindNearby', $search->getUri( ) );
+        $query = new ExtendedFindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'extendedFindNearby', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new ExtendedFindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'features|addresses', $search->expects( ) );
+        $query = new ExtendedFindNearby( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'features|addresses', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,13 +29,13 @@ class ExtendedFindNearbyQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new ExtendedFindNearby( $coordinates );
+        $query = new ExtendedFindNearby( $coordinates );
 
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 53.41667, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -2.25, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 53.41667, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -2.25, $query->build( )[ 'lng' ] );
 
     }
 

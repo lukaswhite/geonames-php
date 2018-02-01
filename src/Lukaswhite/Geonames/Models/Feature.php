@@ -1,9 +1,11 @@
 <?php namespace Lukaswhite\Geonames\Models;
 
 use Lukaswhite\Geonames\Traits\Models\HasAdminCodes;
+use Lukaswhite\Geonames\Traits\Models\HasAdministrativeAreas;
 use Lukaswhite\Geonames\Models\Timezone;
 use Lukaswhite\Geonames\Contracts\HasAdminCodes as HasAdminCodesContract;
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames as HasAdminCodeNamesContract;
+use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas as HasAdministrativeAreasContract;
 use Lukaswhite\Geonames\Contracts\HasCoordinates as HasCoordinatesContract;
 use Lukaswhite\Geonames\Traits\Geo\HasCoordinates;
 use Lukaswhite\Geonames\Traits\Models\HasDistance;
@@ -27,12 +29,13 @@ use Lukaswhite\Geonames\Traits\Geo\HasBoundingBox;
  *
  * @package Lukaswhite\Geonames\Models
  */
-class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasCoordinatesContract
+class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasAdministrativeAreasContract, HasCoordinatesContract
 {
     use HasGeonamesId,
         HasCoordinates,
         HasBoundingBox,
         HasAdminCodes,
+        HasAdministrativeAreas,
         HasName,
         HasDistance;
 
@@ -127,6 +130,14 @@ class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasCo
      * @vars Timezone
      */
     private $timezone;
+
+    /**
+     * The (relevance) score; this is only applicable when a feature
+     * has been obtained as the result of a search
+     *
+     * @var float
+     */
+    private $score;
 
     /**
      * Geoname constructor.
@@ -420,6 +431,24 @@ class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasCo
     public function setTimezone( Timezone $timezone )
     {
         $this->timezone = $timezone;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getScore()
+    {
+        return $this->score;
+    }
+
+    /**
+     * @param mixed $score
+     * @return Feature
+     */
+    public function setScore( $score )
+    {
+        $this->score = $score;
         return $this;
     }
 

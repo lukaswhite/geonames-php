@@ -13,14 +13,14 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new NearbyPostalCodes( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'findNearbyPostalCodes', $search->getUri( ) );
+        $query = new NearbyPostalCodes( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'findNearbyPostalCodes', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new NearbyPostalCodes( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'codes', $search->expects( ) );
+        $query = new NearbyPostalCodes( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'codes', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,13 +29,13 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearbyPostalCodes( $coordinates );
+        $query = new NearbyPostalCodes( $coordinates );
 
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 53.41667, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -2.25, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 53.41667, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -2.25, $query->build( )[ 'lng' ] );
 
     }
 
@@ -45,11 +45,11 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearbyPostalCodes( $coordinates );
-        $search->withinRadius( 25 );
+        $query = new NearbyPostalCodes( $coordinates );
+        $query->withinRadius( 25 );
 
-        $this->assertArrayHasKey( 'radius', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'radius' ] );
+        $this->assertArrayHasKey( 'radius', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'radius' ] );
 
     }
 
@@ -59,12 +59,12 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearbyPostalCodes( $coordinates );
+        $query = new NearbyPostalCodes( $coordinates );
 
-        $search->withinRadius( 25 )->full( );
+        $query->withinRadius( 25 )->full( );
 
-        $this->assertArrayHasKey( 'style', $search->build( ) );
-        $this->assertEquals( 'FULL', $search->build( )[ 'style' ] );
+        $this->assertArrayHasKey( 'style', $query->build( ) );
+        $this->assertEquals( 'FULL', $query->build( )[ 'style' ] );
 
     }
 
@@ -75,14 +75,14 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearbyPostalCodes( $coordinates );
+        $query = new NearbyPostalCodes( $coordinates );
 
-        $search->withinRadius( 25 )
+        $query->withinRadius( 25 )
             ->full( )
             ->limit( 25 );
 
-        $this->assertArrayHasKey( 'maxRows', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'maxRows' ] );
+        $this->assertArrayHasKey( 'maxRows', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'maxRows' ] );
     }
 
     public function testLocalCountryIncludedInQuery( )
@@ -91,14 +91,14 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearbyPostalCodes( $coordinates );
+        $query = new NearbyPostalCodes( $coordinates );
 
-        $search->withinRadius( 25 )->full( )
+        $query->withinRadius( 25 )->full( )
             ->limit( 25 )
             ->justLocalCountry( );
 
-        $this->assertArrayHasKey( 'localCountry', $search->build( ) );
-        $this->assertEquals( true, $search->build( )[ 'localCountry' ] );
+        $this->assertArrayHasKey( 'localCountry', $query->build( ) );
+        $this->assertEquals( true, $query->build( )[ 'localCountry' ] );
     }
 
 }

@@ -1,4 +1,4 @@
-# Search
+# Searching
 
 You'll probably want to add the following `use` statements:
 

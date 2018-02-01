@@ -6,18 +6,18 @@ class ChildrenHierarchyTest extends PHPUnit_Framework_TestCase{
 
     public function testBuildingQuery( )
     {
-        $search = ( new Hierarchy\Children( 12345 ) );
-        $this->assertAttributeEquals( 12345, 'geonamesId', $search );
-        $this->assertEquals( 'children', $search->getUri( ) );
-        $this->assertEquals( 'features', $search->expects( ) );
-        $this->assertArrayHasKey( 'geonameId', $search->build( ) );
-        $this->assertEquals( 12345, $search->build( )[ 'geonameId' ] );
-        unset( $search );
+        $query = ( new Hierarchy\Children( 12345 ) );
+        $this->assertAttributeEquals( 12345, 'geonamesId', $query );
+        $this->assertEquals( 'children', $query->getUri( ) );
+        $this->assertEquals( 'features', $query->expects( ) );
+        $this->assertArrayHasKey( 'geonameId', $query->build( ) );
+        $this->assertEquals( 12345, $query->build( )[ 'geonameId' ] );
+        unset( $query );
 
         $place = new \Lukaswhite\Geonames\Models\Feature( );
         $place->setId( 12345 );
-        $search = ( new Hierarchy\Children( $place ) );
-        $this->assertAttributeEquals( 12345, 'geonamesId', $search );
+        $query = ( new Hierarchy\Children( $place ) );
+        $this->assertAttributeEquals( 12345, 'geonamesId', $query );
     }
 
     /**
@@ -25,23 +25,23 @@ class ChildrenHierarchyTest extends PHPUnit_Framework_TestCase{
      */
     public function testThrowsExceptionIfPlaceInvalidType( )
     {
-        $search = ( new Hierarchy\Children( true ) );
+        $query = ( new Hierarchy\Children( true ) );
     }
 
     public function testSettingHierarchy( )
     {
-        $search = ( new Hierarchy\Children( 12345 ) );
-        $search->ofType( 'tourism' );
-        $this->assertArrayHasKey( 'hierarchy', $search->build() );
-        $this->assertEquals( 'tourism', $search->build()[ 'hierarchy' ] );
+        $query = ( new Hierarchy\Children( 12345 ) );
+        $query->ofType( 'tourism' );
+        $this->assertArrayHasKey( 'hierarchy', $query->build() );
+        $this->assertEquals( 'tourism', $query->build()[ 'hierarchy' ] );
     }
 
     public function testLimitingQuery( )
     {
-        $search = ( new Hierarchy\Children( 12345 ) );
-        $search->limit( 250 );
-        $this->assertArrayHasKey( 'maxRows', $search->build() );
-        $this->assertEquals( 250, $search->build()[ 'maxRows' ] );
+        $query = ( new Hierarchy\Children( 12345 ) );
+        $query->limit( 250 );
+        $this->assertArrayHasKey( 'maxRows', $query->build() );
+        $this->assertEquals( 250, $query->build()[ 'maxRows' ] );
     }
 
 

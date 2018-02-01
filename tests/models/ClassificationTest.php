@@ -15,6 +15,10 @@ class ClassificationTest extends PHPUnit_Framework_TestCase{
         $classification = new Classification( 'P' );
         $classification->setClass( 'A' );
         $this->assertEquals( 'A', $classification->getClass( ) );
+        $classification->setClassName( 'country, state, region,...' );
+        $this->assertEquals( 'country, state, region,...', $classification->getClassName( ) );
+        $classification->setCodeName( 'first-order administrative division' );
+        $this->assertEquals( 'first-order administrative division', $classification->getCodeName( ) );
     }
 
 }

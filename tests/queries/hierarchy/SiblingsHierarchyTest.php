@@ -6,51 +6,51 @@ class SiblingsHierarchyTest extends PHPUnit_Framework_TestCase{
 
     public function testBuildingQuery( )
     {
-        $search = ( new Hierarchy\Siblings( 12345 ) );
-        $this->assertEquals( 'siblings', $search->getUri( ) );
-        $this->assertEquals( 'features', $search->expects( ) );
-        $this->assertArrayHasKey( 'geonameId', $search->build( ) );
-        $this->assertEquals( 12345, $search->build( )[ 'geonameId' ] );
+        $query = ( new Hierarchy\Siblings( 12345 ) );
+        $this->assertEquals( 'siblings', $query->getUri( ) );
+        $this->assertEquals( 'features', $query->expects( ) );
+        $this->assertArrayHasKey( 'geonameId', $query->build( ) );
+        $this->assertEquals( 12345, $query->build( )[ 'geonameId' ] );
 
         $place = new \Lukaswhite\Geonames\Models\Feature( );
         $place->setId( 12345 );
-        $search = ( new Hierarchy\Siblings( $place ) );
-        $this->assertAttributeEquals( 12345, 'geonamesId', $search );
+        $query = ( new Hierarchy\Siblings( $place ) );
+        $this->assertAttributeEquals( 12345, 'geonamesId', $query );
     }
 
     public function testStyle( )
     {
-        $search = new Hierarchy\Siblings( 12345 );
-        $this->assertArrayNotHasKey( 'style', $search->build( ) );
-        $this->assertInstanceOf( Hierarchy\Siblings::class, $search->style( 'FULL' ) );
-        $this->assertArrayHasKey( 'style', $search->build() );
-        $this->assertEquals( 'FULL', $search->build()[ 'style' ] );
-        unset( $search );
+        $query = new Hierarchy\Siblings( 12345 );
+        $this->assertArrayNotHasKey( 'style', $query->build( ) );
+        $this->assertInstanceOf( Hierarchy\Siblings::class, $query->style( 'FULL' ) );
+        $this->assertArrayHasKey( 'style', $query->build() );
+        $this->assertEquals( 'FULL', $query->build()[ 'style' ] );
+        unset( $query );
 
-        $search = new Hierarchy\Siblings( 12345 );
-        $search->style( 'short' );
-        $this->assertEquals( 'SHORT', $search->build()[ 'style' ] );
-        unset( $search );
+        $query = new Hierarchy\Siblings( 12345 );
+        $query->style( 'short' );
+        $this->assertEquals( 'SHORT', $query->build()[ 'style' ] );
+        unset( $query );
 
-        $search = new Hierarchy\Siblings( 12345 );
-        $search->style( 'MedIUM' );
-        $this->assertEquals( 'MEDIUM', $search->build()[ 'style' ] );
-        unset( $search );
+        $query = new Hierarchy\Siblings( 12345 );
+        $query->style( 'MedIUM' );
+        $this->assertEquals( 'MEDIUM', $query->build()[ 'style' ] );
+        unset( $query );
 
-        $search = new Hierarchy\Siblings( 12345 );
-        $search->style( 'LONG' );
-        $this->assertEquals( 'LONG', $search->build()[ 'style' ] );
-        unset( $search );
+        $query = new Hierarchy\Siblings( 12345 );
+        $query->style( 'LONG' );
+        $this->assertEquals( 'LONG', $query->build()[ 'style' ] );
+        unset( $query );
 
-        $search = new Hierarchy\Siblings( 12345 );
-        $search->short( );
-        $this->assertEquals( 'SHORT', $search->build()[ 'style' ] );
-        $search->medium( );
-        $this->assertEquals( 'MEDIUM', $search->build()[ 'style' ] );
-        $search->long( );
-        $this->assertEquals( 'LONG', $search->build()[ 'style' ] );
-        $search->full( );
-        $this->assertEquals( 'FULL', $search->build()[ 'style' ] );
-        unset( $search );
+        $query = new Hierarchy\Siblings( 12345 );
+        $query->short( );
+        $this->assertEquals( 'SHORT', $query->build()[ 'style' ] );
+        $query->medium( );
+        $this->assertEquals( 'MEDIUM', $query->build()[ 'style' ] );
+        $query->long( );
+        $this->assertEquals( 'LONG', $query->build()[ 'style' ] );
+        $query->full( );
+        $this->assertEquals( 'FULL', $query->build()[ 'style' ] );
+        unset( $query );
     }
 }

@@ -88,4 +88,31 @@ $search
     ->limit( 25 );
 ```
 
+|Name   |Geonames ID   |Feature Class   |Feature Code   |
+|---|---|---|---|
+|Europe   |6255148   |L   |CONT   |
+|North America   |6255149   |L   |CONT   |
+|United Kingdom   |2635167   |A   |PCLI   |
+|England   |6269131   |A   |ADM1   |
+|Greater London   |2648110   |A   |ADM2   |
+|Texas   |4736286   |A   |ADM1   |
+|France   |3017382   |A   |PCLI   |
+|Germany   |2921044   |A   |PCLI   |
+|Italy   |3175395   |A   |PCLI   |
+|Switzerland   |2658434   |A   |PCLI   |
+
+
+http://www.openstreetmap.org/?minlon=--6.41894&minlat=-6.41894&maxlon=1.76891&maxlat=55.81166&box=yes
+
+<west>-6.41894</west>
+<north>55.81166</north>
+<east>1.76891</east>
+<south>-6.41894</south>
+
+-6.41894,49.86464,1.76891,55.81166
+<north>55.81166</north>
+<east>1.76891</east>
+<south>-6.41894</south>
+
+
 

@@ -13,14 +13,14 @@ class NeighbourhoodQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new Neighbourhood( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'neighbourhood', $search->getUri( ) );
+        $query = new Neighbourhood( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'neighbourhood', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new Neighbourhood( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'neighbourhood', $search->expects( ) );
+        $query = new Neighbourhood( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'neighbourhood', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,12 +29,12 @@ class NeighbourhoodQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 40.78343 )
             ->setLongitude( -73.96625 );
 
-        $search = new Neighbourhood( $coordinates );
+        $query = new Neighbourhood( $coordinates );
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 40.78343, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -73.96625, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 40.78343, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -73.96625, $query->build( )[ 'lng' ] );
 
     }
 

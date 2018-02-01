@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geonames style="FULL">
+    <totalResultsCount>1655</totalResultsCount>
+    <geoname>
+        <toponymName>London</toponymName>
+        <name>London</name>
+        <lat>51.50853</lat>
+        <lng>-0.12574</lng>
+        <geonameId>2643743</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLC</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>capital of a political entity</fcodeName>
+        <population>7556900</population>
+        <asciiName>London</asciiName>
+        <alternateNames>Gorad Londan,ILondon,LON,Lakana,Landan,Landen,Ljondan,Llundain,Lodoni,Londain,Londan,Londar,Londe,Londen,Londin,Londinium,Londino,Londn,London,London osh,Londona,Londonas,Londoni,Londono,Londons,Londonu,Londra,Londres,Londrez,Londri,Londro,Londye,Londyn,Londýn,Lonn,Lontoo,Loundres,Luan GJon,Lun-tun,Lunden,Lundra,Lundun,Lundunir,Lundúnir,Lung-dung,Lunnainn,Lunnin,Lunnon,Luân Đôn,Lùn-tûn,Lùng-dŭng,Lûn-tun,Lākana,Lůndůn,Lọndọnu,Ranana,Rānana,ilantan,ladana,landan,landana,leondeon,lndn,london,londoni,lun dui,lun dun,lwndwn,lxndxn,rondon,Łondra,Λονδίνο,Горад Лондан,Лондан,Лондон,Лондон ош,Лондонъ,Лёндан,Լոնդոն,לאנדאן,לונדון,لأندأن,لندن,لوندون,لەندەن,ܠܘܢܕܘܢ,लंडन,लंदन,लण्डन,लन्डन्,लन्दन,লন্ডন,ਲੰਡਨ,લંડન,ଲଣ୍ଡନ,இலண்டன்,లండన్,ಲಂಡನ್,ലണ്ടൻ,ලන්ඩන්,ลอนดอน,ລອນດອນ,ལོན་ཊོན།,လန်ဒန်မြို့,ლონდონი,ለንደን,ᎫᎴ ᏗᏍᎪᏂᎯᏱ,ロンドン,伦敦,倫敦,런던</alternateNames>
+        <elevation/>
+        <srtm3>25</srtm3>
+        <astergdem>33</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>GLA</adminCode2>
+        <adminName2>Greater London</adminName2>
+        <alternateName lang="ab">Лондан</alternateName>
+        <alternateName lang="af">Londen</alternateName>
+        <alternateName lang="als">London</alternateName>
+        <alternateName lang="am">ለንደን</alternateName>
+        <alternateName lang="an">Londres</alternateName>
+        <alternateName lang="ang">Lunden</alternateName>
+        <alternateName lang="ar">لندن</alternateName>
+        <alternateName lang="arc">ܠܘܢܕܘܢ</alternateName>
+        <alternateName lang="arz">لندن</alternateName>
+        <alternateName lang="ast">Londres</alternateName>
+        <alternateName lang="az">London</alternateName>
+        <alternateName lang="azb">لندن</alternateName>
+        <alternateName lang="ba">Лондон</alternateName>
+        <alternateName lang="bcl">Londres</alternateName>
+        <alternateName lang="be">Горад Лондан</alternateName>
+        <alternateName lang="bg">Лондон</alternateName>
+        <alternateName lang="bh">लंदन</alternateName>
+        <alternateName lang="bn">লন্ডন</alternateName>
+        <alternateName lang="bo">ལོན་ཊོན།</alternateName>
+        <alternateName lang="br">Londrez</alternateName>
+        <alternateName lang="bs">London</alternateName>
+        <alternateName lang="bxr">Лондон</alternateName>
+        <alternateName lang="ca">Londres</alternateName>
+        <alternateName lang="cdo">Lùng-dŭng</alternateName>
+        <alternateName lang="ce">Лондон</alternateName>
+        <alternateName lang="chr">ᎫᎴ ᏗᏍᎪᏂᎯᏱ</alternateName>
+        <alternateName lang="ckb">لەندەن</alternateName>
+        <alternateName lang="co">Londra</alternateName>
+        <alternateName lang="cs">Londýn</alternateName>
+        <alternateName lang="csb">Londin</alternateName>
+        <alternateName lang="cu">Лондонъ</alternateName>
+        <alternateName lang="cv">Лондон</alternateName>
+        <alternateName lang="cy">Llundain</alternateName>
+        <alternateName lang="da">London</alternateName>
+        <alternateName lang="de">London</alternateName>
+        <alternateName lang="diq">Londra</alternateName>
+        <alternateName lang="el">Λονδίνο</alternateName>
+        <alternateName isPreferredName="true" lang="en">London</alternateName>
+        <alternateName lang="eo">Londono</alternateName>
+        <alternateName lang="es">Londres</alternateName>
+        <alternateName lang="et">London</alternateName>
+        <alternateName lang="eu">Londres</alternateName>
+        <alternateName lang="ext">Londri</alternateName>
+        <alternateName lang="fa">لندن</alternateName>
+        <alternateName lang="fi">Lontoo</alternateName>
+        <alternateName lang="fj">Lodoni</alternateName>
+        <alternateName isPreferredName="true" isShortName="true" lang="fr">Londres</alternateName>
+        <alternateName lang="frp">Londro</alternateName>
+        <alternateName lang="fy">Londen</alternateName>
+        <alternateName lang="ga">Londain</alternateName>
+        <alternateName lang="gan">倫敦</alternateName>
+        <alternateName lang="gd">Lunnainn</alternateName>
+        <alternateName lang="gl">Londres</alternateName>
+        <alternateName lang="gn">Londye</alternateName>
+        <alternateName lang="gu">લંડન</alternateName>
+        <alternateName lang="gv">Lunnin</alternateName>
+        <alternateName lang="hak">Lùn-tûn</alternateName>
+        <alternateName lang="haw">Lākana</alternateName>
+        <alternateName lang="hbs">London</alternateName>
+        <alternateName lang="he">לונדון</alternateName>
+        <alternateName lang="hi">लंदन</alternateName>
+        <alternateName lang="hr">London</alternateName>
+        <alternateName lang="ht">Lonn</alternateName>
+        <alternateName lang="hu">London</alternateName>
+        <alternateName lang="hy">Լոնդոն</alternateName>
+        <alternateName lang="ia">London</alternateName>
+        <alternateName lang="iata">LON</alternateName>
+        <alternateName lang="id">London</alternateName>
+        <alternateName lang="ilo">Londres</alternateName>
+        <alternateName lang="io">London</alternateName>
+        <alternateName lang="is">London</alternateName>
+        <alternateName lang="it">Londra</alternateName>
+        <alternateName lang="ja">ロンドン</alternateName>
+        <alternateName lang="jbo">london</alternateName>
+        <alternateName lang="ka">ლონდონი</alternateName>
+        <alternateName lang="kbd">Лондон</alternateName>
+        <alternateName lang="kk">Лондон</alternateName>
+        <alternateName lang="kn">ಲಂಡನ್</alternateName>
+        <alternateName lang="ko">런던</alternateName>
+        <alternateName lang="koi">Лондон</alternateName>
+        <alternateName lang="krc">Лондон</alternateName>
+        <alternateName lang="ku">London</alternateName>
+        <alternateName lang="kv">Лондон</alternateName>
+        <alternateName lang="kw">Loundres</alternateName>
+        <alternateName lang="ky">Лондон</alternateName>
+        <alternateName lang="la">Londinium</alternateName>
+        <alternateName lang="lad">Londra</alternateName>
+        <alternateName lang="lb">London</alternateName>
+        <alternateName lang="lbe">Лондон</alternateName>
+        <alternateName lang="lez">Лондон</alternateName>
+        <alternateName lang="li">Londe</alternateName>
+        <alternateName lang="lij">Londra</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/London</alternateName>
+        <alternateName lang="lmo">Lundra</alternateName>
+        <alternateName lang="ln">Londoni</alternateName>
+        <alternateName lang="lo">ລອນດອນ</alternateName>
+        <alternateName lang="lrc">لأندأن</alternateName>
+        <alternateName lang="lt">Londonas</alternateName>
+        <alternateName lang="lv">Londona</alternateName>
+        <alternateName lang="lzh">倫敦</alternateName>
+        <alternateName lang="mai">लण्डन</alternateName>
+        <alternateName lang="mhr">Лондон</alternateName>
+        <alternateName lang="mi">Rānana</alternateName>
+        <alternateName lang="mk">Лондон</alternateName>
+        <alternateName lang="ml">ലണ്ടൻ</alternateName>
+        <alternateName lang="mn">Лондон</alternateName>
+        <alternateName lang="mr">लंडन</alternateName>
+        <alternateName lang="mrj">Лондон</alternateName>
+        <alternateName lang="ms">London</alternateName>
+        <alternateName lang="mt">Londra</alternateName>
+        <alternateName lang="mwl">Londres</alternateName>
+        <alternateName lang="my">လန်ဒန်မြို့</alternateName>
+        <alternateName lang="myv">Лондон ош</alternateName>
+        <alternateName lang="mzn">لندن</alternateName>
+        <alternateName lang="nah">Londres</alternateName>
+        <alternateName lang="nan">Lûn-tun</alternateName>
+        <alternateName lang="nap">Londra</alternateName>
+        <alternateName lang="nds">London</alternateName>
+        <alternateName lang="ne">लण्डन</alternateName>
+        <alternateName lang="new">लन्दन</alternateName>
+        <alternateName lang="nl">Londen</alternateName>
+        <alternateName lang="nn">London</alternateName>
+        <alternateName lang="no">London</alternateName>
+        <alternateName lang="nrm">Londres</alternateName>
+        <alternateName lang="oc">Londres</alternateName>
+        <alternateName lang="om">Landan</alternateName>
+        <alternateName lang="or">ଲଣ୍ଡନ</alternateName>
+        <alternateName lang="os">Лондон</alternateName>
+        <alternateName lang="pa">ਲੰਡਨ</alternateName>
+        <alternateName lang="pcd">Londe</alternateName>
+        <alternateName lang="pl">Londyn</alternateName>
+        <alternateName lang="pms">Londra</alternateName>
+        <alternateName lang="pnb">لندن</alternateName>
+        <alternateName lang="pnt">Λονδίνο</alternateName>
+        <alternateName lang="ps">لندن</alternateName>
+        <alternateName lang="pt">Londres</alternateName>
+        <alternateName lang="qu">London</alternateName>
+        <alternateName lang="rm">Londra</alternateName>
+        <alternateName lang="ro">Londra</alternateName>
+        <alternateName lang="ru">Лондон</alternateName>
+        <alternateName lang="rue">Лондон</alternateName>
+        <alternateName lang="sa">लन्डन्</alternateName>
+        <alternateName lang="sah">Лондон</alternateName>
+        <alternateName lang="sc">Londra</alternateName>
+        <alternateName lang="scn">Londra</alternateName>
+        <alternateName lang="sco">Lunnon</alternateName>
+        <alternateName lang="sgs">Londons</alternateName>
+        <alternateName lang="si">ලන්ඩන්</alternateName>
+        <alternateName lang="sk">Londýn</alternateName>
+        <alternateName lang="sl">London</alternateName>
+        <alternateName lang="sq">Londra</alternateName>
+        <alternateName lang="sr">Лондон</alternateName>
+        <alternateName lang="sv">London</alternateName>
+        <alternateName lang="szl">Lůndůn</alternateName>
+        <alternateName lang="ta">இலண்டன்</alternateName>
+        <alternateName lang="te">లండన్</alternateName>
+        <alternateName lang="tet">Londres</alternateName>
+        <alternateName lang="tg">Лондон</alternateName>
+        <alternateName lang="th">ลอนดอน</alternateName>
+        <alternateName lang="tl">Londres</alternateName>
+        <alternateName lang="tpi">Landen</alternateName>
+        <alternateName lang="tr">Londra</alternateName>
+        <alternateName lang="tt">Лондон</alternateName>
+        <alternateName lang="udm">Лондон</alternateName>
+        <alternateName lang="ug">لوندون</alternateName>
+        <alternateName lang="uk">Лондон</alternateName>
+        <alternateName lang="unlc">LON</alternateName>
+        <alternateName lang="ur">لندن</alternateName>
+        <alternateName lang="vec">Łondra</alternateName>
+        <alternateName lang="vi">Luân Đôn</alternateName>
+        <alternateName lang="vls">Londn</alternateName>
+        <alternateName lang="vo">London</alternateName>
+        <alternateName lang="wo">Londar</alternateName>
+        <alternateName lang="wuu">伦敦</alternateName>
+        <alternateName lang="xmf">ლონდონი</alternateName>
+        <alternateName lang="yi">לאנדאן</alternateName>
+        <alternateName lang="yo">Lọndọnu</alternateName>
+        <alternateName lang="yue">倫敦</alternateName>
+        <alternateName lang="zea">Londen</alternateName>
+        <alternateName lang="zh">伦敦</alternateName>
+        <alternateName lang="zh-CN">伦敦</alternateName>
+        <alternateName lang="zu">ILondon</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-0.49916</west>
+            <north>51.68293</north>
+            <east>0.28119</east>
+            <south>51.29752</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>283.94940185546875</score>
+    </geoname>
+    <geoname>
+        <toponymName>Birmingham</toponymName>
+        <name>Birmingham</name>
+        <lat>52.48142</lat>
+        <lng>-1.89983</lng>
+        <geonameId>2655603</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>984333</population>
+        <asciiName>Birmingham</asciiName>
+        <alternateNames>BHX,Birmin'gxam,Birmingam,Birmingamas,Birmingem,Birmingema,Birmingham,Birminghamia,Birminghem,Gorad Birmingem,Mpermincham,bamingamu,barming'hyam,barmingahama,barmingahema,barmingham,barminghama,beoming-eom,birmingemi,bo ming han,bo ming han shi,brmngm,brmynghham,byrmngam,parminkam,Μπέρμιγχαμ,Бирмингам,Бирмингем,Бірмінгем,Горад Бірмінгем,Բիրմինգհեմ,בירמינגהאם,ברמינגהאם,برمنگم,برمينغهام,بیرمنگام,बर्मिंगहॅम,बर्मिंघम,बर्मिङ्घम्,બર્મિંગહામ,பர்மிங்காம்,బర్మింగ్‌హామ్,ಬರ್ಮಿಂಗ್ಹ್ಯಾಮ್,เบอร์มิงแฮม,ბირმინგემი,በርሚንግሃም,バーミンガム,伯明翰,伯明翰市,버밍엄</alternateNames>
+        <elevation/>
+        <srtm3>149</srtm3>
+        <astergdem>149</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>A7</adminCode2>
+        <adminName2>Birmingham</adminName2>
+        <alternateName lang="af">Birmingham</alternateName>
+        <alternateName lang="am">በርሚንግሃም</alternateName>
+        <alternateName lang="ar">برمينغهام</alternateName>
+        <alternateName lang="az">Birmingem</alternateName>
+        <alternateName lang="be">Горад Бірмінгем</alternateName>
+        <alternateName lang="bg">Бирмингам</alternateName>
+        <alternateName lang="ca">Birmingham</alternateName>
+        <alternateName lang="cs">Birmingham</alternateName>
+        <alternateName lang="cv">Бирмингем</alternateName>
+        <alternateName lang="cy">Birmingham</alternateName>
+        <alternateName lang="da">Birmingham</alternateName>
+        <alternateName lang="de">Birmingham</alternateName>
+        <alternateName lang="el">Μπέρμιγχαμ</alternateName>
+        <alternateName isPreferredName="true" lang="en">Birmingham</alternateName>
+        <alternateName lang="eo">Birmingham</alternateName>
+        <alternateName lang="es">Birmingham</alternateName>
+        <alternateName lang="et">Birmingham</alternateName>
+        <alternateName lang="eu">Birmingham</alternateName>
+        <alternateName lang="fa">بیرمنگام</alternateName>
+        <alternateName lang="fi">Birmingham</alternateName>
+        <alternateName lang="fr">Birmingham</alternateName>
+        <alternateName lang="ga">Birmingham</alternateName>
+        <alternateName lang="gd">Birmingham</alternateName>
+        <alternateName lang="gu">બર્મિંગહામ</alternateName>
+        <alternateName lang="hbs">Birmingham</alternateName>
+        <alternateName lang="he">ברמינגהאם</alternateName>
+        <alternateName lang="hi">बर्मिंघम</alternateName>
+        <alternateName lang="hr">Birmingham</alternateName>
+        <alternateName lang="hu">Birmingham</alternateName>
+        <alternateName lang="hy">Բիրմինգհեմ</alternateName>
+        <alternateName lang="iata">BHX</alternateName>
+        <alternateName lang="id">Birmingham</alternateName>
+        <alternateName lang="it">Birmingham</alternateName>
+        <alternateName lang="ja">バーミンガム</alternateName>
+        <alternateName lang="ka">ბირმინგემი</alternateName>
+        <alternateName lang="kn">ಬರ್ಮಿಂಗ್ಹ್ಯಾಮ್</alternateName>
+        <alternateName lang="ko">버밍엄</alternateName>
+        <alternateName lang="la">Birminghamia</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Birmingham</alternateName>
+        <alternateName lang="lt">Birmingamas</alternateName>
+        <alternateName lang="lv">Birmingema</alternateName>
+        <alternateName lang="mk">Бирмингем</alternateName>
+        <alternateName lang="mr">बर्मिंगहॅम</alternateName>
+        <alternateName lang="nl">Birmingham</alternateName>
+        <alternateName lang="nn">Birmingham</alternateName>
+        <alternateName lang="no">Birmingham</alternateName>
+        <alternateName lang="nov">Birmingham</alternateName>
+        <alternateName lang="os">Бирмингем</alternateName>
+        <alternateName lang="pl">Birmingham</alternateName>
+        <alternateName lang="pnb">برمنگم</alternateName>
+        <alternateName lang="pt">Birmingham</alternateName>
+        <alternateName lang="ro">Birmingham</alternateName>
+        <alternateName lang="ru">Бирмингем</alternateName>
+        <alternateName lang="sa">बर्मिङ्घम्</alternateName>
+        <alternateName lang="scn">Birmingham</alternateName>
+        <alternateName lang="sk">Birmingham</alternateName>
+        <alternateName lang="sr">Бирмингем</alternateName>
+        <alternateName lang="sv">Birmingham</alternateName>
+        <alternateName lang="ta">பர்மிங்காம்</alternateName>
+        <alternateName lang="te">బర్మింగ్‌హామ్</alternateName>
+        <alternateName lang="th">เบอร์มิงแฮม</alternateName>
+        <alternateName lang="tr">Birmingham</alternateName>
+        <alternateName lang="ug">Birmin'gxam</alternateName>
+        <alternateName lang="uk">Бірмінгем</alternateName>
+        <alternateName lang="unlc">BHM</alternateName>
+        <alternateName lang="yi">בירמינגהאם</alternateName>
+        <alternateName lang="zh">伯明翰市</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-2.03375</west>
+            <north>52.56495</north>
+            <east>-1.70859</east>
+            <south>52.37486</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>212.15408325195312</score>
+    </geoname>
+    <geoname>
+        <toponymName>Liverpool</toponymName>
+        <name>Liverpool</name>
+        <lat>53.41058</lat>
+        <lng>-2.97794</lng>
+        <geonameId>2644210</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>864122</population>
+        <asciiName>Liverpool</asciiName>
+        <alternateNames>Gorad Liverpul,LPL,Learpholl,Lerphoyll,Lerpwl,Liberpoul,Liverpolium,Liverpool,Liverpuil,Liverpul,Liverpul',Liverpule,Liverpulis,Liverpūle,Livurpul,Liwerpol,Liwérpol,Poll a' Ghruthain,Poll a' Ghrùthain,li wu pu,libeopul,livarapula,livarpul,livharapula,liwexrphul,lybrpwl,lyfrbwl,lywr pwl,lywrpwl,rivu~apuru,Λίβερπουλ,Горад Ліверпул,Ливерпул,Ливерпуль,Ливерпүүл,Ливърпул,Ліверпуль,Լիվերպուլ,ליברפול,ליווערפול,ليفربول,لیور پول,لیورپول,لیڤەرپوول,ܠܝܒܪܦܘܠ,लिवरपूल,लिव्हरपूल,லிவர்பூல்,ಲಿವರ್‌ಪೂಲ್,ലിവർപൂൾ,ลิเวอร์พูล,ლივერპული,ሊቨርፑል፣ እንግሊዝ,リヴァプール,利物浦,리버풀</alternateNames>
+        <elevation/>
+        <srtm3>30</srtm3>
+        <astergdem>30</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>H8</adminCode2>
+        <adminName2>Liverpool</adminName2>
+        <alternateName lang="af">Liverpool</alternateName>
+        <alternateName lang="am">ሊቨርፑል፣ እንግሊዝ</alternateName>
+        <alternateName lang="ar">ليفربول</alternateName>
+        <alternateName lang="arc">ܠܝܒܪܦܘܠ</alternateName>
+        <alternateName lang="az">Liverpul</alternateName>
+        <alternateName lang="be">Горад Ліверпул</alternateName>
+        <alternateName lang="bg">Ливърпул</alternateName>
+        <alternateName lang="ca">Liverpool</alternateName>
+        <alternateName lang="ckb">لیڤەرپوول</alternateName>
+        <alternateName lang="cs">Liverpool</alternateName>
+        <alternateName lang="cv">Ливерпуль</alternateName>
+        <alternateName lang="cy">Lerpwl</alternateName>
+        <alternateName lang="da">Liverpool</alternateName>
+        <alternateName lang="de">Liverpool</alternateName>
+        <alternateName lang="el">Λίβερπουλ</alternateName>
+        <alternateName lang="en">Liverpool</alternateName>
+        <alternateName lang="eo">Liverpool</alternateName>
+        <alternateName lang="es">Liverpool</alternateName>
+        <alternateName lang="et">Liverpool</alternateName>
+        <alternateName lang="eu">Liverpool</alternateName>
+        <alternateName lang="fa">لیورپول</alternateName>
+        <alternateName lang="fi">Liverpool</alternateName>
+        <alternateName lang="fr">Liverpool</alternateName>
+        <alternateName lang="ga">Learpholl</alternateName>
+        <alternateName lang="gd">Poll a' Ghrùthain</alternateName>
+        <alternateName lang="gv">Lerphoyll</alternateName>
+        <alternateName lang="he">ליברפול</alternateName>
+        <alternateName lang="hi">लिवरपूल</alternateName>
+        <alternateName lang="hu">Liverpool</alternateName>
+        <alternateName lang="hy">Լիվերպուլ</alternateName>
+        <alternateName lang="iata">LPL</alternateName>
+        <alternateName lang="id">Liverpool</alternateName>
+        <alternateName lang="it">Liverpool</alternateName>
+        <alternateName lang="ja">リヴァプール</alternateName>
+        <alternateName lang="ka">ლივერპული</alternateName>
+        <alternateName lang="kn">ಲಿವರ್‌ಪೂಲ್</alternateName>
+        <alternateName lang="ko">리버풀</alternateName>
+        <alternateName lang="la">Liverpolium</alternateName>
+        <alternateName lang="lb">Liverpool</alternateName>
+        <alternateName lang="lez">Ливерпуль</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Liverpool</alternateName>
+        <alternateName lang="lt">Liverpulis</alternateName>
+        <alternateName lang="lv">Liverpūle</alternateName>
+        <alternateName lang="mk">Ливерпул</alternateName>
+        <alternateName lang="ml">ലിവർപൂൾ</alternateName>
+        <alternateName lang="mn">Ливерпүүл</alternateName>
+        <alternateName lang="mr">लिव्हरपूल</alternateName>
+        <alternateName lang="ms">Liverpool</alternateName>
+        <alternateName lang="mzn">لیورپول</alternateName>
+        <alternateName lang="nl">Liverpool</alternateName>
+        <alternateName lang="nn">Liverpool</alternateName>
+        <alternateName lang="no">Liverpool</alternateName>
+        <alternateName lang="os">Ливерпуль</alternateName>
+        <alternateName lang="pl">Liverpool</alternateName>
+        <alternateName lang="pnb">لیور پول</alternateName>
+        <alternateName lang="pt">Liverpool</alternateName>
+        <alternateName lang="ro">Liverpool</alternateName>
+        <alternateName lang="ru">Ливерпуль</alternateName>
+        <alternateName lang="sco">Liverpuil</alternateName>
+        <alternateName lang="sk">Liverpool</alternateName>
+        <alternateName lang="sl">Liverpool</alternateName>
+        <alternateName lang="sr">Ливерпул</alternateName>
+        <alternateName lang="sv">Liverpool</alternateName>
+        <alternateName lang="ta">லிவர்பூல்</alternateName>
+        <alternateName lang="th">ลิเวอร์พูล</alternateName>
+        <alternateName lang="tr">Liverpool</alternateName>
+        <alternateName lang="ug">Liwérpol</alternateName>
+        <alternateName lang="uk">Ліверпуль</alternateName>
+        <alternateName lang="unlc">LIV</alternateName>
+        <alternateName lang="vi">Liverpool</alternateName>
+        <alternateName lang="yi">ליווערפול</alternateName>
+        <alternateName lang="zh">利物浦</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-3.0093</west>
+            <north>53.48891</north>
+            <east>-2.80613</east>
+            <south>53.33131</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>195.0132293701172</score>
+    </geoname>
+    <geoname>
+        <toponymName>Sheffield</toponymName>
+        <name>Sheffield</name>
+        <lat>53.38297</lat>
+        <lng>-1.4659</lng>
+        <geonameId>2638077</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>685368</population>
+        <asciiName>Sheffield</asciiName>
+        <alternateNames>DSA,Gorad Shehfild,Seffild,Sefild,Sefilda,Sefildas,Sefilnt,Sheffield,Sheffild,Shefild,chef fi ld,sefilda,sephild,sephilda,shefirudo,shepildi,shfyld,shyfyld,spyld,syepildeu,xie fei er de,Şeffild,Šefildas,Šefīlda,Σέφιλντ,Горад Шэфілд,Шефилд,Шеффилд,Шеффілд,Շեֆիլդ,שעפילד,שפילד,شفيلد,شفیلد,شيفيلد,شیفیلڈ,شێفیڵد,शेफ़ील्ड,शेफील्ड,షెఫీల్డ్,เชฟฟีลด์,შეფილდი,シェフィールド,谢菲尔德,셰필드</alternateNames>
+        <elevation/>
+        <srtm3>75</srtm3>
+        <astergdem>79</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>L9</adminCode2>
+        <adminName2>Sheffield</adminName2>
+        <alternateName lang="ar">شفيلد</alternateName>
+        <alternateName lang="arz">شيفيلد</alternateName>
+        <alternateName lang="az">Şeffild</alternateName>
+        <alternateName lang="be">Горад Шэфілд</alternateName>
+        <alternateName lang="bg">Шефилд</alternateName>
+        <alternateName lang="ckb">شێفیڵد</alternateName>
+        <alternateName lang="cs">Sheffield</alternateName>
+        <alternateName lang="cy">Sheffield</alternateName>
+        <alternateName lang="da">Sheffield</alternateName>
+        <alternateName lang="de">Sheffield</alternateName>
+        <alternateName lang="el">Σέφιλντ</alternateName>
+        <alternateName lang="en">Sheffield</alternateName>
+        <alternateName lang="eo">Sheffield</alternateName>
+        <alternateName lang="es">Sheffield</alternateName>
+        <alternateName lang="eu">Sheffield</alternateName>
+        <alternateName lang="fa">شفیلد</alternateName>
+        <alternateName lang="fi">Sheffield</alternateName>
+        <alternateName lang="fr">Sheffield</alternateName>
+        <alternateName lang="hbs">Sheffield</alternateName>
+        <alternateName lang="he">שפילד</alternateName>
+        <alternateName lang="hi">शेफ़ील्ड</alternateName>
+        <alternateName lang="hy">Շեֆիլդ</alternateName>
+        <alternateName lang="iata">DSA</alternateName>
+        <alternateName lang="id">Sheffield</alternateName>
+        <alternateName lang="it">Sheffield</alternateName>
+        <alternateName lang="ja">シェフィールド</alternateName>
+        <alternateName lang="ka">შეფილდი</alternateName>
+        <alternateName lang="ko">셰필드</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Sheffield</alternateName>
+        <alternateName lang="lt">Šefildas</alternateName>
+        <alternateName lang="lv">Šefīlda</alternateName>
+        <alternateName lang="mk">Шефилд</alternateName>
+        <alternateName lang="mr">शेफील्ड</alternateName>
+        <alternateName lang="mzn">شفیلد</alternateName>
+        <alternateName lang="nl">Sheffield</alternateName>
+        <alternateName lang="no">Sheffield</alternateName>
+        <alternateName lang="os">Шеффилд</alternateName>
+        <alternateName lang="pl">Sheffield</alternateName>
+        <alternateName lang="pnb">شیفیلڈ</alternateName>
+        <alternateName lang="pt">Sheffield</alternateName>
+        <alternateName lang="ro">Sheffield</alternateName>
+        <alternateName lang="ru">Шеффилд</alternateName>
+        <alternateName lang="sr">Шефилд</alternateName>
+        <alternateName lang="sv">Sheffield</alternateName>
+        <alternateName lang="te">షెఫీల్డ్</alternateName>
+        <alternateName lang="th">เชฟฟีลด์</alternateName>
+        <alternateName lang="tr">Sheffield</alternateName>
+        <alternateName lang="uk">Шеффілд</alternateName>
+        <alternateName lang="unlc">SHE</alternateName>
+        <alternateName lang="yi">שעפילד</alternateName>
+        <alternateName lang="zh">谢菲尔德</alternateName>
+        <alternateName lang="zh-CN">谢菲尔德</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-1.57313</west>
+            <north>53.4528</north>
+            <east>-1.32719</east>
+            <south>53.30975</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>168.4939727783203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Nottingham</toponymName>
+        <name>Nottingham</name>
+        <lat>52.9536</lat>
+        <lng>-1.15047</lng>
+        <geonameId>2641170</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>729977</population>
+        <asciiName>Nottingham</asciiName>
+        <alternateNames>NQT,Nottigham,Nottingem,Nottingham,nottingamu,nuo ding han,nuo ding xian,nwtnghham,Ноттингем,Ноттингҳам,נוטינגהאם,نوتنغهام,ノッティンガム,諾定咸,诺丁汉</alternateNames>
+        <elevation/>
+        <srtm3>46</srtm3>
+        <astergdem>55</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>J8</adminCode2>
+        <adminName2>Nottingham</adminName2>
+        <alternateName lang="ar">نوتنغهام</alternateName>
+        <alternateName lang="ca">Nottingham</alternateName>
+        <alternateName lang="cs">Nottingham</alternateName>
+        <alternateName lang="cy">Nottingham</alternateName>
+        <alternateName lang="de">Nottingham</alternateName>
+        <alternateName lang="en">Nottingham</alternateName>
+        <alternateName lang="eo">Nottingham</alternateName>
+        <alternateName lang="es">Nottingham</alternateName>
+        <alternateName lang="eu">Nottingham</alternateName>
+        <alternateName lang="fi">Nottingham</alternateName>
+        <alternateName lang="fr">Nottingham</alternateName>
+        <alternateName lang="he">נוטינגהאם</alternateName>
+        <alternateName lang="iata">NQT</alternateName>
+        <alternateName lang="id">Nottingham</alternateName>
+        <alternateName lang="it">Nottingham</alternateName>
+        <alternateName lang="ja">ノッティンガム</alternateName>
+        <alternateName lang="lb">Nottingham</alternateName>
+        <alternateName lang="link">http://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%82%D1%82%D0%B8%D0%BD%D0%B3%D0%B5%D0%BC</alternateName>
+        <alternateName lang="nl">Nottingham</alternateName>
+        <alternateName lang="no">Nottingham</alternateName>
+        <alternateName lang="pl">Nottingham</alternateName>
+        <alternateName lang="pt">Nottingham</alternateName>
+        <alternateName lang="ro">Nottingham</alternateName>
+        <alternateName lang="ru">Ноттингем</alternateName>
+        <alternateName lang="sk">Nottingham</alternateName>
+        <alternateName lang="sl">Nottingham</alternateName>
+        <alternateName lang="sv">Nottingham</alternateName>
+        <alternateName lang="tg">Ноттингҳам</alternateName>
+        <alternateName lang="tr">Nottingham</alternateName>
+        <alternateName lang="zh">诺丁汉</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-1.2498</west>
+            <north>53.02827</north>
+            <east>-1.09415</east>
+            <south>52.92184</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>168.4939727783203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Edinburgh</toponymName>
+        <name>Edinburgh</name>
+        <lat>55.95206</lat>
+        <lng>-3.19648</lng>
+        <geonameId>2650225</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>464990</population>
+        <asciiName>Edinburgh</asciiName>
+        <alternateNames>Aebura,Caeredin,Dinedin,Doon Edin,Dun Eideann,Dùn Èideann,Dún Éideann,EDI,Ebora,Edimborg,Edimborgh,Edimbourg,Edimbourgo,Edimburg,Edimburgh,Edimburgo,Edimburgo - Dun Eideann,Edimburgo - Dùn Èideann,Edimburgu,Edimburgum,Edimbùrgh,Edinbo,Edinboarch,Edinborg,Edinburc,Edinburg,Edinburga,Edinburgas,Edinburgh,Edinburgo,Edinburq,Edinburrie,Edynburg,Ehdinburg,Embra,Gorad Ehdynburg,Idinburg,adnbrt,adynbrw,ai ding bao,edeunbeoleo,edinabara,edinbara,edinburgi,etinparo,xedinbara,Édimbourg,Εδιμβούργο,Горад Эдынбург,Единбург,Эдинбург,Էդինբուրգ,אדינבורו,עדינבורג,إدنبرة,ئێدینبەرە,ادینبرو,ایڈنبرا,एडिनबरा,एदिनबरा,এডিনবরা,எடின்பரோ,ಎಡಿನ್‌ಬರ್ಗ್‌‌,എഡിൻബറോ,เอดินบะระ,အက်ဒင်ဗာရာမြို့,ედინბურგი,エディンバラ,爱丁堡,에든버러</alternateNames>
+        <elevation/>
+        <srtm3>66</srtm3>
+        <astergdem>69</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="SCT">SCT</adminCode1>
+        <adminName1>Scotland</adminName1>
+        <adminCode2>U8</adminCode2>
+        <adminName2>Edinburgh</adminName2>
+        <alternateName lang="af">Edinburg</alternateName>
+        <alternateName lang="an">Edimburgo</alternateName>
+        <alternateName lang="ang">Edinburg</alternateName>
+        <alternateName lang="ar">إدنبرة</alternateName>
+        <alternateName lang="ast">Edimburgo</alternateName>
+        <alternateName lang="az">Edinburq</alternateName>
+        <alternateName lang="bar">Edinburg</alternateName>
+        <alternateName lang="be">Горад Эдынбург</alternateName>
+        <alternateName lang="bg">Единбург</alternateName>
+        <alternateName lang="bn">এডিনবরা</alternateName>
+        <alternateName lang="br">Dinedin</alternateName>
+        <alternateName lang="bs">Edinburgh</alternateName>
+        <alternateName lang="ca">Edimburg</alternateName>
+        <alternateName lang="ce">Эдинбург</alternateName>
+        <alternateName lang="ckb">ئێدینبەرە</alternateName>
+        <alternateName lang="cs">Edinburgh</alternateName>
+        <alternateName lang="cv">Эдинбург</alternateName>
+        <alternateName lang="cy">Caeredin</alternateName>
+        <alternateName lang="da">Edinburgh</alternateName>
+        <alternateName lang="de">Edinburgh</alternateName>
+        <alternateName lang="el">Εδιμβούργο</alternateName>
+        <alternateName lang="en">Edinburgh</alternateName>
+        <alternateName lang="eo">Edinburgo</alternateName>
+        <alternateName lang="es">Edimburgo</alternateName>
+        <alternateName lang="et">Edinburgh</alternateName>
+        <alternateName lang="eu">Edinburgh</alternateName>
+        <alternateName lang="ext">Edimburgu</alternateName>
+        <alternateName lang="fa">ادینبرو</alternateName>
+        <alternateName lang="fi">Edinburgh</alternateName>
+        <alternateName lang="fr">Édimbourg</alternateName>
+        <alternateName lang="fur">Edinburc</alternateName>
+        <alternateName lang="fy">Edinboarch</alternateName>
+        <alternateName lang="ga">Dún Éideann</alternateName>
+        <alternateName isPreferredName="true" lang="gd">Dùn Èideann</alternateName>
+        <alternateName lang="gl">Edimburgo</alternateName>
+        <alternateName lang="gv">Doon Edin</alternateName>
+        <alternateName lang="he">אדינבורו</alternateName>
+        <alternateName lang="hi">एडिनबरा</alternateName>
+        <alternateName lang="ht">Edinbo</alternateName>
+        <alternateName lang="hu">Edinburgh</alternateName>
+        <alternateName lang="hy">Էդինբուրգ</alternateName>
+        <alternateName lang="iata">EDI</alternateName>
+        <alternateName lang="id">Edinburgh</alternateName>
+        <alternateName lang="io">Edinburgh</alternateName>
+        <alternateName lang="is">Edinborg</alternateName>
+        <alternateName lang="it">Edimburgo</alternateName>
+        <alternateName lang="ja">エディンバラ</alternateName>
+        <alternateName lang="ka">ედინბურგი</alternateName>
+        <alternateName lang="kk">Эдинбург</alternateName>
+        <alternateName lang="kn">ಎಡಿನ್‌ಬರ್ಗ್‌‌</alternateName>
+        <alternateName lang="ko">에든버러</alternateName>
+        <alternateName lang="la">Edimburgum</alternateName>
+        <alternateName lang="lb">Edinburgh</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Edinburgh</alternateName>
+        <alternateName lang="lmo">Edimbùrgh</alternateName>
+        <alternateName lang="lt">Edinburgas</alternateName>
+        <alternateName lang="lv">Edinburga</alternateName>
+        <alternateName lang="mk">Единбург</alternateName>
+        <alternateName lang="ml">എഡിൻബറോ</alternateName>
+        <alternateName lang="mn">Эдинбург</alternateName>
+        <alternateName lang="mr">एडिनबरा</alternateName>
+        <alternateName lang="ms">Edinburgh</alternateName>
+        <alternateName lang="my">အက်ဒင်ဗာရာမြို့</alternateName>
+        <alternateName lang="new">एदिनबरा</alternateName>
+        <alternateName lang="nl">Edinburgh</alternateName>
+        <alternateName lang="nn">Edinburgh</alternateName>
+        <alternateName lang="no">Edinburgh</alternateName>
+        <alternateName lang="oc">Edimborg</alternateName>
+        <alternateName lang="os">Эдинбург</alternateName>
+        <alternateName lang="pl">Edynburg</alternateName>
+        <alternateName lang="pms">Edimborgh</alternateName>
+        <alternateName lang="pnb">ایڈنبرا</alternateName>
+        <alternateName lang="pt">Edimburgo</alternateName>
+        <alternateName lang="rm">Edinburgh</alternateName>
+        <alternateName lang="ro">Edinburgh</alternateName>
+        <alternateName lang="ru">Эдинбург</alternateName>
+        <alternateName lang="scn">Edimburgu</alternateName>
+        <alternateName lang="sco">Edinburrie</alternateName>
+        <alternateName lang="sk">Edinburgh</alternateName>
+        <alternateName lang="sl">Edinburg</alternateName>
+        <alternateName lang="sq">Edinburg</alternateName>
+        <alternateName lang="sr">Единбург</alternateName>
+        <alternateName lang="sv">Edinburgh</alternateName>
+        <alternateName lang="ta">எடின்பரோ</alternateName>
+        <alternateName lang="th">เอดินบะระ</alternateName>
+        <alternateName lang="tr">Edinburgh</alternateName>
+        <alternateName lang="tt">Эдинбург</alternateName>
+        <alternateName lang="ug">Idinburg</alternateName>
+        <alternateName lang="uk">Единбург</alternateName>
+        <alternateName lang="unlc">EDI</alternateName>
+        <alternateName lang="ur">ایڈنبرا</alternateName>
+        <alternateName lang="vec">Ebora</alternateName>
+        <alternateName lang="vo">Edinburgh</alternateName>
+        <alternateName lang="xmf">ედინბურგი</alternateName>
+        <alternateName lang="yi">עדינבורג</alternateName>
+        <alternateName lang="zh">爱丁堡</alternateName>
+        <alternateName lang="zh-CN">爱丁堡</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-3.35832</west>
+            <north>55.99142</north>
+            <east>-3.07778</east>
+            <south>55.87407</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>168.4939727783203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Glasgow</toponymName>
+        <name>Glasgow</name>
+        <lat>55.86515</lat>
+        <lng>-4.25763</lng>
+        <geonameId>2648579</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>591620</population>
+        <asciiName>Glasgow</asciiName>
+        <alternateNames>GLA,Glascho,Glaschu,Glaschú,Glasgovo,Glasgow,Glasgua,Glaskobe,Glazgas,Glazgo,Glazgos,Glazgou,Glazgov,Glazgova,Glazgua,Glesga,Glázgua,Glāzgova,Gorad Glazga,Kak-la-su-ko,Kak-là-sṳ̂-kô,Qlazqo,galasago,ge la si ge,geullaeseugo,ghlaskw,glasago,glasgo,glasgw,glasgwv,glazgo,glyasgo,gurasugo,jlasjw,kilasko,klas kow,Γλασκώβη,Глазго,Глазгов,Глазгоу,Горад Глазга,Գլազգո,גלאזגא,גלאזגו,جلاسجو,غلاسكو,گلاسگو,گلاسگوۋ,گلاسگۆ,ग्लासगो,ग्लास्गो,গ্লাসগো,ਗਲਾਸਗੋ,கிளாஸ்கோ,గ్లాస్గో,ಗ್ಲ್ಯಾಸ್ಗೋ,กลาสโกว์,ဂလပ်စဂိုးမြို့,გლაზგო,ግላዝጎ,グラスゴー,格拉斯哥,글래스고</alternateNames>
+        <elevation/>
+        <srtm3>40</srtm3>
+        <astergdem>26</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="SCT">SCT</adminCode1>
+        <adminName1>Scotland</adminName1>
+        <adminCode2>V2</adminCode2>
+        <adminName2>Glasgow City</adminName2>
+        <alternateName lang="am">ግላዝጎ</alternateName>
+        <alternateName lang="ar">غلاسكو</alternateName>
+        <alternateName lang="arz">جلاسجو</alternateName>
+        <alternateName lang="az">Qlazqo</alternateName>
+        <alternateName lang="be">Горад Глазга</alternateName>
+        <alternateName lang="bg">Глазгоу</alternateName>
+        <alternateName lang="bn">গ্লাসগো</alternateName>
+        <alternateName lang="br">Glascho</alternateName>
+        <alternateName lang="ca">Glasgow</alternateName>
+        <alternateName lang="ce">Глазго</alternateName>
+        <alternateName lang="ckb">گلاسگۆ</alternateName>
+        <alternateName lang="cs">Glasgow</alternateName>
+        <alternateName lang="cy">Glasgow</alternateName>
+        <alternateName lang="da">Glasgow</alternateName>
+        <alternateName lang="de">Glasgow</alternateName>
+        <alternateName lang="el">Γλασκώβη</alternateName>
+        <alternateName lang="en">Glasgow</alternateName>
+        <alternateName lang="eo">Glasgovo</alternateName>
+        <alternateName lang="es">Glasgow</alternateName>
+        <alternateName lang="et">Glasgow</alternateName>
+        <alternateName lang="eu">Glasgow</alternateName>
+        <alternateName lang="fa">گلاسگو</alternateName>
+        <alternateName lang="fi">Glasgow</alternateName>
+        <alternateName lang="fr">Glasgow</alternateName>
+        <alternateName lang="ga">Glaschú</alternateName>
+        <alternateName isPreferredName="true" lang="gd">Glaschu</alternateName>
+        <alternateName lang="gl">Glasgow</alternateName>
+        <alternateName lang="gv">Glaschu</alternateName>
+        <alternateName lang="hak">Kak-là-sṳ̂-kô</alternateName>
+        <alternateName lang="he">גלאזגו</alternateName>
+        <alternateName lang="hi">ग्लासगो</alternateName>
+        <alternateName lang="hy">Գլազգո</alternateName>
+        <alternateName lang="iata">GLA</alternateName>
+        <alternateName lang="id">Glasgow</alternateName>
+        <alternateName lang="is">Glasgow</alternateName>
+        <alternateName lang="it">Glasgow</alternateName>
+        <alternateName lang="ja">グラスゴー</alternateName>
+        <alternateName lang="ka">გლაზგო</alternateName>
+        <alternateName lang="kk">Глазго</alternateName>
+        <alternateName lang="kn">ಗ್ಲ್ಯಾಸ್ಗೋ</alternateName>
+        <alternateName lang="ko">글래스고</alternateName>
+        <alternateName lang="kv">Глазго</alternateName>
+        <alternateName lang="ky">Глазго</alternateName>
+        <alternateName lang="la">Glasgua</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Glasgow</alternateName>
+        <alternateName lang="lt">Glazgas</alternateName>
+        <alternateName lang="lv">Glāzgova</alternateName>
+        <alternateName lang="mk">Глазгов</alternateName>
+        <alternateName lang="mr">ग्लासगो</alternateName>
+        <alternateName lang="ms">Glasgow</alternateName>
+        <alternateName lang="my">ဂလပ်စဂိုးမြို့</alternateName>
+        <alternateName lang="nl">Glasgow</alternateName>
+        <alternateName lang="nn">Glasgow</alternateName>
+        <alternateName lang="no">Glasgow</alternateName>
+        <alternateName lang="oc">Glasgow</alternateName>
+        <alternateName lang="os">Глазго</alternateName>
+        <alternateName lang="pa">ਗਲਾਸਗੋ</alternateName>
+        <alternateName lang="pl">Glasgow</alternateName>
+        <alternateName lang="pnb">گلاسگو</alternateName>
+        <alternateName lang="pt">Glasgow</alternateName>
+        <alternateName lang="ro">Glasgow</alternateName>
+        <alternateName lang="ru">Глазго</alternateName>
+        <alternateName lang="sa">ग्लास्गो</alternateName>
+        <alternateName lang="sco">Glesga</alternateName>
+        <alternateName lang="sgs">Glazgos</alternateName>
+        <alternateName lang="sl">Glasgow</alternateName>
+        <alternateName lang="sr">Глазгов</alternateName>
+        <alternateName lang="sv">Glasgow</alternateName>
+        <alternateName lang="ta">கிளாஸ்கோ</alternateName>
+        <alternateName lang="te">గ్లాస్గో</alternateName>
+        <alternateName lang="tet">Glázgua</alternateName>
+        <alternateName lang="th">กลาสโกว์</alternateName>
+        <alternateName lang="tt">Glazgo</alternateName>
+        <alternateName lang="ug">گلاسگوۋ</alternateName>
+        <alternateName lang="uk">Глазго</alternateName>
+        <alternateName lang="unlc">GLW</alternateName>
+        <alternateName lang="ur">گلاسگو</alternateName>
+        <alternateName lang="uz">Glazgo</alternateName>
+        <alternateName lang="vep">Glazgo</alternateName>
+        <alternateName lang="vi">Glasgow</alternateName>
+        <alternateName lang="xmf">გლაზგო</alternateName>
+        <alternateName lang="yi">גלאזגא</alternateName>
+        <alternateName lang="yue">格拉斯哥</alternateName>
+        <alternateName lang="zh">格拉斯哥</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-4.40145</west>
+            <north>55.92107</north>
+            <east>-4.09136</east>
+            <south>55.79387</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>168.4939727783203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Bristol</toponymName>
+        <name>Bristol</name>
+        <lat>51.45523</lat>
+        <lng>-2.59665</lng>
+        <geonameId>2654675</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>617280</population>
+        <asciiName>Bristol</asciiName>
+        <alternateNames>BRS,Bricgstōƿ,Briosto,Briostó,Bristo,Bristol,Bristol',Bristole,Bristolis,Bristolium,Bristolo,Briston,Bristul,Bristullu,Bristón,Bryste,Brístol,Gorad Brystal',beuliseuteul,bris txl,bristala,brystwl,bu li si tuo er,burisutoru,Μπρίστολ,Бристол,Бристоль,Бристъл,Горад Брысталь,Բրիստոլ,בריסטאל,בריסטול,برسٹل نگر,بريستول,بریستول,ब्रिस्टल,ಬ್ರಿಸ್ಟಲ್‌,บริสตอล,ბრისტოლი,ブリストル,布里斯托尔,브리스틀</alternateNames>
+        <elevation/>
+        <srtm3>21</srtm3>
+        <astergdem>22</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>B7</adminCode2>
+        <adminName2>Bristol</adminName2>
+        <alternateName lang="an">Bristón</alternateName>
+        <alternateName lang="ang">Bricgstōƿ</alternateName>
+        <alternateName lang="ar">بريستول</alternateName>
+        <alternateName lang="be">Горад Брысталь</alternateName>
+        <alternateName lang="bg">Бристъл</alternateName>
+        <alternateName lang="ca">Bristol</alternateName>
+        <alternateName lang="cs">Bristol</alternateName>
+        <alternateName lang="cy">Bryste</alternateName>
+        <alternateName lang="da">Bristol</alternateName>
+        <alternateName lang="de">Bristol</alternateName>
+        <alternateName lang="el">Μπρίστολ</alternateName>
+        <alternateName lang="en">Bristol</alternateName>
+        <alternateName lang="eo">Bristolo</alternateName>
+        <alternateName lang="es">Brístol</alternateName>
+        <alternateName lang="eu">Bristol</alternateName>
+        <alternateName lang="fa">بریستول</alternateName>
+        <alternateName lang="fi">Bristol</alternateName>
+        <alternateName lang="fr">Bristol</alternateName>
+        <alternateName lang="ga">Briostó</alternateName>
+        <alternateName lang="he">בריסטול</alternateName>
+        <alternateName lang="hi">ब्रिस्टल</alternateName>
+        <alternateName lang="hy">Բրիստոլ</alternateName>
+        <alternateName lang="iata">BRS</alternateName>
+        <alternateName lang="id">Bristol</alternateName>
+        <alternateName lang="it">Bristol</alternateName>
+        <alternateName lang="ja">ブリストル</alternateName>
+        <alternateName lang="ka">ბრისტოლი</alternateName>
+        <alternateName lang="kn">ಬ್ರಿಸ್ಟಲ್‌</alternateName>
+        <alternateName lang="ko">브리스틀</alternateName>
+        <alternateName lang="la">Bristolium</alternateName>
+        <alternateName lang="lb">Bristol</alternateName>
+        <alternateName lang="link">http://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D1%8C</alternateName>
+        <alternateName lang="lt">Bristolis</alternateName>
+        <alternateName lang="lv">Bristole</alternateName>
+        <alternateName lang="mk">Бристол</alternateName>
+        <alternateName lang="mr">ब्रिस्टल</alternateName>
+        <alternateName lang="mzn">بریستول</alternateName>
+        <alternateName lang="nl">Bristol</alternateName>
+        <alternateName lang="no">Bristol</alternateName>
+        <alternateName lang="nrm">Bristo</alternateName>
+        <alternateName lang="os">Бристоль</alternateName>
+        <alternateName lang="pl">Bristol</alternateName>
+        <alternateName lang="pnb">برسٹل نگر</alternateName>
+        <alternateName lang="pt">Bristol</alternateName>
+        <alternateName lang="ro">Bristol</alternateName>
+        <alternateName lang="ru">Бристоль</alternateName>
+        <alternateName lang="scn">Bristullu</alternateName>
+        <alternateName lang="sco">Bristol</alternateName>
+        <alternateName lang="sk">Bristol</alternateName>
+        <alternateName lang="sl">Bristol</alternateName>
+        <alternateName lang="sr">Бристол</alternateName>
+        <alternateName lang="sv">Bristol</alternateName>
+        <alternateName lang="th">บริสตอล</alternateName>
+        <alternateName lang="tr">Bristol</alternateName>
+        <alternateName lang="uk">Бристоль</alternateName>
+        <alternateName lang="unlc">BRS</alternateName>
+        <alternateName lang="yi">בריסטאל</alternateName>
+        <alternateName lang="zh">布里斯托尔</alternateName>
+        <alternateName lang="zh-CN">布里斯托尔</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-2.71461</west>
+            <north>51.52904</north>
+            <east>-2.45259</east>
+            <south>51.39928</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>168.4939727783203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Douglas</toponymName>
+        <name>Douglas</name>
+        <lat>54.15</lat>
+        <lng>-4.48333</lng>
+        <geonameId>3042237</geonameId>
+        <countryCode>IM</countryCode>
+        <countryName>Isle of Man</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLC</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>capital of a political entity</fcodeName>
+        <population>26218</population>
+        <asciiName>Douglas</asciiName>
+        <alternateNames>Daglas,Daglasa,Daglasas,Doolish,Douglas,Douglas pa Isle of Man,Douglas på Isle of Man,Douglas  Isle of Man,Dubh Lios,Duglas,Duqlas,Gorad Duglas,Ntanklas,Port Douglas,dagalasa,daglasa,dagurasu,daklas,dao ge la si,deogeulleoseu,duglasi,dwghlas,dwglas,taklacu,Ντάγκλας,Горад Дуглас,Даглас,Дуглас,Дъглас,דאגלס,دوغلاس,دوگلاس,ڈگلس,डग्लस,ਡਗਲਸ,டக்லசு,ดักลาส,დუგლასი,ダグラス,道格拉斯,더글러스</alternateNames>
+        <elevation/>
+        <srtm3>31</srtm3>
+        <astergdem>41</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>9782170</adminCode1>
+        <adminName1>Douglas</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName lang="ar">دوغلاس</alternateName>
+        <alternateName lang="az">Duqlas</alternateName>
+        <alternateName lang="be">Горад Дуглас</alternateName>
+        <alternateName lang="bg">Дъглас</alternateName>
+        <alternateName lang="br">Doolish</alternateName>
+        <alternateName lang="de">Douglas</alternateName>
+        <alternateName lang="el">Ντάγκλας</alternateName>
+        <alternateName isPreferredName="true" lang="en">Douglas</alternateName>
+        <alternateName lang="fa">دوگلاس</alternateName>
+        <alternateName lang="fi">Douglas</alternateName>
+        <alternateName lang="fr">Douglas</alternateName>
+        <alternateName isPreferredName="true" lang="ga">Dubh Lios</alternateName>
+        <alternateName lang="gd">Doolish</alternateName>
+        <alternateName isPreferredName="true" lang="gv">Doolish</alternateName>
+        <alternateName lang="he">דאגלס</alternateName>
+        <alternateName lang="hu">Douglas</alternateName>
+        <alternateName lang="io">Douglas</alternateName>
+        <alternateName lang="ja">ダグラス</alternateName>
+        <alternateName lang="ka">დუგლასი</alternateName>
+        <alternateName lang="ko">더글러스</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Douglas%2C_Isle_of_Man</alternateName>
+        <alternateName lang="lt">Daglasas</alternateName>
+        <alternateName lang="lv">Daglasa</alternateName>
+        <alternateName lang="mk">Даглас</alternateName>
+        <alternateName lang="mr">डग्लस</alternateName>
+        <alternateName lang="nl">Douglas</alternateName>
+        <alternateName lang="nn">Douglas på Isle of Man</alternateName>
+        <alternateName lang="no">Douglas</alternateName>
+        <alternateName lang="os">Дуглас</alternateName>
+        <alternateName lang="pa">ਡਗਲਸ</alternateName>
+        <alternateName lang="pl">Douglas</alternateName>
+        <alternateName lang="ru">Дуглас</alternateName>
+        <alternateName lang="sr">Даглас</alternateName>
+        <alternateName lang="sv">Douglas</alternateName>
+        <alternateName lang="ta">டக்லசு</alternateName>
+        <alternateName lang="th">ดักลาส</alternateName>
+        <alternateName lang="udm">Дуглас</alternateName>
+        <alternateName lang="uk">Дуглас</alternateName>
+        <alternateName lang="unlc">DGS</alternateName>
+        <alternateName lang="ur">ڈگلس</alternateName>
+        <alternateName lang="zh">道格拉斯</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Isle_of_Man</timezone>
+        <bbox>
+            <west>-4.51854</west>
+            <north>54.17061</north>
+            <east>-4.44813</east>
+            <south>54.12939</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>160.73153686523438</score>
+    </geoname>
+    <geoname>
+        <toponymName>Leicester</toponymName>
+        <name>Leicester</name>
+        <lat>52.6386</lat>
+        <lng>-1.13169</lng>
+        <geonameId>2644668</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>508916</population>
+        <asciiName>Leicester</asciiName>
+        <alternateNames>Caerlyr,Caerlŷr,Gorad Lestehr,Leicester,Leicestria,Leiscester,Lester,Lestera,Lesteris,Lestur,Leysester,Léyséstér,QEW,lai si te,laystr,les texr,leseuteo,lstr,resuta,Λέστερ,Горад Лестэр,Лестер,Лестър,לסטר,לעסטער,لايستر,لستر,لیسسٹر,เลสเตอร์,レスター,莱斯特,레스터</alternateNames>
+        <elevation/>
+        <srtm3>65</srtm3>
+        <astergdem>55</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>H4</adminCode2>
+        <adminName2>Leicester</adminName2>
+        <adminCode3>31UC</adminCode3>
+        <adminName3>GB.ENG.H4.31UC</adminName3>
+        <alternateName lang="ar">لايستر</alternateName>
+        <alternateName lang="az">Lester</alternateName>
+        <alternateName lang="be">Горад Лестэр</alternateName>
+        <alternateName lang="bg">Лестър</alternateName>
+        <alternateName lang="cs">Leicester</alternateName>
+        <alternateName lang="cy">Caerlŷr</alternateName>
+        <alternateName lang="de">Leicester</alternateName>
+        <alternateName lang="el">Λέστερ</alternateName>
+        <alternateName lang="en">Leicester</alternateName>
+        <alternateName lang="eo">Leicester</alternateName>
+        <alternateName lang="es">Leicester</alternateName>
+        <alternateName lang="eu">Leicester</alternateName>
+        <alternateName lang="fa">لستر</alternateName>
+        <alternateName lang="fi">Leicester</alternateName>
+        <alternateName lang="fr">Leicester</alternateName>
+        <alternateName lang="he">לסטר</alternateName>
+        <alternateName lang="hu">Leicester</alternateName>
+        <alternateName lang="iata">QEW</alternateName>
+        <alternateName lang="id">Leicester</alternateName>
+        <alternateName lang="it">Leicester</alternateName>
+        <alternateName lang="ja">レスター</alternateName>
+        <alternateName lang="ko">레스터</alternateName>
+        <alternateName lang="la">Leicestria</alternateName>
+        <alternateName lang="lb">Leicester</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Leicester</alternateName>
+        <alternateName lang="lt">Lesteris</alternateName>
+        <alternateName lang="lv">Lestera</alternateName>
+        <alternateName lang="mzn">لستر</alternateName>
+        <alternateName lang="nl">Leicester</alternateName>
+        <alternateName lang="no">Leicester</alternateName>
+        <alternateName lang="pl">Leicester</alternateName>
+        <alternateName lang="pnb">لیسسٹر</alternateName>
+        <alternateName lang="ro">Leicester</alternateName>
+        <alternateName lang="ru">Лестер</alternateName>
+        <alternateName lang="sk">Leicester</alternateName>
+        <alternateName lang="sr">Лестер</alternateName>
+        <alternateName lang="sv">Leicester</alternateName>
+        <alternateName lang="th">เลสเตอร์</alternateName>
+        <alternateName lang="tr">Leicester</alternateName>
+        <alternateName lang="ug">Léyséstér</alternateName>
+        <alternateName lang="uk">Лестер</alternateName>
+        <alternateName lang="yi">לעסטער</alternateName>
+        <alternateName lang="zh">莱斯特</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-1.25013</west>
+            <north>52.68829</north>
+            <east>-1.02704</east>
+            <south>52.57626</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>159.1155548095703</score>
+    </geoname>
+    <geoname>
+        <toponymName>Saint Peter Port</toponymName>
+        <name>St Peter Port</name>
+        <lat>49.45981</lat>
+        <lng>-2.53527</lng>
+        <geonameId>3042287</geonameId>
+        <countryCode>GG</countryCode>
+        <countryName>Guernsey</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLC</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>capital of a political entity</fcodeName>
+        <population>16488</population>
+        <asciiName>Saint Peter Port</asciiName>
+        <alternateNames>GCI,Gorad Sent-Pitehr-Port,Saint Peter Port,Saint Pierre Port,Saint-Pierre-Port,Sanktapetrurbo,Sejnt Pitur Port,Sent Piter Port,Sent Piter Portas,Sent-Piter-Port,Sentpiterporta,Sentpīterporta,St Peter Port,St. Peter Port,san bytr bwrt,seinteupiteopoteu,sent pi texr phxrt,sheng bi de gang,sn ptr pwrt,snt pytr pwrt,Горад Сент-Пітэр-Порт,Сейнт Питър Порт,Сент Питер Порт,Сент-Питер-Порт,Сент-Пітер-Порт,סנט פיטר פורט,سان بيتر بورت,سن پتر پورت,سینٹ پیٹر پورٹ,เซนต์ปีเตอร์พอร์ต,სენტ-პიტერ-პორტი,セント・ピーター・ポート,圣彼得港,세인트피터포트</alternateNames>
+        <elevation/>
+        <srtm3>10</srtm3>
+        <astergdem>15</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>6417228</adminCode1>
+        <adminName1>St Peter Port</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName lang="ar">سان بيتر بورت</alternateName>
+        <alternateName lang="az">Sent Piter Port</alternateName>
+        <alternateName lang="be">Горад Сент-Пітэр-Порт</alternateName>
+        <alternateName lang="bg">Сейнт Питър Порт</alternateName>
+        <alternateName lang="br">Saint Pierre Port</alternateName>
+        <alternateName lang="cy">St Peter Port</alternateName>
+        <alternateName lang="de">Saint Peter Port</alternateName>
+        <alternateName lang="en">St Peter Port</alternateName>
+        <alternateName lang="eo">Sanktapetrurbo</alternateName>
+        <alternateName lang="es">Saint Peter Port</alternateName>
+        <alternateName lang="fa">سن پتر پورت</alternateName>
+        <alternateName lang="fr">Saint-Pierre-Port</alternateName>
+        <alternateName lang="he">סנט פיטר פורט</alternateName>
+        <alternateName lang="iata">GCI</alternateName>
+        <alternateName lang="io">St Peter Port</alternateName>
+        <alternateName lang="ja">セント・ピーター・ポート</alternateName>
+        <alternateName lang="ka">სენტ-პიტერ-პორტი</alternateName>
+        <alternateName lang="ko">세인트피터포트</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Saint_Peter_Port</alternateName>
+        <alternateName lang="lt">Sent Piter Portas</alternateName>
+        <alternateName lang="lv">Sentpīterporta</alternateName>
+        <alternateName lang="mi">St Peter Port</alternateName>
+        <alternateName lang="nn">St Peter Port</alternateName>
+        <alternateName lang="no">St Peter Port</alternateName>
+        <alternateName lang="nov">St Peter Port</alternateName>
+        <alternateName lang="nrm">Saint Pierre Port</alternateName>
+        <alternateName lang="os">Сент-Питер-Порт</alternateName>
+        <alternateName lang="pl">Saint Peter Port</alternateName>
+        <alternateName lang="pt">St Peter Port</alternateName>
+        <alternateName lang="ru">Сент-Питер-Порт</alternateName>
+        <alternateName lang="sr">Сент Питер Порт</alternateName>
+        <alternateName lang="sv">St. Peter Port</alternateName>
+        <alternateName lang="th">เซนต์ปีเตอร์พอร์ต</alternateName>
+        <alternateName lang="udm">Сент-Питер-Порт</alternateName>
+        <alternateName lang="uk">Сент-Пітер-Порт</alternateName>
+        <alternateName lang="unlc">PPO</alternateName>
+        <alternateName lang="ur">سینٹ پیٹر پورٹ</alternateName>
+        <alternateName lang="zh">圣彼得港</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Guernsey</timezone>
+        <bbox>
+            <west>-2.56022</west>
+            <north>49.47603</north>
+            <east>-2.51031</east>
+            <south>49.4436</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>143.5906982421875</score>
+    </geoname>
+    <geoname>
+        <toponymName>Leeds</toponymName>
+        <name>Leeds</name>
+        <lat>53.79648</lat>
+        <lng>-1.54785</lng>
+        <geonameId>2644688</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>455123</population>
+        <asciiName>Leeds</asciiName>
+        <alternateNames>Gorad Lids,LBA,Ledesia,Leeds,Lids,Lidsa,Lidsas,Lijds,Lints,Loidis,Līdsa,Ritis,li ci,lidjha,lids,lidsa,lidzi,lie si,lijeu,lyds,lydz,rizu,Ληντς,Горад Лідс,Лидс,Лийдс,Лідс,Լիդս,לידז,לידס,ليدز,لیدز,لیڈز,ܠܝܕܣ,लीड्स,લીડ્ઝ,లీడ్స్,ಲೀಡ್ಸ್,ลีดส์,ლიდზი,リーズ,列斯,利兹,리즈</alternateNames>
+        <elevation/>
+        <srtm3>50</srtm3>
+        <astergdem>53</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>H3</adminCode2>
+        <adminName2>Leeds</adminName2>
+        <alternateName lang="ang">Loidis</alternateName>
+        <alternateName lang="ar">ليدز</alternateName>
+        <alternateName lang="arc">ܠܝܕܣ</alternateName>
+        <alternateName lang="az">Lids</alternateName>
+        <alternateName lang="be">Горад Лідс</alternateName>
+        <alternateName lang="bg">Лийдс</alternateName>
+        <alternateName lang="ce">Лидс</alternateName>
+        <alternateName lang="cs">Leeds</alternateName>
+        <alternateName lang="da">Leeds</alternateName>
+        <alternateName lang="de">Leeds</alternateName>
+        <alternateName lang="el">Ληντς</alternateName>
+        <alternateName lang="en">Leeds</alternateName>
+        <alternateName lang="eo">Leeds</alternateName>
+        <alternateName lang="es">Leeds</alternateName>
+        <alternateName lang="eu">Leeds</alternateName>
+        <alternateName lang="fa">لیدز</alternateName>
+        <alternateName lang="fi">Leeds</alternateName>
+        <alternateName lang="fr">Leeds</alternateName>
+        <alternateName lang="gre">Ληντς</alternateName>
+        <alternateName lang="gu">લીડ્ઝ</alternateName>
+        <alternateName lang="he">לידס</alternateName>
+        <alternateName lang="hi">लीड्स</alternateName>
+        <alternateName lang="hy">Լիդս</alternateName>
+        <alternateName lang="iata">LBA</alternateName>
+        <alternateName lang="id">Leeds</alternateName>
+        <alternateName lang="it">Leeds</alternateName>
+        <alternateName lang="ja">リーズ</alternateName>
+        <alternateName lang="ka">ლიდზი</alternateName>
+        <alternateName lang="kn">ಲೀಡ್ಸ್</alternateName>
+        <alternateName lang="ko">리즈</alternateName>
+        <alternateName lang="la">Ledesia</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Leeds</alternateName>
+        <alternateName lang="lt">Lidsas</alternateName>
+        <alternateName lang="lv">Līdsa</alternateName>
+        <alternateName lang="mk">Лидс</alternateName>
+        <alternateName lang="mr">लीड्स</alternateName>
+        <alternateName lang="mzn">لیدز</alternateName>
+        <alternateName lang="nl">Leeds</alternateName>
+        <alternateName lang="nn">Leeds</alternateName>
+        <alternateName lang="no">Leeds</alternateName>
+        <alternateName lang="os">Лидс</alternateName>
+        <alternateName lang="pl">Leeds</alternateName>
+        <alternateName lang="pnb">لیڈز</alternateName>
+        <alternateName lang="pt">Leeds</alternateName>
+        <alternateName lang="ro">Leeds</alternateName>
+        <alternateName lang="ru">Лидс</alternateName>
+        <alternateName lang="sr">Лидс</alternateName>
+        <alternateName lang="sv">Leeds</alternateName>
+        <alternateName lang="te">లీడ్స్</alternateName>
+        <alternateName lang="tg">Лидс</alternateName>
+        <alternateName lang="th">ลีดส์</alternateName>
+        <alternateName lang="tr">Leeds</alternateName>
+        <alternateName lang="ug">Ritis</alternateName>
+        <alternateName lang="uk">Лідс</alternateName>
+        <alternateName lang="unlc">LBA</alternateName>
+        <alternateName lang="ur">لیڈز</alternateName>
+        <alternateName lang="uz">Lids</alternateName>
+        <alternateName lang="vep">Lids</alternateName>
+        <alternateName lang="yi">לידז</alternateName>
+        <alternateName lang="yue">列斯</alternateName>
+        <alternateName lang="zh">利兹</alternateName>
+        <alternateName lang="zh-CN">利兹</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-1.67411</west>
+            <north>53.86733</north>
+            <east>-1.42307</east>
+            <south>53.73624</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>141.97470092773438</score>
+    </geoname>
+    <geoname>
+        <toponymName>Saint Helier</toponymName>
+        <name>Saint Helier</name>
+        <lat>49.18804</lat>
+        <lng>-2.10491</lng>
+        <geonameId>3042091</geonameId>
+        <countryCode>JE</countryCode>
+        <countryName>Jersey</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLC</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>capital of a political entity</fcodeName>
+        <population>28000</population>
+        <asciiName>Saint Helier</asciiName>
+        <alternateNames>JER,Saint Helier,Saint-Helier,Saint-Hélier,Sent-Khel'er,St Helier,St. Helier,Сент-Хельер</alternateNames>
+        <elevation/>
+        <srtm3>11</srtm3>
+        <astergdem>14</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>3237864</adminCode1>
+        <adminName1>St Helier</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName isPreferredName="true" lang="de">Saint Helier</alternateName>
+        <alternateName isPreferredName="true" lang="en">Saint Helier</alternateName>
+        <alternateName isPreferredName="true" lang="fr">Saint-Hélier</alternateName>
+        <alternateName lang="iata">JER</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Saint_Helier</alternateName>
+        <alternateName lang="ru">Сент-Хельер</alternateName>
+        <alternateName lang="unlc">TNR</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Jersey</timezone>
+        <bbox>
+            <west>-2.13792</west>
+            <north>49.20961</north>
+            <east>-2.0719</east>
+            <south>49.16648</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>134.2122802734375</score>
+    </geoname>
+    <geoname>
+        <toponymName>Ramsey</toponymName>
+        <name>Ramsey</name>
+        <lat>54.32273</lat>
+        <lng>-4.38526</lng>
+        <geonameId>3042192</geonameId>
+        <countryCode>IM</countryCode>
+        <countryName>Isle of Man</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>7309</population>
+        <asciiName>Ramsey</asciiName>
+        <alternateNames>Ramsi,Ramsis,Rhumsaa,Рамси</alternateNames>
+        <elevation/>
+        <srtm3>7</srtm3>
+        <astergdem>8</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>9782191</adminCode1>
+        <adminName1>Ramsey</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName lang="br">Rhumsaa</alternateName>
+        <alternateName lang="ga">Rhumsaa</alternateName>
+        <alternateName lang="gd">Rhumsaa</alternateName>
+        <alternateName lang="gv">Rhumsaa</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Ramsey%2C_Isle_of_Man</alternateName>
+        <alternateName lang="lt">Ramsis</alternateName>
+        <alternateName lang="ru">Рамси</alternateName>
+        <alternateName lang="unlc">RAM</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Isle_of_Man</timezone>
+        <bbox>
+            <west>-4.40415</west>
+            <north>54.33375</north>
+            <east>-4.36637</east>
+            <south>54.31172</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>125.64186096191406</score>
+    </geoname>
+    <geoname>
+        <toponymName>Peel</toponymName>
+        <name>Peel</name>
+        <lat>54.22209</lat>
+        <lng>-4.69099</lng>
+        <geonameId>3042198</geonameId>
+        <countryCode>IM</countryCode>
+        <countryName>Isle of Man</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>3781</population>
+        <asciiName>Peel</asciiName>
+        <alternateNames>Pil,Purt na hInse,Purt ny h-Inshey,Purt ny hInshey,Pylas,Пил</alternateNames>
+        <elevation/>
+        <srtm3>22</srtm3>
+        <astergdem>17</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>9782188</adminCode1>
+        <adminName1>Peel</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName lang="br">Purt ny h-Inshey</alternateName>
+        <alternateName lang="ga">Purt na hInse</alternateName>
+        <alternateName lang="gd">Purt ny hInshey</alternateName>
+        <alternateName lang="gv">Purt ny h-Inshey</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Peel%2C_Isle_of_Man</alternateName>
+        <alternateName lang="lt">Pylas</alternateName>
+        <alternateName lang="ru">Пил</alternateName>
+        <alternateName lang="unlc">PEL</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Isle_of_Man</timezone>
+        <bbox>
+            <west>-4.70432</west>
+            <north>54.22988</north>
+            <east>-4.67767</east>
+            <south>54.2143</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>125.64186096191406</score>
+    </geoname>
+    <geoname>
+        <toponymName>Newcastle upon Tyne</toponymName>
+        <name>Newcastle upon Tyne</name>
+        <lat>54.97328</lat>
+        <lng>-1.61396</lng>
+        <geonameId>2641673</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA2</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a second-order administrative division</fcodeName>
+        <population>192382</population>
+        <asciiName>Newcastle upon Tyne</asciiName>
+        <alternateNames>An Caisteal Nuadh,Gorad N'jukasl-apan-Tajn,N'jukasl,N'jukasl-apon-Tajn,NCL,Neuchate,Neuchâté,Newcastle,Newcastle tren song Tyne,Newcastle trên sông Tyne,Newcastle upon Tyne,Newcastle-on-Tyne,Newcastle-upon-Tyne,Nioukasl,Niukaslas prie Taino,Njukasl na Tajnu,Njukasul upon Tajn,Novum Castellum,Nukasla pie Tainas,Nyukasl apon Tayn,n'yukesala apona ta'ina,ni'ukyasala apana tya'ina,niw khas seilxa phxn thin,nyukaeseul-eopontain,nywkasl,nywkasl abwn tayn,tai en he pan niu ka si er,Ņūkāsla pie Tainas,Νιούκασλ,Њукасл на Тајну,Горад Ньюкасл-апан-Тайн,Ньюкасл,Ньюкасл-апон-Тайн,Нюкасъл ъпон Тайн,ניוקאסטל,ניוקאסל,نيوكاسل أبون تاين,نیوکاسل,نیوکاسڵ,न्यूकॅसल अपॉन टाईन,নিউক্যাসল আপন ট্যাইন,นิวคาสเซิลอะพอนไทน์,ნიუკასლ-აპონ-ტაინი,ニューカッスル・アポン・タイン,泰恩河畔纽卡斯尔,뉴캐슬어폰타인</alternateNames>
+        <elevation/>
+        <srtm3>54</srtm3>
+        <astergdem>45</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="ENG">ENG</adminCode1>
+        <adminName1>England</adminName1>
+        <adminCode2>I7</adminCode2>
+        <adminName2>Newcastle upon Tyne</adminName2>
+        <alternateName lang="ar">نيوكاسل أبون تاين</alternateName>
+        <alternateName lang="ast">Newcastle</alternateName>
+        <alternateName lang="az">Nyukasl apon Tayn</alternateName>
+        <alternateName lang="be">Горад Ньюкасл-апан-Тайн</alternateName>
+        <alternateName lang="bg">Нюкасъл ъпон Тайн</alternateName>
+        <alternateName lang="bn">নিউক্যাসল আপন ট্যাইন</alternateName>
+        <alternateName lang="ckb">نیوکاسڵ</alternateName>
+        <alternateName lang="cs">Newcastle</alternateName>
+        <alternateName lang="cy">Newcastle upon Tyne</alternateName>
+        <alternateName lang="de">Newcastle upon Tyne</alternateName>
+        <alternateName lang="el">Νιούκασλ</alternateName>
+        <alternateName isPreferredName="true" lang="en">Newcastle upon Tyne</alternateName>
+        <alternateName lang="eo">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="es">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="eu">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="fa">نیوکاسل</alternateName>
+        <alternateName lang="fi">Newcastle upon Tyne</alternateName>
+        <alternateName lang="fr">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="gd">An Caisteal Nuadh</alternateName>
+        <alternateName lang="he">ניוקאסל</alternateName>
+        <alternateName lang="iata">NCL</alternateName>
+        <alternateName lang="id">Newcastle upon Tyne</alternateName>
+        <alternateName lang="it">Newcastle upon Tyne</alternateName>
+        <alternateName lang="ja">ニューカッスル・アポン・タイン</alternateName>
+        <alternateName lang="ka">ნიუკასლ-აპონ-ტაინი</alternateName>
+        <alternateName lang="ko">뉴캐슬어폰타인</alternateName>
+        <alternateName lang="la">Novum Castellum</alternateName>
+        <alternateName lang="li">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Newcastle_upon_Tyne</alternateName>
+        <alternateName lang="lt">Niukaslas prie Taino</alternateName>
+        <alternateName lang="lv">Ņūkāsla pie Tainas</alternateName>
+        <alternateName lang="mr">न्यूकॅसल अपॉन टाईन</alternateName>
+        <alternateName lang="mzn">نیوکاسل</alternateName>
+        <alternateName lang="nl">Newcastle upon Tyne</alternateName>
+        <alternateName lang="nn">Newcastle upon Tyne</alternateName>
+        <alternateName lang="no">Newcastle upon Tyne</alternateName>
+        <alternateName lang="nrm">Neuchâté</alternateName>
+        <alternateName lang="pl">Newcastle upon Tyne</alternateName>
+        <alternateName lang="pnb">نیوکاسل</alternateName>
+        <alternateName lang="post">NE99</alternateName>
+        <alternateName lang="pt">Newcastle upon Tyne</alternateName>
+        <alternateName lang="ro">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="ru">Ньюкасл-апон-Тайн</alternateName>
+        <alternateName lang="scn">Newcastle</alternateName>
+        <alternateName lang="sr">Њукасл на Тајну</alternateName>
+        <alternateName lang="sv">Newcastle-upon-Tyne</alternateName>
+        <alternateName lang="th">นิวคาสเซิลอะพอนไทน์</alternateName>
+        <alternateName lang="tr">Newcastle upon Tyne</alternateName>
+        <alternateName lang="uk">Ньюкасл-апон-Тайн</alternateName>
+        <alternateName lang="unlc">NCL</alternateName>
+        <alternateName lang="vi">Newcastle trên sông Tyne</alternateName>
+        <alternateName lang="yi">ניוקאסטל</alternateName>
+        <alternateName lang="zh">泰恩河畔纽卡斯尔</alternateName>
+        <alternateName lang="zh-CN">泰恩河畔纽卡斯尔</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-1.73123</west>
+            <north>55.03117</north>
+            <east>-1.53438</east>
+            <south>54.96017</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>115.45545196533203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Cardiff</toponymName>
+        <name>Cardiff</name>
+        <lat>51.48</lat>
+        <lng>-3.18</lng>
+        <geonameId>2653822</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>447287</population>
+        <asciiName>Cardiff</asciiName>
+        <alternateNames>CWL,Caerdydd,Cairdiff,Cardiff,Cardiffa,Cayr Deeth,Gorad Kardyf,Kadif,Kardif,Kardifa,Kardifas,Kardiff,Kardip,Kardydh,Karntif,Kerdiz,Kārdifa,jia de fu,kadifu,kadipeu,karadifa,kardifa,kardipha,kardyf,kartihp,khardif f,Κάρντιφ,Горад Кардыф,Кардиф,Кардифф,Кардіфф,Քարդիֆ,קארדיף,كارديف,کاردیف,کارڈف,कार्डिफ,कार्डिफ़,কার্ডিফ,ਕਾਰਡਿਫ਼,கார்டிஃப்,കാർഡിഫ്,คาร์ดิฟฟ์,ကားဒစ်မြို့,კარდიფი,カーディフ,加的夫,카디프</alternateNames>
+        <elevation/>
+        <srtm3>17</srtm3>
+        <astergdem>25</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="WLS">WLS</adminCode1>
+        <adminName1>Wales</adminName1>
+        <adminCode2>X5</adminCode2>
+        <adminName2>Cardiff</adminName2>
+        <adminCode3>00PT005</adminCode3>
+        <adminName3>Castle</adminName3>
+        <alternateName lang="ar">كارديف</alternateName>
+        <alternateName lang="arz">كارديف</alternateName>
+        <alternateName lang="az">Kardiff</alternateName>
+        <alternateName lang="be">Горад Кардыф</alternateName>
+        <alternateName lang="bg">Кардиф</alternateName>
+        <alternateName lang="bn">কার্ডিফ</alternateName>
+        <alternateName lang="br">Kerdiz</alternateName>
+        <alternateName lang="ckb">کاردیف</alternateName>
+        <alternateName isPreferredName="true" lang="cy">Caerdydd</alternateName>
+        <alternateName lang="el">Κάρντιφ</alternateName>
+        <alternateName isPreferredName="true" lang="en">Cardiff</alternateName>
+        <alternateName lang="fa">کاردیف</alternateName>
+        <alternateName lang="ga">Caerdydd</alternateName>
+        <alternateName lang="gd">Caerdydd</alternateName>
+        <alternateName lang="gv">Cayr Deeth</alternateName>
+        <alternateName lang="he">קארדיף</alternateName>
+        <alternateName lang="hi">कार्डिफ़</alternateName>
+        <alternateName lang="ht">Kadif</alternateName>
+        <alternateName lang="hy">Քարդիֆ</alternateName>
+        <alternateName lang="iata">CWL</alternateName>
+        <alternateName lang="is">Cardiff</alternateName>
+        <alternateName lang="ja">カーディフ</alternateName>
+        <alternateName lang="ka">კარდიფი</alternateName>
+        <alternateName lang="kk">Кардифф</alternateName>
+        <alternateName lang="ko">카디프</alternateName>
+        <alternateName lang="kw">Kardydh</alternateName>
+        <alternateName lang="la">Cardiffa</alternateName>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Cardiff</alternateName>
+        <alternateName lang="lt">Kardifas</alternateName>
+        <alternateName lang="lv">Kārdifa</alternateName>
+        <alternateName lang="ml">കാർഡിഫ്</alternateName>
+        <alternateName lang="mr">कार्डिफ</alternateName>
+        <alternateName lang="my">ကားဒစ်မြို့</alternateName>
+        <alternateName isPreferredName="true" lang="no">Cardiff</alternateName>
+        <alternateName lang="os">Кардифф</alternateName>
+        <alternateName lang="pa">ਕਾਰਡਿਫ਼</alternateName>
+        <alternateName lang="pnb">کارڈف</alternateName>
+        <alternateName lang="ru">Кардифф</alternateName>
+        <alternateName lang="sco">Cairdiff</alternateName>
+        <alternateName lang="sr">Кардиф</alternateName>
+        <alternateName lang="ta">கார்டிஃப்</alternateName>
+        <alternateName lang="th">คาร์ดิฟฟ์</alternateName>
+        <alternateName lang="tl">Kardip</alternateName>
+        <alternateName lang="uk">Кардіфф</alternateName>
+        <alternateName lang="unlc">CDF</alternateName>
+        <alternateName lang="yi">קארדיף</alternateName>
+        <alternateName lang="zh">加的夫</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-3.27853</west>
+            <north>51.54719</north>
+            <east>-3.07893</east>
+            <south>51.45115</south>
+            <accuracyLevel>10</accuracyLevel>
+        </bbox>
+        <score>115.45545196533203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Belfast</toponymName>
+        <name>Belfast</name>
+        <lat>54.59682</lat>
+        <lng>-5.92541</lng>
+        <geonameId>2655984</geonameId>
+        <countryCode>GB</countryCode>
+        <countryName>United Kingdom</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>274770</population>
+        <asciiName>Belfast</asciiName>
+        <alternateNames>BFS,Beal Feirste,Beeal Feirshtey,Belfast,Belfast City,Belfasta,Belfastas,Belfasto,Belfastum,Belffast,Belfāsta,Belpas,Beul-Feirste,Bèlfast,Béal Feirste,Bélfast,Gorad Belfast,Mpelphast,baelpaseuteu,bei er fa si te,belaphasta,belfast,belpaseuteu,berufasuto,blfast,pelpast,Μπέλφαστ,Белфаст,Горад Белфаст,Բելֆաստ,בלפאסט,בעלפאסט,بلفاست,بیلفاسٹ,बेलफास्ट,বেলফাস্ট,பெல்பாஸ்ட்,ಬೆಲ್‌ಫಾಸ್ಟ್‌,เบลฟัสต์,ဗဲလဖတ်မြို့,ბელფასტი,ベルファスト,貝爾法斯特,贝尔法斯特,밸파스트,벨파스트</alternateNames>
+        <elevation/>
+        <srtm3>7</srtm3>
+        <astergdem>14</astergdem>
+        <continentCode>EU</continentCode>
+        <adminCode1 ISO3166-2="NIR">NIR</adminCode1>
+        <adminName1>Northern Ireland</adminName1>
+        <adminCode2>N09000003</adminCode2>
+        <adminName2>Belfast</adminName2>
+        <alternateName lang="af">Belfast</alternateName>
+        <alternateName lang="ar">بلفاست</alternateName>
+        <alternateName lang="be">Горад Белфаст</alternateName>
+        <alternateName lang="bg">Белфаст</alternateName>
+        <alternateName lang="bn">বেলফাস্ট</alternateName>
+        <alternateName lang="br">Béal Feirste</alternateName>
+        <alternateName lang="ca">Belfast</alternateName>
+        <alternateName lang="cs">Belfast</alternateName>
+        <alternateName isPreferredName="true" lang="cy">Belffast</alternateName>
+        <alternateName lang="da">Belfast</alternateName>
+        <alternateName lang="de">Belfast</alternateName>
+        <alternateName lang="el">Μπέλφαστ</alternateName>
+        <alternateName isPreferredName="true" lang="en">Belfast</alternateName>
+        <alternateName lang="eo">Belfasto</alternateName>
+        <alternateName lang="es">Belfast</alternateName>
+        <alternateName lang="et">Belfast</alternateName>
+        <alternateName lang="eu">Belfast</alternateName>
+        <alternateName lang="fa">بلفاست</alternateName>
+        <alternateName lang="fi">Belfast</alternateName>
+        <alternateName lang="fr">Belfast</alternateName>
+        <alternateName isPreferredName="true" lang="ga">Béal Feirste</alternateName>
+        <alternateName isPreferredName="true" lang="gd">Beul-Feirste</alternateName>
+        <alternateName lang="gv">Beeal Feirshtey</alternateName>
+        <alternateName lang="he">בלפאסט</alternateName>
+        <alternateName lang="ht">Bèlfast</alternateName>
+        <alternateName lang="hu">Belfast</alternateName>
+        <alternateName lang="hy">Բելֆաստ</alternateName>
+        <alternateName lang="iata">BFS</alternateName>
+        <alternateName lang="id">Belfast</alternateName>
+        <alternateName lang="io">Belfast</alternateName>
+        <alternateName lang="it">Belfast</alternateName>
+        <alternateName lang="ja">ベルファスト</alternateName>
+        <alternateName lang="ka">ბელფასტი</alternateName>
+        <alternateName lang="kn">ಬೆಲ್‌ಫಾಸ್ಟ್‌</alternateName>
+        <alternateName lang="ko">밸파스트</alternateName>
+        <alternateName lang="la">Belfastum</alternateName>
+        <alternateName lang="link">http://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D1%84%D0%B0%D1%81%D1%82</alternateName>
+        <alternateName lang="lt">Belfastas</alternateName>
+        <alternateName lang="lv">Belfāsta</alternateName>
+        <alternateName lang="mr">बेलफास्ट</alternateName>
+        <alternateName lang="my">ဗဲလဖတ်မြို့</alternateName>
+        <alternateName lang="nl">Belfast</alternateName>
+        <alternateName lang="nn">Belfast</alternateName>
+        <alternateName lang="no">Belfast</alternateName>
+        <alternateName lang="nrm">Belfast</alternateName>
+        <alternateName lang="oc">Belfast</alternateName>
+        <alternateName lang="os">Белфаст</alternateName>
+        <alternateName lang="pl">Belfast</alternateName>
+        <alternateName lang="pnb">بیلفاسٹ</alternateName>
+        <alternateName lang="pt">Belfast</alternateName>
+        <alternateName lang="rmy">Belfast</alternateName>
+        <alternateName lang="ro">Belfast</alternateName>
+        <alternateName lang="ru">Белфаст</alternateName>
+        <alternateName lang="sk">Belfast</alternateName>
+        <alternateName lang="sr">Белфаст</alternateName>
+        <alternateName lang="sv">Belfast</alternateName>
+        <alternateName lang="ta">பெல்பாஸ்ட்</alternateName>
+        <alternateName lang="th">เบลฟัสต์</alternateName>
+        <alternateName lang="tl">Belpas</alternateName>
+        <alternateName lang="tr">Belfast</alternateName>
+        <alternateName lang="ug">Bélfast</alternateName>
+        <alternateName lang="uk">Белфаст</alternateName>
+        <alternateName lang="unlc">BEL</alternateName>
+        <alternateName lang="yi">בעלפאסט</alternateName>
+        <alternateName lang="yue">貝爾法斯特</alternateName>
+        <alternateName lang="zh">贝尔法斯特</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/London</timezone>
+        <bbox>
+            <west>-6.04281</west>
+            <north>54.66472</north>
+            <east>-5.80801</east>
+            <south>54.52892</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>115.45545196533203</score>
+    </geoname>
+    <geoname>
+        <toponymName>Port Erin</toponymName>
+        <name>Port Erin</name>
+        <lat>54.08487</lat>
+        <lng>-4.75099</lng>
+        <geonameId>3042196</geonameId>
+        <countryCode>IM</countryCode>
+        <countryName>Isle of Man</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>3530</population>
+        <asciiName>Port Erin</asciiName>
+        <alternateNames>Port-Ehrin,Порт-Эрин</alternateNames>
+        <elevation/>
+        <srtm3>24</srtm3>
+        <astergdem>21</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>9782189</adminCode1>
+        <adminName1>Port Erin</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Port_Erin</alternateName>
+        <alternateName isPreferredName="true" lang="ru">Порт-Эрин</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Isle_of_Man</timezone>
+        <bbox>
+            <west>-4.76183</west>
+            <north>54.09123</north>
+            <east>-4.74014</east>
+            <south>54.07851</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>107.6930160522461</score>
+    </geoname>
+    <geoname>
+        <toponymName>Laxey</toponymName>
+        <name>Laxey</name>
+        <lat>54.23017</lat>
+        <lng>-4.39985</lng>
+        <geonameId>3042217</geonameId>
+        <countryCode>IM</countryCode>
+        <countryName>Isle of Man</countryName>
+        <fcl>P</fcl>
+        <fcode>PPLA</fcode>
+        <fclName>city, village,...</fclName>
+        <fcodeName>seat of a first-order administrative division</fcodeName>
+        <population>1768</population>
+        <asciiName>Laxey</asciiName>
+        <alternateNames>Laksaa,Laksi,Лакси</alternateNames>
+        <elevation/>
+        <srtm3>47</srtm3>
+        <astergdem>65</astergdem>
+        <continentCode>EU</continentCode>
+        <cc2>GB</cc2>
+        <adminCode1>9782173</adminCode1>
+        <adminName1>Laxey</adminName1>
+        <adminCode2/>
+        <adminName2/>
+        <alternateName lang="link">http://en.wikipedia.org/wiki/Laxey</alternateName>
+        <alternateName lang="ru">Лакси</alternateName>
+        <timezone dstOffset="1.0" gmtOffset="0.0">Europe/Isle_of_Man</timezone>
+        <bbox>
+            <west>-4.40755</west>
+            <north>54.23467</north>
+            <east>-4.39216</east>
+            <south>54.22567</south>
+            <accuracyLevel>2</accuracyLevel>
+        </bbox>
+        <score>107.6930160522461</score>
+    </geoname>
+</geonames>

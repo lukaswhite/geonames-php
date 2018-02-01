@@ -13,14 +13,14 @@ class FindNearbyPOIsOSMQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new FindNearbyPOIsOSM( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'findNearbyPOIsOSM', $search->getUri( ) );
+        $query = new FindNearbyPOIsOSM( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'findNearbyPOIsOSM', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new FindNearbyPOIsOSM( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'pois', $search->expects( ) );
+        $query = new FindNearbyPOIsOSM( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'pois', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,13 +29,13 @@ class FindNearbyPOIsOSMQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearbyPOIsOSM( $coordinates );
+        $query = new FindNearbyPOIsOSM( $coordinates );
 
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 53.41667, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -2.25, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 53.41667, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -2.25, $query->build( )[ 'lng' ] );
 
     }
 
@@ -45,11 +45,11 @@ class FindNearbyPOIsOSMQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearbyPOIsOSM( $coordinates );
-        $search->withinRadius( 25 );
+        $query = new FindNearbyPOIsOSM( $coordinates );
+        $query->withinRadius( 25 );
 
-        $this->assertArrayHasKey( 'radius', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'radius' ] );
+        $this->assertArrayHasKey( 'radius', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'radius' ] );
 
     }
 
@@ -59,13 +59,13 @@ class FindNearbyPOIsOSMQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new FindNearbyPOIsOSM( $coordinates );
+        $query = new FindNearbyPOIsOSM( $coordinates );
 
-        $search->withinRadius( 25 )
+        $query->withinRadius( 25 )
             ->limit( 25 );
 
-        $this->assertArrayHasKey( 'maxRows', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'maxRows' ] );
+        $this->assertArrayHasKey( 'maxRows', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'maxRows' ] );
     }
 
 

@@ -14,91 +14,91 @@ class PostalCodeQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( 'postalCodeSearch', $search->getUri( ) );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( 'postalCodeSearch', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( 'codes', $search->expects( ) );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( 'codes', $query->expects( ) );
     }
 
     public function testSearchOnPostalCode( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( $search, $search->postalCode( 'M1' ) );
-        $this->assertArrayHasKey( 'postalcode', $search->build( ) );
-        $this->assertEquals( 'M1', $search->build( )[ 'postalcode' ] );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( $query, $query->postalCode( 'M1' ) );
+        $this->assertArrayHasKey( 'postalcode', $query->build( ) );
+        $this->assertEquals( 'M1', $query->build( )[ 'postalcode' ] );
     }
 
     public function testSearchOnPostalCodeStartsWith( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( $search, $search->postalCodeStartsWith( 'M' ) );
-        $this->assertArrayHasKey( 'postalcode_startsWith', $search->build( ) );
-        $this->assertEquals( 'M', $search->build( )[ 'postalcode_startsWith' ] );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( $query, $query->postalCodeStartsWith( 'M' ) );
+        $this->assertArrayHasKey( 'postalcode_startsWith', $query->build( ) );
+        $this->assertEquals( 'M', $query->build( )[ 'postalcode_startsWith' ] );
     }
 
     public function testSearchOnPlaceName( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( $search, $search->placeName( 'London' ) );
-        $this->assertArrayHasKey( 'placename', $search->build( ) );
-        $this->assertEquals( 'London', $search->build( )[ 'placename' ] );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( $query, $query->placeName( 'London' ) );
+        $this->assertArrayHasKey( 'placename', $query->build( ) );
+        $this->assertEquals( 'London', $query->build( )[ 'placename' ] );
     }
 
     public function testSearchOnPlaceNameStartsWith( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( $search, $search->placeNameStartsWith( 'Lon' ) );
-        $this->assertArrayHasKey( 'placename_startsWith', $search->build( ) );
-        $this->assertEquals( 'Lon', $search->build( )[ 'placename_startsWith' ] );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( $query, $query->placeNameStartsWith( 'Lon' ) );
+        $this->assertArrayHasKey( 'placename_startsWith', $query->build( ) );
+        $this->assertEquals( 'Lon', $query->build( )[ 'placename_startsWith' ] );
     }
 
     public function testSpecifyingIsReduced( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( $search, $search->reduced( ) );
-        $this->assertArrayHasKey( 'isReduced', $search->build( ) );
-        $this->assertEquals( true, $search->build( )[ 'isReduced' ] );
-        unset( $search );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( $query, $query->reduced( ) );
+        $this->assertArrayHasKey( 'isReduced', $query->build( ) );
+        $this->assertEquals( true, $query->build( )[ 'isReduced' ] );
+        unset( $query );
 
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( $search, $search->reduced( false ) );
-        $this->assertArrayHasKey( 'isReduced', $search->build( ) );
-        $this->assertEquals( false, $search->build( )[ 'isReduced' ] );
-        unset( $search );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( $query, $query->reduced( false ) );
+        $this->assertArrayHasKey( 'isReduced', $query->build( ) );
+        $this->assertEquals( false, $query->build( )[ 'isReduced' ] );
+        unset( $query );
     }
 
     public function testIncludingBoundingBox( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertArrayNotHasKey( 'west', $search->build( ) );
-        $this->assertArrayNotHasKey( 'north', $search->build( ) );
-        $this->assertArrayNotHasKey( 'east', $search->build( ) );
-        $this->assertArrayNotHasKey( 'south', $search->build( ) );
-        $search->setBoundingBox( [
+        $query = new PostalCodeSearch( );
+        $this->assertArrayNotHasKey( 'west', $query->build( ) );
+        $this->assertArrayNotHasKey( 'north', $query->build( ) );
+        $this->assertArrayNotHasKey( 'east', $query->build( ) );
+        $this->assertArrayNotHasKey( 'south', $query->build( ) );
+        $query->setBoundingBox( [
             'west' => 1.95727,
             'north' => 52.19634,
             'east' => 1.44968,
             'south' => 50.57491,
         ]);
-        $this->assertArrayHasKey( 'west', $search->build( ) );
-        $this->assertArrayHasKey( 'north', $search->build( ) );
-        $this->assertArrayHasKey( 'east', $search->build( ) );
-        $this->assertArrayHasKey( 'south', $search->build( ) );
-        $this->assertEquals( 1.95727, $search->build( )[ 'west' ] );
-        $this->assertEquals( 52.19634, $search->build( )[ 'north' ] );
-        $this->assertEquals( 1.44968, $search->build( )[ 'east' ] );
-        $this->assertEquals( 50.57491, $search->build( )[ 'south' ] );
+        $this->assertArrayHasKey( 'west', $query->build( ) );
+        $this->assertArrayHasKey( 'north', $query->build( ) );
+        $this->assertArrayHasKey( 'east', $query->build( ) );
+        $this->assertArrayHasKey( 'south', $query->build( ) );
+        $this->assertEquals( 1.95727, $query->build( )[ 'west' ] );
+        $this->assertEquals( 52.19634, $query->build( )[ 'north' ] );
+        $this->assertEquals( 1.44968, $query->build( )[ 'east' ] );
+        $this->assertEquals( 50.57491, $query->build( )[ 'south' ] );
 
     }
 
     public function testBuildEmpty( )
     {
-        $search = new PostalCodeSearch( );
-        $this->assertEquals( [ ], $search->build( ) );
+        $query = new PostalCodeSearch( );
+        $this->assertEquals( [ ], $query->build( ) );
     }
 
 }

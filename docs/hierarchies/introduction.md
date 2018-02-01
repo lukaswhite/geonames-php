@@ -8,7 +8,7 @@ Consider the United Kingdom.
  
 ![The United Kingdom](/_media/united-kingdom.png)
  
-The United Kingdom is comprised of England, Wales, Scotland and Northern Ireland; i.e. they are the **children** of the United Kingdom. Wales, Scotland and Northern Ireland are the **siblings** of England.
+The United Kingdom is comprised of England, Wales, Scotland and Northern Ireland; i.e. they are the **children** of the United Kingdom.
 
 Let's look at a more detailed examples.
 

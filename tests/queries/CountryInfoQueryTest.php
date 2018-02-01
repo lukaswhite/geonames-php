@@ -14,30 +14,30 @@ class CountryInfoQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new CountryInfo( );
-        $this->assertEquals( 'countryInfo', $search->getUri( ) );
+        $query = new CountryInfo( );
+        $this->assertEquals( 'countryInfo', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new CountryInfo( );
-        $this->assertEquals( 'countries', $search->expects( ) );
+        $query = new CountryInfo( );
+        $this->assertEquals( 'countries', $query->expects( ) );
     }
 
     public function testBuild( )
     {
-        $search = new CountryInfo( );
-        $search->inCountries( [ 'GB', 'ES' ] )->language( 'en' );
+        $query = new CountryInfo( );
+        $query->inCountries( [ 'GB', 'ES' ] )->language( 'en' );
         $this->assertEquals( [
             'lang'  =>  'en',
             'country' => [ 'GB', 'ES' ]
-        ], $search->build( ) );
+        ], $query->build( ) );
     }
 
     public function testBuildEmpty( )
     {
-        $search = new CountryInfo( );
-        $this->assertEquals( [ ], $search->build( ) );
+        $query = new CountryInfo( );
+        $this->assertEquals( [ ], $query->build( ) );
     }
 
 }

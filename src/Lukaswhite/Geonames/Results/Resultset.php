@@ -125,6 +125,47 @@ class Resultset implements \IteratorAggregate, \ArrayAccess, \Countable
         ), $this->total( ) );
     }
 
+    /**
+     * Sort this collection using a user-defined function (i.e. a closure)
+     *
+     * @param \Closure $func
+     * @return Resultset
+     */
+    public function sort( \Closure $func )
+    {
+        usort( $this->results, $func );
+        return $this;
+    }
+
+    /**
+     * Filter this collection, returning a new one where the supplied function (i.e. closure) returns true.
+     *
+     * @param \Closure $func
+     * @return Resultset
+     */
+    public function filter( \Closure $func )
+    {
+        return new self(
+            array_filter( $this->results, $func ),
+            $this->total( )
+        );
+    }
+
+    /**
+     * Find the first result where the supplied function (i.e. closure) returns true.
+     *
+     * @param \Closure $func
+     * @return Resultset
+     */
+    public function find( \Closure $func )
+    {
+        foreach ( $this->results as $result ) {
+            if ( $func( $result ) ) {
+                return $result;
+            }
+        }
+        return null;
+    }
 
     /**
      * Set the result at the specified offset
@@ -169,4 +210,18 @@ class Resultset implements \IteratorAggregate, \ArrayAccess, \Countable
         return isset( $this->results[ $offset ] ) ? $this->results[ $offset ] : null;
     }
 
+    /**
+     * Determine whether there are more results to be fetched, based on the specified offset
+     *
+     * @return bool
+     */
+    public function hasMore( $offset )
+    {
+        // If no total has been set, we can't be sure
+        if ( ! $this->total ) {
+            return false;
+        }
+
+        return ( ( $offset + $this->count( ) ) < $this->total );
+    }
 }

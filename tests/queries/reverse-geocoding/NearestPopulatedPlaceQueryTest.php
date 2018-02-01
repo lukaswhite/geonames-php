@@ -13,14 +13,14 @@ class NearestPopulatedPlaceQueryTest extends PHPUnit_Framework_TestCase{
 
     public function testReturnsTheUri( )
     {
-        $search = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'findNearbyPlaceName', $search->getUri( ) );
+        $query = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'findNearbyPlaceName', $query->getUri( ) );
     }
 
     public function testDeclaresWhatItExpects( )
     {
-        $search = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
-        $this->assertEquals( 'features', $search->expects( ) );
+        $query = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $this->assertEquals( 'features', $query->expects( ) );
     }
 
     public function testLatLngIncludedInQuery( )
@@ -29,13 +29,13 @@ class NearestPopulatedPlaceQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
+        $query = new NearestPopulatedPlace( $coordinates );
 
 
-        $this->assertArrayHasKey( 'lat', $search->build( ) );
-        $this->assertEquals( 53.41667, $search->build( )[ 'lat' ] );
-        $this->assertArrayHasKey( 'lng', $search->build( ) );
-        $this->assertEquals( -2.25, $search->build( )[ 'lng' ] );
+        $this->assertArrayHasKey( 'lat', $query->build( ) );
+        $this->assertEquals( 53.41667, $query->build( )[ 'lat' ] );
+        $this->assertArrayHasKey( 'lng', $query->build( ) );
+        $this->assertEquals( -2.25, $query->build( )[ 'lng' ] );
 
     }
 
@@ -45,11 +45,11 @@ class NearestPopulatedPlaceQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
-        $search->withinRadius( 25 );
+        $query = new NearestPopulatedPlace( $coordinates );
+        $query->withinRadius( 25 );
 
-        $this->assertArrayHasKey( 'radius', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'radius' ] );
+        $this->assertArrayHasKey( 'radius', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'radius' ] );
 
     }
 
@@ -59,12 +59,12 @@ class NearestPopulatedPlaceQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
+        $query = new NearestPopulatedPlace( $coordinates );
 
-        $search->withinRadius( 25 )->language( 'en' );
+        $query->withinRadius( 25 )->language( 'en' );
 
-        $this->assertArrayHasKey( 'lang', $search->build( ) );
-        $this->assertEquals( 'en', $search->build( )[ 'lang' ] );
+        $this->assertArrayHasKey( 'lang', $query->build( ) );
+        $this->assertEquals( 'en', $query->build( )[ 'lang' ] );
 
     }
 
@@ -74,31 +74,31 @@ class NearestPopulatedPlaceQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
+        $query = new NearestPopulatedPlace( $coordinates );
 
-        $search->withinRadius( 25 )->language( 'en' )->full( );
+        $query->withinRadius( 25 )->language( 'en' )->full( );
 
-        $this->assertArrayHasKey( 'style', $search->build( ) );
-        $this->assertEquals( 'FULL', $search->build( )[ 'style' ] );
+        $this->assertArrayHasKey( 'style', $query->build( ) );
+        $this->assertEquals( 'FULL', $query->build( )[ 'style' ] );
 
     }
 
 
     public function testCitiesIncludedInQuery( )
     {
-        $search = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $query = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
 
         $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( );
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
+        $query = new NearestPopulatedPlace( $coordinates );
 
-        $search->withinRadius( 25 )->language( 'en' )->full( )
+        $query->withinRadius( 25 )->language( 'en' )->full( )
             ->populationOver5000( );
 
-        $this->assertArrayHasKey( 'cities', $search->build( ) );
-        $this->assertEquals( 'cities5000', $search->build( )[ 'cities' ] );
+        $this->assertArrayHasKey( 'cities', $query->build( ) );
+        $this->assertEquals( 'cities5000', $query->build( )[ 'cities' ] );
     }
 
     public function testMaxRowsIncludedInQuery( )
@@ -107,33 +107,33 @@ class NearestPopulatedPlaceQueryTest extends PHPUnit_Framework_TestCase{
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
+        $query = new NearestPopulatedPlace( $coordinates );
 
-        $search->withinRadius( 25 )->language( 'en' )->full( )
+        $query->withinRadius( 25 )->language( 'en' )->full( )
             ->populationOver5000( )
             ->limit( 25 );
 
-        $this->assertArrayHasKey( 'maxRows', $search->build( ) );
-        $this->assertEquals( 25, $search->build( )[ 'maxRows' ] );
+        $this->assertArrayHasKey( 'maxRows', $query->build( ) );
+        $this->assertEquals( 25, $query->build( )[ 'maxRows' ] );
     }
 
     public function testLocalCountryIncludedInQuery( )
     {
-        $search = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
+        $query = new NearestPopulatedPlace( new \Lukaswhite\Geonames\Models\Coordinate( ) );
 
         $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( );
         $coordinates->setLatitude( 53.41667 )
             ->setLongitude( -2.25 );
 
-        $search = new NearestPopulatedPlace( $coordinates );
+        $query = new NearestPopulatedPlace( $coordinates );
 
-        $search->withinRadius( 25 )->language( 'en' )->full( )
+        $query->withinRadius( 25 )->language( 'en' )->full( )
             ->populationOver5000( )
             ->limit( 25 )
             ->justLocalCountry( );
 
-        $this->assertArrayHasKey( 'localCountry', $search->build( ) );
-        $this->assertEquals( true, $search->build( )[ 'localCountry' ] );
+        $this->assertArrayHasKey( 'localCountry', $query->build( ) );
+        $this->assertEquals( true, $query->build( )[ 'localCountry' ] );
     }
 
 }

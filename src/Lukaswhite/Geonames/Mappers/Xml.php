@@ -1,6 +1,8 @@
 <?php namespace Lukaswhite\Geonames\Mappers;
 
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames;
+use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas;
+use Lukaswhite\Geonames\Models\AdministrativeArea;
 use Lukaswhite\Geonames\Models\BoundingBox;
 use Lukaswhite\Geonames\Models\CountrySubdivision;
 use Lukaswhite\Geonames\Models\Neighbourhood;
@@ -54,26 +56,26 @@ class Xml
      */
     public function mapFeature( \SimpleXMLElement $el )
     {
-        $geoname = new Feature( );
+        $feature = new Feature( );
 
         if ( $el->geonameId ) {
-            $geoname->setId( intval( $el->geonameId ) );
+            $feature->setId( intval( $el->geonameId ) );
         }
 
         if ( $el->toponymName ) {
-            $geoname->setToponymName( ( string ) $el->toponymName );
+            $feature->setToponymName( ( string ) $el->toponymName );
         }
 
         if ( $el->asciiName ) {
-            $geoname->setAsciiName( ( string ) $el->asciiName );
+            $feature->setAsciiName( ( string ) $el->asciiName );
         }
 
         if ( $el->name ) {
-            $geoname->setName( $el->name );
+            $feature->setName( $el->name );
         }
 
         if ( $el->continentCode ) {
-            $geoname->setContinentCode( ( string ) $el->continentCode );
+            $feature->setContinentCode( ( string ) $el->continentCode );
         }
 
         if ( $el->countryCode ) {
@@ -81,35 +83,39 @@ class Xml
             if ( $el->countryName ) {
                 $country->setName( ( string ) $el->countryName );
             }
-            $geoname->setCountry( $country );
+            $feature->setCountry( $country );
         }
 
         if ( $el->fcl ) {
-            $geoname->setFcl( ( string ) $el->fcl );
+            $feature->setFcl( ( string ) $el->fcl );
         }
-
+        
         if ( $el->fcode ) {
-            $geoname->setFcode( ( string ) $el->fcode );
+            $feature->setFcode( ( string ) $el->fcode );
         }
 
         if ( $el->population ) {
-            $geoname->setPopulation( intval( $el->population ) );
+            $feature->setPopulation( intval( $el->population ) );
         }
 
         if ( $el->elevation ) {
-            $geoname->setElevation( intval( $el->elevation ) );
+            $feature->setElevation( intval( $el->elevation ) );
         }
 
         if ( $el->srtm3 ) {
-            $geoname->setStrm3( intval( $el->srtm3 ) );
+            $feature->setStrm3( intval( $el->srtm3 ) );
         }
 
         if ( $el->astergdem ) {
-            $geoname->setAstergdem( intval( $el->astergdem ) );
+            $feature->setAstergdem( intval( $el->astergdem ) );
         }
 
         if ( $el->distance ) {
-            $geoname->setDistance( floatval( $el->distance ) );
+            $feature->setDistance( floatval( $el->distance ) );
+        }
+
+        if ( $el->score ) {
+            $feature->setScore( floatval( $el->score ) );
         }
 
         if ( $el->bbox ) {
@@ -122,7 +128,7 @@ class Xml
             if ( $el->bbox->accuracyLevel ) {
                 $boundingBox->setAccuracyLevel( intval( $el->bbox->accuracyLevel ) );
             }
-            $geoname->setBoundingBox( $boundingBox );
+            $feature->setBoundingBox( $boundingBox );
         }
 
         if ( $el->alternateName ) {
@@ -137,7 +143,7 @@ class Xml
                 $isShortName = ( isset( $alternateNameEl->attributes( )->isShortName ) )
                     && ( bool ) $alternateNameEl->attributes( )->isShortName;
 
-                $geoname->addAlternateName(
+                $feature->addAlternateName(
                     new AlternateName(
                         $language,
                         $name,
@@ -153,19 +159,22 @@ class Xml
             $timezone->setName( ( string ) $el->timezone );
             $timezone->setDstOffset( floatval( $el->timezone->attributes( )->dstOffset ) );
             $timezone->setGmtOffset( floatval( $el->timezone->attributes( )->gmtOffset ) );
-            $geoname->setTimezone( $timezone );
+            $feature->setTimezone( $timezone );
         }
 
         // Now map the admin codes
-        $this->mapAdminCodes( $el, $geoname );
+        $this->mapAdminCodes( $el, $feature );
 
         // Now map the admin code names
-        $this->mapAdminCodeNames( $el, $geoname );
+        $this->mapAdminCodeNames( $el, $feature );
+
+        // Now map the administrative areas
+        $this->mapAdministrativeAreas( $el, $feature );
 
         // Now map the coordinates
-        $this->mapCoordinates( $el, $geoname );
+        $this->mapCoordinates( $el, $feature );
 
-        return $geoname;
+        return $feature;
     }
 
     /**
@@ -312,7 +321,7 @@ class Xml
             if ( $el->countryName ) {
                 $country->setName( $el->countryName );
             }
-            $geoname->setCountry( $country );
+            $feature->setCountry( $country );
              **/
         }
 
@@ -339,6 +348,9 @@ class Xml
 
         // Now map the admin code names
         $this->mapAdminCodeNames( $el, $countrySubdivision );
+
+        // Now map the administrative areas
+        $this->mapAdministrativeAreas( $el, $countrySubdivision );
 
         return $countrySubdivision;
     }
@@ -415,6 +427,9 @@ class Xml
 
         // Now map the admin code names
         $this->mapAdminCodeNames( $el, $model );
+
+        // Now map the administrative areas
+        $this->mapAdministrativeAreas( $el, $model );
 
         // Now map the coordinates
         $this->mapCoordinates( $el, $model );
@@ -519,7 +534,7 @@ class Xml
             if ( $el->countryName ) {
                 $country->setName( ( string ) $el->countryName );
             }
-            $geoname->setCountry( $country );
+            $feature->setCountry( $country );
              **/
         }
 
@@ -541,6 +556,9 @@ class Xml
 
         $this->mapAdminCodes( $el, $neighbourhood );
         $this->mapAdminCodeNames( $el, $neighbourhood );
+
+        // Now map the administrative areas
+        $this->mapAdministrativeAreas( $el, $neighbourhood );
 
         return $neighbourhood;
     }
@@ -595,6 +613,45 @@ class Xml
     }
 
     /**
+     * Map administrative areas from a SimpleXml element to a model
+     *
+     * @param \SimpleXMLElement $el
+     * @param $model
+     */
+    private function mapAdministrativeAreas( \SimpleXMLElement $el, HasAdministrativeAreas $model )
+    {
+        if ( $el->adminCode1 ) {
+            $model->addAdministrativeArea(
+                new AdministrativeArea(
+                    ( string ) $el->adminCode1,
+                    1,
+                    ( isset( $el->adminName1 ) ) ? ( string ) $el->adminName1 : null
+                )
+            );
+        }
+
+        if ( $el->adminCode2 ) {
+            $model->addAdministrativeArea(
+                new AdministrativeArea(
+                    ( string ) $el->adminCode2,
+                    2,
+                    ( isset( $el->adminName2 ) ) ? ( string ) $el->adminName2 : null
+                )
+            );
+        }
+
+        if ( $el->adminCode3 ) {
+            $model->addAdministrativeArea(
+                new AdministrativeArea(
+                    ( string ) $el->adminCode3,
+                    3,
+                    ( isset( $el->adminName3 ) ) ? ( string ) $el->adminName3 : null
+                )
+            );
+        }
+    }
+
+    /**
      * Map admin codes from a SimpleXml element to a model
      *
      * @param \SimpleXMLElement $el
@@ -612,6 +669,10 @@ class Xml
 
         if ( $el->adminCode3 ) {
             $model->setAdminCode3( ( string ) $el->adminCode3 );
+        }
+
+        if ( $el->adminCode1 ) {
+            //$model->add
         }
     }
 

@@ -6,26 +6,26 @@ class NeighboursHierarchyTest extends PHPUnit_Framework_TestCase{
 
     public function testBuildingQuery( )
     {
-        $search = ( new Hierarchy\Neighbours( 12345 ) );
-        $this->assertEquals( 'neighbours', $search->getUri( ) );
-        $this->assertEquals( 'features', $search->expects( ) );
-        $this->assertArrayHasKey( 'geonameId', $search->build( ) );
-        $this->assertEquals( 12345, $search->build( )[ 'geonameId' ] );
-        unset( $search );
+        $query = ( new Hierarchy\Neighbours( 12345 ) );
+        $this->assertEquals( 'neighbours', $query->getUri( ) );
+        $this->assertEquals( 'features', $query->expects( ) );
+        $this->assertArrayHasKey( 'geonameId', $query->build( ) );
+        $this->assertEquals( 12345, $query->build( )[ 'geonameId' ] );
+        unset( $query );
 
         $place = new \Lukaswhite\Geonames\Models\Feature( );
         $place->setId( 12345 );
-        $search = ( new Hierarchy\Neighbours( $place ) );
-        $this->assertAttributeEquals( 12345, 'geonamesId', $search );
+        $query = ( new Hierarchy\Neighbours( $place ) );
+        $this->assertAttributeEquals( 12345, 'geonamesId', $query );
     }
 
     public function testUsingCountryCodeRatherThanGeonamesId( )
     {
-        $search = ( new Hierarchy\Neighbours( 'GB' ) );
-        $this->assertArrayNotHasKey( 'geonameId', $search->build( ) );
-        $this->assertArrayHasKey( 'country', $search->build( ) );
-        $this->assertEquals( 'GB', $search->build( )[ 'country' ] );
-        unset( $search );
+        $query = ( new Hierarchy\Neighbours( 'GB' ) );
+        $this->assertArrayNotHasKey( 'geonameId', $query->build( ) );
+        $this->assertArrayHasKey( 'country', $query->build( ) );
+        $this->assertEquals( 'GB', $query->build( )[ 'country' ] );
+        unset( $query );
     }
 
     /**
@@ -33,7 +33,7 @@ class NeighboursHierarchyTest extends PHPUnit_Framework_TestCase{
      */
     public function testConstructorThrowsExceptionIfPlaceInvalidType( )
     {
-        $search = ( new Hierarchy\Neighbours( true ) );
+        $query = ( new Hierarchy\Neighbours( true ) );
     }
 
     /**
@@ -42,6 +42,6 @@ class NeighboursHierarchyTest extends PHPUnit_Framework_TestCase{
     public function testConstructorThrowsExceptionIfPlaceWrongTypeOfObject( )
     {
         $postcode = new \Lukaswhite\Geonames\Models\PostalCode( );
-        $search = ( new Hierarchy\Neighbours( $postcode ) );
+        $query = ( new Hierarchy\Neighbours( $postcode ) );
     }
 }

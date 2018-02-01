@@ -8,12 +8,10 @@ This is probably best illustrated with an example; let's take the United Kingdom
  
 The United Kingdom is comprised of England, Wales, Scotland and Northern Ireland; i.e. they are the **children** of the United Kingdom.
 
-Wales, Scotland and Northern Ireland are the **siblings** of England.
-
 ```php
-use Lukaswhite\Geonames\Query\Hierarchy\Siblings;
+use Lukaswhite\Geonames\Query\Hierarchy\Children;
 
-$results = $service->run( new Siblings( 2635167 ) );
+$results = $service->run( new Children( 2635167 ) );
 ```
 
 This returns a `Resultset` with three instances of the `Feature` class.

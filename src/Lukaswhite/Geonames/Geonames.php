@@ -115,8 +115,6 @@ class Geonames
             ( new QueryHelper( ) )->buildQueryString( $parameters )
         );
 
-        var_dump( $fullUrl );
-
         // If a logger has been set, log the URL being called
         if ( $this->logger ) {
             $this->logger->info( $fullUrl );
@@ -197,6 +195,8 @@ class Geonames
      * @throws MaxRequestsExceededException
      * @throws InvalidParameterException
      * @throws UnknownErrorException
+     *
+     * @see http://www.geonames.org/export/webservice-exception.html
      */
     public function parseXmlResponse( $response )
     {
@@ -214,11 +214,18 @@ class Geonames
             switch ( $code ) {
                 case 10:
                     throw new AuthException( $error );
-                case 15:
+                case 11: // record does not exist
+                case 15: // no result found
+                case 17: // postal code not found
                     throw new NotFoundException( $error );
-                case 19:
+                case 18: // daily limit exceeded
+                case 19: // hourly limit exceeded
+                case 20: // weekly limit exceeded
                     throw new MaxRequestsExceededException( $error );
-                case 24:
+                case 14: // invalid parameter
+                case 21: // invalid input
+                case 24: // radius too large
+                case 25: // maxRows too large
                     throw new InvalidParameterException( $error );
                 default:
                     throw new UnknownErrorException( $error );

@@ -3,10 +3,12 @@
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames;
 use Lukaswhite\Geonames\Traits\Geo\HasCoordinates;
 use Lukaswhite\Geonames\Traits\Models\HasAdminCodes;
+use Lukaswhite\Geonames\Traits\Models\HasAdministrativeAreas;
 use Lukaswhite\Geonames\Traits\Models\HasCountryCode;
 use Lukaswhite\Geonames\Traits\Models\HasName;
 use Lukaswhite\Geonames\Contracts\HasAdminCodes as HasAdminCodesContract;
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames as HasAdminCodeNamesContract;
+use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas as HasAdministrativeAreasContract;
 use Lukaswhite\Geonames\Contracts\HasCoordinates as HasCoordinatesContract;
 
 /**
@@ -16,11 +18,12 @@ use Lukaswhite\Geonames\Contracts\HasCoordinates as HasCoordinatesContract;
  *
  * @package Lukaswhite\Geonames\Models
  */
-class PostalCode implements HasAdminCodesContract, HasAdminCodeNames, HasCoordinatesContract
+class PostalCode implements HasAdminCodesContract, HasAdminCodeNames, HasCoordinatesContract, HasAdministrativeAreasContract
 {
     use HasName,
         HasCountryCode,
         HasAdminCodes,
+        HasAdministrativeAreas,
         HasCoordinates;
 
     /**
