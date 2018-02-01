@@ -1,5 +1,7 @@
 <img src="/geonames-php/_media/logo.svg" width="300">
 
+!> This documentation is still being written
+
 A PHP package for working with [Geonames](http://www.geonames.org/).
 
 It's currently primarily designed for working with the [Geonames web services](http://www.geonames.org/export/ws-overview.html), although it may banch out into other uses; for example working with the files that are [available for download](http://www.geonames.org/export/).
