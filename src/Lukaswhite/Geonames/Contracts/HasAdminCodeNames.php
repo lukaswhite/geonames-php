@@ -32,7 +32,7 @@ interface HasAdminCodeNames
     /**
      * @return string
      */
-    public function getAdminName3(): string;
+    public function getAdminName3(): ?string;
 
     /**
      * @param string $adminName3
