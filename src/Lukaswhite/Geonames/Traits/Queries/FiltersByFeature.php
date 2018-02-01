@@ -14,14 +14,14 @@ trait FiltersByFeature
      *
      * @var array
      */
-    private $featureClasses;
+    private $featureClasses = [ ];
 
     /**
      * The feature codes to limit the query to
      *
      * @var array
      */
-    private $featureCodes;
+    private $featureCodes = [ ];
 
     /**
      * Filter the query by feature code(s)
@@ -75,12 +75,12 @@ trait FiltersByFeature
     private function addFeatureFiltersToQuery( & $query )
     {
         // Optionally filter by feature class(es)
-        if ( $this->featureClasses && count( $this->featureClasses ) ) {
+        if ( count( $this->featureClasses ) ) {
             $query[ 'featureClass' ] = $this->featureClasses;
         }
 
         // Optionally filter by feature class(es)
-        if ( $this->featureClasses && count( $this->featureCodes ) ) {
+        if ( count( $this->featureCodes ) ) {
             $query[ 'featureCode' ] = $this->featureCodes;
         }
     }

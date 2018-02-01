@@ -24,7 +24,7 @@ trait HasAdministrativeAreas
      */
     public function getAdministrativeArea( $level )
     {
-        return ( isset( $this->administrativeAreas[ $level ] ) ) ?
+        return ( $this->hasAdministrativeArea( $level ) ) ?
             $this->administrativeAreas[ $level ] :
             null;
 
@@ -79,5 +79,16 @@ trait HasAdministrativeAreas
             return null;
         }
         return $this->getAdministrativeArea( max( array_keys( $this->administrativeAreas ) ) );
+    }
+
+    /**
+     * Determine whether this entity has an administrative area at the specified level
+     *
+     * @param int $level
+     * @return bool
+     */
+    public function hasAdministrativeArea( $level )
+    {
+        return isset( $this->administrativeAreas[ $level ] );
     }
 }

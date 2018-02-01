@@ -33,4 +33,13 @@ interface HasAdministrativeAreas
      * @return $this
      */
     public function addAdministrativeArea( AdministrativeArea $area );
+
+    /**
+     * Determine whether this entity has an administrative area at the specified level
+     *
+     * @param int $level
+     * @return bool
+     */
+    public function hasAdministrativeArea( $level );
+
 }
