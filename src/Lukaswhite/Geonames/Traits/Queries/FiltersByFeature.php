@@ -75,12 +75,12 @@ trait FiltersByFeature
     private function addFeatureFiltersToQuery( & $query )
     {
         // Optionally filter by feature class(es)
-        if ( count( $this->featureClasses ) ) {
+        if ( $this->featureClasses && count( $this->featureClasses ) ) {
             $query[ 'featureClass' ] = $this->featureClasses;
         }
 
         // Optionally filter by feature class(es)
-        if ( count( $this->featureCodes ) ) {
+        if ( $this->featureClasses && count( $this->featureCodes ) ) {
             $query[ 'featureCode' ] = $this->featureCodes;
         }
     }
