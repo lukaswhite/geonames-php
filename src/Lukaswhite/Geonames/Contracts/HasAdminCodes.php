@@ -10,7 +10,7 @@ interface HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminCode1(): string;
+    public function getAdminCode1(): ?string;
 
     /**
      * @param string $adminCode1
@@ -21,7 +21,7 @@ interface HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminCode2(): string;
+    public function getAdminCode2(): ?string;
 
     /**
      * @param string $adminCode2
@@ -32,7 +32,7 @@ interface HasAdminCodes
     /**
      * @return string
      */
-    public function getAdminCode3(): string;
+    public function getAdminCode3(): ?string;
 
     /**
      * @param string $adminCode3

@@ -106,7 +106,7 @@ class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasAd
     /**
      * The alternate country codes
      *
-     * @var array
+     * @var string
      */
     private $cc2;
 
@@ -325,7 +325,7 @@ class Feature implements HasAdminCodesContract, HasAdminCodeNamesContract, HasAd
     /**
      * @return string
      */
-    public function getCc2(): string
+    public function getCc2(): ?string
     {
         return $this->cc2;
     }
