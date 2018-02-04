@@ -1,10 +1,11 @@
 <?php namespace Lukaswhite\Geonames\Query\ReverseGeocoding;
 
-use Lukaswhite\Geonames\Query\ReverseGeocoding\AbstractReverseGeocoding;
-use Lukaswhite\Geonames\Traits\Queries\CanSpecifyLanguage;
+use Lukaswhite\Geonames\Models\Coordinate;
+use Lukaswhite\Geonames\Traits\Queries\HasCoordinates;
 use Lukaswhite\Geonames\Traits\Queries\CanSpecifyVerbosity;
+use Lukaswhite\Geonames\Traits\Queries\FiltersByCountry;
 use Lukaswhite\Geonames\Traits\Queries\HasPagination;
-use Lukaswhite\Geonames\Traits\Queries\SupportsCitiesParameter;
+use Lukaswhite\Geonames\Traits\Queries\HasRadius;
 
 /**
  * Class NearbyPostalCodes
@@ -13,12 +14,30 @@ use Lukaswhite\Geonames\Traits\Queries\SupportsCitiesParameter;
  *
  * @package Lukaswhite\Geonames\Query
  */
-class NearbyPostalCodes extends AbstractReverseGeocoding
+class NearbyPostalCodes
 {
-    use HasPagination,
-        SupportsCitiesParameter,
-        CanSpecifyLanguage,
-        CanSpecifyVerbosity;
+    use HasCoordinates,
+        HasRadius,
+        HasPagination,
+        CanSpecifyVerbosity,
+        FiltersByCountry;
+
+    /**
+     * NearbyPostalCodes constructor.
+     *
+     * Note that this differs from most reverse geocoding queries, in that you can either base
+     * it on a set of lat/lng co-rdinates, OR on a postal code.
+     *
+     * @param Coordinate|string|integer $location
+     */
+    public function __construct( $location )
+    {
+        if ( is_object( $location ) && $location instanceof Coordinate ) {
+            $this->coordinates = $location;
+        } else {
+            $this->postalCode = $location;
+        }
+    }
 
     /**
      * Get the URI for this query
@@ -41,6 +60,14 @@ class NearbyPostalCodes extends AbstractReverseGeocoding
     }
 
     /**
+     * You can base a nearby postal codes query on a postcode, rather than a co-ordinate.
+     * This holds that postal code.
+     *
+     * @var mixed
+     */
+    private $postalCode;
+
+    /**
      * In border areas this parameter will restrict the search on the local country
      *
      * @var bool
@@ -60,19 +87,29 @@ class NearbyPostalCodes extends AbstractReverseGeocoding
     /**
      * Build the query
      *
+     * Note that we're not using the build( ) method from the abstract reverse geocoding
+     * query here, because we  don't always have co-ordinates.
+     *
      * @return array
      */
     public function build( )
     {
-        $query = parent::build( );
+        $query = [ ];
+
+        // Either add the co-ordinates, or the postal code
+        if ( $this->coordinates ) {
+            $this->addCoordinatesToQuery( $query );
+        } else {
+            $query[ 'postalcode' ] = $this->postalCode;
+        }
+
+        $this->addRadiusToQuery( $query );
 
         if ( $this->localCountry ) {
             $query[ 'localCountry' ] = $this->localCountry;
         }
 
-        $this->addCitiesParameterToQuery( $query );
         $this->addStyleToQuery( $query );
-        $this->addLanguageToQuery( $query );
         $this->addPagingToQuery( $query );
 
         return $query;

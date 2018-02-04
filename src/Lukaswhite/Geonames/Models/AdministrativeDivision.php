@@ -1,13 +1,13 @@
 <?php namespace Lukaswhite\Geonames\Models;
 
 /**
- * Class AdministrativeArea
+ * Class AdministrativeDivision
  *
- * Represents an administrative area.
+ * Represents an administrative division.
  *
  * @package Lukaswhite\Geonames\Models
  */
-class AdministrativeArea
+class AdministrativeDivision
 {
     /**
      * The admin code
@@ -33,7 +33,7 @@ class AdministrativeArea
     /**
      * The parent area
      *
-     * @var AdministrativeArea
+     * @var AdministrativeDivision
      */
     private $parent;
 
@@ -78,7 +78,7 @@ class AdministrativeArea
 
     /**
      * @param mixed $name
-     * @return AdministrativeArea
+     * @return AdministrativeDivision
      */
     public function setName( $name )
     {
@@ -104,7 +104,7 @@ class AdministrativeArea
 
     /**
      * @param mixed $parent
-     * @return AdministrativeArea
+     * @return AdministrativeDivision
      */
     public function setParent( $parent )
     {
@@ -122,7 +122,7 @@ class AdministrativeArea
 
     /**
      * @param mixed $children
-     * @return AdministrativeArea
+     * @return AdministrativeDivision
      */
     public function setChildren( $children )
     {

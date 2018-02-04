@@ -117,13 +117,13 @@ class MapperTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 2, $london->getAdminCodeLevel( ) );
 
         $this->assertInstanceOf(
-            \Lukaswhite\Geonames\Models\AdministrativeArea::class,
-            $london->getAdministrativeArea( 1 )
+            \Lukaswhite\Geonames\Models\AdministrativeDivision::class,
+            $london->getAdministrativeDivision( 1 )
         );
-        $this->assertEquals( 1, $london->getAdministrativeArea( 1 )->getLevel( ) );
-        $this->assertEquals( 'ENG', $london->getAdministrativeArea( 1 )->getCode( ) );
-        $this->assertEquals( 2, $london->getAdministrativeArea( 2 )->getLevel( ) );
-        $this->assertEquals( 'GLA', $london->getAdministrativeArea( 2 )->getCode( ) );
+        $this->assertEquals( 1, $london->getAdministrativeDivision( 1 )->getLevel( ) );
+        $this->assertEquals( 'ENG', $london->getAdministrativeDivision( 1 )->getCode( ) );
+        $this->assertEquals( 2, $london->getAdministrativeDivision( 2 )->getLevel( ) );
+        $this->assertEquals( 'GLA', $london->getAdministrativeDivision( 2 )->getCode( ) );
 
 
         $barnet = $results->getResults( )[ 90 ];
@@ -133,15 +133,15 @@ class MapperTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals( 'A2', $barnet->getAdminCode3( ) );
         $this->assertEquals( 3, $barnet->getAdminCodeLevel( ) );
 
-        $this->assertEquals( 1, $barnet->getAdministrativeArea( 1 )->getLevel( ) );
-        $this->assertEquals( 'ENG', $barnet->getAdministrativeArea( 1 )->getCode( ) );
-        $this->assertEquals( 'England', $barnet->getAdministrativeArea( 1 )->getName( ) );
-        $this->assertEquals( 2, $barnet->getAdministrativeArea( 2 )->getLevel( ) );
-        $this->assertEquals( 'GLA', $barnet->getAdministrativeArea( 2 )->getCode( ) );
-        $this->assertEquals( 'Greater London', $barnet->getAdministrativeArea( 2 )->getName( ) );
-        $this->assertEquals( 3, $barnet->getAdministrativeArea( 3 )->getLevel( ) );
-        $this->assertEquals( 'A2', $barnet->getAdministrativeArea( 3 )->getCode( ) );
-        $this->assertEquals( 'Barnet', $barnet->getAdministrativeArea( 3 )->getName( ) );
+        $this->assertEquals( 1, $barnet->getAdministrativeDivision( 1 )->getLevel( ) );
+        $this->assertEquals( 'ENG', $barnet->getAdministrativeDivision( 1 )->getCode( ) );
+        $this->assertEquals( 'England', $barnet->getAdministrativeDivision( 1 )->getName( ) );
+        $this->assertEquals( 2, $barnet->getAdministrativeDivision( 2 )->getLevel( ) );
+        $this->assertEquals( 'GLA', $barnet->getAdministrativeDivision( 2 )->getCode( ) );
+        $this->assertEquals( 'Greater London', $barnet->getAdministrativeDivision( 2 )->getName( ) );
+        $this->assertEquals( 3, $barnet->getAdministrativeDivision( 3 )->getLevel( ) );
+        $this->assertEquals( 'A2', $barnet->getAdministrativeDivision( 3 )->getCode( ) );
+        $this->assertEquals( 'Barnet', $barnet->getAdministrativeDivision( 3 )->getName( ) );
 
     }
 

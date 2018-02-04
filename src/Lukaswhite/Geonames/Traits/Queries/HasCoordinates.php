@@ -1,9 +1,9 @@
 <?php namespace Lukaswhite\Geonames\Traits\Queries;
 
 /**
- * Class CanHaveOperator
+ * Class HasCoordinates
  *
- * This trait indicates that a query type can include the operator
+ * This trait indicates that a query type can have co-ordinates (lat/lng).
  *
  * @package Lukaswhite\Geonames\Traits\Queries
  */

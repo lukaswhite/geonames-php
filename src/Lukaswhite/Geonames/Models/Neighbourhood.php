@@ -1,13 +1,13 @@
 <?php namespace Lukaswhite\Geonames\Models;
 
 use Lukaswhite\Geonames\Traits\Models\HasAdminCodes;
-use Lukaswhite\Geonames\Traits\Models\HasAdministrativeAreas;
+use Lukaswhite\Geonames\Traits\Models\HasAdministrativeDivisions;
 use Lukaswhite\Geonames\Traits\Models\HasCountryCode;
 use Lukaswhite\Geonames\Traits\Models\HasCountryName;
 use Lukaswhite\Geonames\Traits\Models\HasName;
 use Lukaswhite\Geonames\Contracts\HasAdminCodes as HasAdminCodesContract;
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames as HasAdminCodeNamesContract;
-use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas as HasAdministrativeAreasContract;
+use Lukaswhite\Geonames\Contracts\HasAdministrativeDivisions as HasAdministrativeDivisionsContract;
 
 /**
  * Class Neighbourhood
@@ -16,11 +16,11 @@ use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas as HasAdministrativeAre
  *
  * @package Lukaswhite\Geonames\Models
  */
-class Neighbourhood implements HasAdminCodesContract, HasAdminCodeNamesContract, HasAdministrativeAreasContract
+class Neighbourhood implements HasAdminCodesContract, HasAdminCodeNamesContract, HasAdministrativeDivisionsContract
 {
     use HasName,
         HasAdminCodes,
-        HasAdministrativeAreas,
+        HasAdministrativeDivisions,
         HasCountryCode,
         HasCountryName;
 

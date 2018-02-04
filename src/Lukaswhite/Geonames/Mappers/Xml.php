@@ -1,8 +1,8 @@
 <?php namespace Lukaswhite\Geonames\Mappers;
 
 use Lukaswhite\Geonames\Contracts\HasAdminCodeNames;
-use Lukaswhite\Geonames\Contracts\HasAdministrativeAreas;
-use Lukaswhite\Geonames\Models\AdministrativeArea;
+use Lukaswhite\Geonames\Contracts\HasAdministrativeDivisions;
+use Lukaswhite\Geonames\Models\AdministrativeDivision;
 use Lukaswhite\Geonames\Models\BoundingBox;
 use Lukaswhite\Geonames\Models\CountrySubdivision;
 use Lukaswhite\Geonames\Models\Neighbourhood;
@@ -618,11 +618,11 @@ class Xml
      * @param \SimpleXMLElement $el
      * @param $model
      */
-    private function mapAdministrativeAreas( \SimpleXMLElement $el, HasAdministrativeAreas $model )
+    private function mapAdministrativeAreas( \SimpleXMLElement $el, HasAdministrativeDivisions $model )
     {
         if ( $el->adminCode1 ) {
-            $model->addAdministrativeArea(
-                new AdministrativeArea(
+            $model->addAdministrativeDivision(
+                new AdministrativeDivision(
                     ( string ) $el->adminCode1,
                     1,
                     ( isset( $el->adminName1 ) ) ? ( string ) $el->adminName1 : null
@@ -631,8 +631,8 @@ class Xml
         }
 
         if ( $el->adminCode2 ) {
-            $model->addAdministrativeArea(
-                new AdministrativeArea(
+            $model->addAdministrativeDivision(
+                new AdministrativeDivision(
                     ( string ) $el->adminCode2,
                     2,
                     ( isset( $el->adminName2 ) ) ? ( string ) $el->adminName2 : null
@@ -641,8 +641,8 @@ class Xml
         }
 
         if ( $el->adminCode3 ) {
-            $model->addAdministrativeArea(
-                new AdministrativeArea(
+            $model->addAdministrativeDivision(
+                new AdministrativeDivision(
                     ( string ) $el->adminCode3,
                     3,
                     ( isset( $el->adminName3 ) ) ? ( string ) $el->adminName3 : null

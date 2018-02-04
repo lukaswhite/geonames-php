@@ -358,9 +358,25 @@ class ServiceTest extends PHPUnit_Framework_TestCase{
      * @expectedException \Lukaswhite\Geonames\Exceptions\InvalidParameterException
      * @expectedExceptionMessage radius is too large.
      */
-    public function testInvalidParameter( )
+    public function testRadiusTooLarge( )
     {
         $client = $this->getClientThatReturns( '/fixtures/errors/radius-too-large.xml' );
+        $service = new Geonames( 'user123', $client );
+        $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( );
+        $coordinates->setLatitude( 40.78343 )
+            ->setLongitude( -43.96625 );
+        $query = new \Lukaswhite\Geonames\Query\ReverseGeocoding\Ocean( $coordinates );
+        $query->withinRadius( 100000 );
+        $service->run( $query );
+    }
+
+    /**
+     * @expectedException \Lukaswhite\Geonames\Exceptions\InvalidParameterException
+     * @expectedExceptionMessage the maxRows is too big for the free service, max=1000, use the premium service for up to 2000
+     */
+    public function testMaxRowsTooBig( )
+    {
+        $client = $this->getClientThatReturns( '/fixtures/errors/max-rows-too-big.xml' );
         $service = new Geonames( 'user123', $client );
         $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( );
         $coordinates->setLatitude( 40.78343 )

@@ -33,7 +33,7 @@ trait HasRadius
      *
      * @param array $query
      */
-    private function addRadiusToQuery( & $query )
+    protected function addRadiusToQuery( & $query )
     {
         if ( isset( $this->radius ) ) {
             $query[ 'radius' ] = $this->radius;

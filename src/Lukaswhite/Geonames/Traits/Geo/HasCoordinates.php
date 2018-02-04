@@ -14,7 +14,7 @@ trait HasCoordinates
      *
      * @var Coordinate
      */
-    private $coordinates;
+    protected $coordinates;
 
     /**
      * @return Coordinate

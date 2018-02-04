@@ -39,6 +39,19 @@ class NearbyPostalCodesQueryTest extends PHPUnit_Framework_TestCase{
 
     }
 
+    public function testIncudesPostalCodeInsteadOfCoordinates( )
+    {
+        $query = new NearbyPostalCodes( 8775 ); // Switzerland use numeric postal codes
+        $this->assertArrayHasKey( 'postalcode', $query->build( ) );
+        $this->assertEquals( 8775, $query->build( )[ 'postalcode' ] );
+        unset( $query );
+
+        $query = new NearbyPostalCodes( 'SW11' ); // England uses strings
+        $this->assertArrayHasKey( 'postalcode', $query->build( ) );
+        $this->assertEquals( 'SW11', $query->build( )[ 'postalcode' ] );
+        unset( $query );
+    }
+
     public function testRadiusIncludedInQuery( )
     {
         $coordinates = new \Lukaswhite\Geonames\Models\Coordinate( );
