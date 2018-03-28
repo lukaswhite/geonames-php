@@ -51,21 +51,21 @@ Here are some examples:
 
 A administrative division is some sort of geographical sub-division, typically political. Examples include counties, states, cantons, boroughs, provinces, municipalities, districts, prefectures and many more. 
 
-Since the terminology can vary so significantly from country-to-country, their names are standardised somewhat with the user of the term "Administrative area".
+Since the terminology can vary so significantly from country-to-country, their names are standardised somewhat with the user of the term "Administrative division".
 
-?> The term administrative division is synonymous with  
+?> The term administrative division is synonymous with administrative area  
 
-There are a number of "levels" of administrative divisions; the higher the number, the smaller it is in relation to its parent. In other words an administrative area with a level of 1 might be broken up into multiple administrative areas with the level 2, which in turn might be brokwn up into several more at level 3.
+There are a number of "levels" of administrative divisions; the higher the number, the smaller it is in relation to its parent. In other words an administrative division with a level of 1 might be broken up into multiple administrative divisions with the level 2, which in turn might be brokwn up into several more at level 3.
  
-Take the example of the Borough of Barnet in Greater London, which in turn is in England; an administrative area of the country of the United Kingdom.
+Take the example of the Borough of Barnet in Greater London, which in turn is in England; an administrative division of the country of the United Kingdom.
 
 <img src="/_media/barnet-hierarchy-2.svg" width="400">
 
-In this example, the administraive areas are England (Level one, Feature code ADM1), Greater London (Level two, ADM2) and Barnet (Level three, ADM3) respectively. 
+In this example, the administraive divisions of the United Kingdom are England (Level one, Feature code ADM1), Greater London (Level two, ADM2) and Barnet (Level three, ADM3) respectively. 
  
-Administrative areas have a code; for example `ENG` for England, `GLA` for Greater London and `A3` for Barnet. 
+Administrative divisions have a code; for example `ENG` for England, `GLA` for Greater London and `A3` for Barnet. 
  
-Information about administrative areas is typically included when you request information about, or search on features. Often you may only get the admmin code; you'll typically need to set the stle (verbosity) to `FULL` to get the name. For the purposes of searching, the code is probably all you need. 
+Information about administrative divisions is typically included when you request information about, or search on features. Often you may only get the admmin code; you'll typically need to set the stle (verbosity) to `FULL` to get the name. For the purposes of searching, the code is probably all you need. 
 
 [Read more on Wikipedia](https://en.wikipedia.org/wiki/Administrative_division)
 
